@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{353F529D-B74A-4317-B57E-EB577F58C660}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="Play_GunFire" ID="{479DB24A-25CA-4554-B064-392A26A8C04F}" PersistMode="Reference"/>
+				<Event Name="Play_Sine" ID="{4CA0B575-662C-473A-91E0-41BA90380EBA}">
+					<ChildrenList>
+						<Action Name="" ID="{DB406107-4A1A-4484-A7D7-558D61321D32}" ShortID="30069155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" WorkUnitID="{4C6CEBAE-A355-4A1C-B1A6-0CF0BD5EDB60}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

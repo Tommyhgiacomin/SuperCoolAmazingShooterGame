@@ -94,24 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d523f354ab71743b57eeb577f58c660
     GuidInternal: 
-    m_lastTime: -8584172835786285312
-    List: []
-  - PhysicalPath: Events\Play_GunFire.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: 9d523f354ab71743b57eeb577f58c660
-    - ElementName: Play_GunFire
-      ObjectType: 12
-      guid: 4ab29d47ca255445b064392a26a8c04f
-    ParentPath: Events\Default Work Unit\Play_GunFire
-    guid: 4ab29d47ca255445b064392a26a8c04f
-    GuidInternal: 
-    m_lastTime: -8584172835810914926
-    List: []
+    m_lastTime: -8584172772420787382
+    List:
+    - name: Play_Sine
+      guid: 75b5a04c2c663a4791e041ba90380eba
+      id: 4010112737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d523f354ab71743b57eeb577f58c660
+      - ElementName: Play_Sine
+        ObjectType: 3
+        guid: 75b5a04c2c663a4791e041ba90380eba
+      Path: Events\Default Work Unit\Play_Sine
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -315,7 +316,7 @@ MonoBehaviour:
     m_lastTime: -8584172874741123700
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000008000000090000000a0000000e0000000f000000100000001500000016000000
+  ExpandedWaapiItemIds: 02000000030000000600000008000000090000000a0000000e0000000f000000100000001500000016000000c5000000c6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
