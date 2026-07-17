@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{479DB24A-25CA-4554-B064-392A26A8C04F}" SchemaVersion="123" RootDocumentID="{353F529D-B74A-4317-B57E-EB577F58C660}" ParentDocumentID="{353F529D-B74A-4317-B57E-EB577F58C660}">
+	<Events>
+		<WorkUnit Name="Play_GunFire" ID="{479DB24A-25CA-4554-B064-392A26A8C04F}" OwnerID="{353F529D-B74A-4317-B57E-EB577F58C660}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>
