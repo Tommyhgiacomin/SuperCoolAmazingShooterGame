@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7463839368384836923}
   - component: {fileID: 8674901924127861659}
   m_Layer: 3
-  m_Name: BasicTarget
+  m_Name: CrocodileTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e48c5f27ee156084aae8308a7326dab2, type: 2}
+  - {fileID: 2100000, guid: fbf69d97f56e4294ab6a5e1c7974dc76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

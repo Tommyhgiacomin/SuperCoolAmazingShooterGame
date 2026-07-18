@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9167954408893934638}
   - component: {fileID: 9197156301549006913}
   m_Layer: 3
-  m_Name: GoldenTarget
+  m_Name: MonkeyTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b0d5ea7874ea4cd498e9bb09a9862df3, type: 2}
+  - {fileID: 2100000, guid: ef8dbdce087924f4896475c726c8ecaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
