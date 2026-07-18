@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 
-public class Turret : Enemy, IDamageable
+public class Turret : Target, IDamageable
 {
 
     [SerializeField] private int _hitsToKill = 2;
 
-    private bool _exploded;
+    private bool _died;
 
     public void TakeDamage(int amount)
     {
@@ -18,7 +18,7 @@ public class Turret : Enemy, IDamageable
 
     private void Die()
     {
-        _exploded = true;
+        _died = true;
 
         Destroy (gameObject);
 

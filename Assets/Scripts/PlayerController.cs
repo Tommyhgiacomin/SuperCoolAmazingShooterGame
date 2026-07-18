@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("WwiseEvents")]
     public AK.Wwise.Switch surfaceMaterial;
+    public AK.Wwise.Event playFootsteps;
 
     float xRotation;
     float yVelocity;

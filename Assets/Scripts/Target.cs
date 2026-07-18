@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Target : MonoBehaviour
+public class Target : Enemy
 {
     public int scoreValue = 10;
     public float lifetime = 8f;
