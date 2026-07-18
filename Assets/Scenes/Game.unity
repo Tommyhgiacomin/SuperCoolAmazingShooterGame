@@ -300,8 +300,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cbfb9cb6b7272b4995dce23a92d762d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 10
   gravity: -20
+  runSpeed: 20
   mouseSensitivity: 2
   cameraHolder: {fileID: 1440987414}
   surfaceMaterial:

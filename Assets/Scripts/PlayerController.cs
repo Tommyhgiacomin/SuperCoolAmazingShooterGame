@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -6,6 +7,9 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 6f;
     public float gravity = -20f;
+    public float runSpeed = 10f;
+
+    private bool _isRunning = false;
 
     [Header("Mouse Look")]
     public float mouseSensitivity = 2f;
@@ -46,8 +50,20 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
+        
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _isRunning = true;
+        }
+        else
+        {
+            _isRunning = false;
+        }
+
+        float speed = _isRunning ? runSpeed : moveSpeed;
 
         Vector3 move = transform.right * x + transform.forward * z;
 
@@ -57,6 +73,6 @@ public class PlayerController : MonoBehaviour
         yVelocity += gravity * Time.deltaTime;
         move.y = yVelocity;
 
-        controller.Move(move * moveSpeed * Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);
     }
 }
