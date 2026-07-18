@@ -4,33 +4,21 @@ using UnityEngine;
 public class Turret : Enemy, IDamageable
 {
 
-    [SerializeField] private int _hitsToExplode = 2;
-    [SerializeField] private int _explosionDamage = 40;
-    [SerializeField] private float _explosionRadius = 3f;
+    [SerializeField] private int _hitsToKill = 2;
 
     private bool _exploded;
 
-    public bool IsDead => _exploded;
-
     public void TakeDamage(int amount)
     {
-        if (_exploded) return;
-        _hitsToExplode--;
+        if (IsDead) return;
+        _hitsToKill--;
 
-        if (_hitsToExplode <= 0) Explode();
+        if (_hitsToKill <= 0) Die();
     }
 
-    private void Explode()
+    private void Die()
     {
         _exploded = true;
-
-        foreach (Collider nearby in Physics.OverlapSphere(transform.position, _explosionRadius))
-        {
-            if (nearby.TryGetComponent(out IDamageable target) && !target.IsDead)
-            {
-                target.TakeDamage(_explosionDamage);
-            }
-        }
 
         Destroy (gameObject);
 
