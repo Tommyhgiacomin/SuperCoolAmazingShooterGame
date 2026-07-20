@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public float gameDuration = 60f;
 
     [Header("WwiseEvents")]
+    public AK.Wwise.Event musicEvent;
+    public AK.Wwise.Event stateMenuGameplay;
 
     [Header("Wwise Stuff")]
     public AK.Wwise.RTPC rtpcPlayerSpeed;
