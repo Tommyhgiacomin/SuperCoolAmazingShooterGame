@@ -32,6 +32,7 @@ public class Health : MonoBehaviour, IDamageable
         {
             OnDied?.Invoke();
         }
+
     }
 
     public void Heal(int amount)

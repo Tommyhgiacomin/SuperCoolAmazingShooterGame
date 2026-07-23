@@ -8,13 +8,6 @@ public class GameManager : MonoBehaviour
     [Header("Game Settings")]
     public float gameDuration = 60f;
 
-    [Header("WwiseEvents")]
-    public AK.Wwise.Event musicEvent;
-    public AK.Wwise.Event stateMenuGameplay;
-
-    [Header("Wwise Stuff")]
-    public AK.Wwise.RTPC rtpcPlayerSpeed;
-
     public float TimeRemaining { get; private set; }
     public int Score { get; private set; }
     public bool IsGameActive { get; private set; }
@@ -39,7 +32,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         StartGame();
-        rtpcPlayerSpeed.SetValue(gameObject, 0.7f);
+        AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 0.7f);
     }
 
     void Update()

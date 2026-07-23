@@ -1,26 +1,34 @@
 using System;
 using UnityEngine;
 
-public class Turret : Target, IDamageable
+
+public class Turret : Target
 {
-
     [SerializeField] private int _hitsToKill = 2;
+    [SerializeField] protected int damage = 10;
 
-    private bool _died;
+    public virtual void Attack(Health target)
+    {
+        target.TakeDamage(damage);
+    }
 
     public void TakeDamage(int amount)
     {
-        if (IsDead) return;
         _hitsToKill--;
 
-        if (_hitsToKill <= 0) Die();
+        if (_hitsToKill <= 0)
+        {
+            Die();
+        }
+
+        Debug.Log("GorillaDamaged");
     }
 
     private void Die()
     {
-        _died = true;
 
-        Destroy (gameObject);
+        Debug.Log("GorillaDead");
 
+        Destroy(gameObject);
     }
 }

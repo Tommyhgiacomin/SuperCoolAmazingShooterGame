@@ -38,6 +38,8 @@ public class AudioManager : MonoBehaviour
 
     [Header("Wwise UI Events")]
     public AK.Wwise.Event uiClickEvent;
+
+    [Header("Wwise States")]
     public AK.Wwise.Event stateMenu;
 
     [Header("Wwise Switches")]
@@ -46,7 +48,7 @@ public class AudioManager : MonoBehaviour
     public AK.Wwise.Switch surfaceMaterial;
 
     [Header("Wwise RTPCs")]
-    public AK.Wwise.RTPC rtpcplayerSpeed;
+    public AK.Wwise.RTPC rtpcPlayerSpeed;
     public AK.Wwise.RTPC rtpcScore;
 
     public void PlayerFire(GameObject gameObject)

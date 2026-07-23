@@ -1,9 +1,13 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
+[RequireComponent(typeof(Health))]
 [RequireComponent(typeof(CharacterController))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamageable
 {
+    protected Health health;
+    public bool IsDead => health.IsDead;
+
     [Header("Movement")]
     public float moveSpeed = 6f;
     public float gravity = -20f;
@@ -18,6 +22,11 @@ public class PlayerController : MonoBehaviour
     float xRotation;
     float yVelocity;
     CharacterController controller;
+
+    protected virtual void Awake()
+    {
+        health = GetComponent<Health>();
+    }
 
     void Start()
     {
@@ -71,4 +80,12 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
     }
+    public void TakeDamage(int amount)
+    {
+    }
+
+    private void Die()
+    {
+    }
+
 }
