@@ -7,6 +7,8 @@ public class Health : MonoBehaviour, IDamageable
     private int _health;
     [SerializeField] private int _maxHealth = 100;
 
+    private bool _died;
+
     // Properties
     // Getters
     public int MaxHealth => _maxHealth;
@@ -37,5 +39,13 @@ public class Health : MonoBehaviour, IDamageable
         if (IsDead) return;
 
         CurrentHealth = Mathf.Min(CurrentHealth + amount, _maxHealth);
+    }
+
+    private void Die()
+    {
+        _died = true;
+
+        Destroy(gameObject);
+
     }
 }

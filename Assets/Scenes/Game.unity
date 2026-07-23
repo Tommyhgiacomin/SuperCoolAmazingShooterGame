@@ -285,9 +285,17 @@ MonoBehaviour:
   shotgunSpreadAngle: 15
   grenadeSpeed: 20
   fireRate: 0.2
-  genericFireEvent:
+  weaponSwitch:
     idInternal: 0
     valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  grenadeSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
     WwiseObjectReference: {fileID: 0}
 --- !u!114 &142604432
 MonoBehaviour:
@@ -313,6 +321,14 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   playFootsteps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rtpcplayerSpeed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  sniperHitEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -781,6 +797,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameDuration: 60
+  musicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  stateMenuGameplay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   rtpcPlayerSpeed:
     idInternal: 0
     valueGuidInternal: 
@@ -2701,6 +2725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1456812763}
   - component: {fileID: 1456812762}
+  - component: {fileID: 1456812764}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -2748,6 +2773,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1456812764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456812761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da01febe9c6eeb346afd6e3b3f535b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1538203167
 GameObject:
   m_ObjectHideFlags: 0

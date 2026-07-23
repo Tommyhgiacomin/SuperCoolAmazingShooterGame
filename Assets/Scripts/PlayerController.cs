@@ -15,10 +15,6 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 2f;
     public Transform cameraHolder;
 
-    [Header("WwiseEvents")]
-    public AK.Wwise.Switch surfaceMaterial;
-    public AK.Wwise.Event playFootsteps;
-
     float xRotation;
     float yVelocity;
     CharacterController controller;
@@ -26,7 +22,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        surfaceMaterial.SetValue(gameObject);
     }
 
     void Update()

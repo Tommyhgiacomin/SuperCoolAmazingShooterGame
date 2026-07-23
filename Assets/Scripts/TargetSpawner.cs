@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class TargetSpawner : MonoBehaviour
 {
+
     [System.Serializable]
     public class TargetEntry
     {

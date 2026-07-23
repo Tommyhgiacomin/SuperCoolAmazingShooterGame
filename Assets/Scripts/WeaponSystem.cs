@@ -32,9 +32,6 @@ public class WeaponSystem : MonoBehaviour
     [Header("Fire Rate")]
     public float fireRate = 0.2f;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Switch weaponSwitch;
-
     float nextFireTime;
     BulletType currentBulletType = BulletType.Paintball;
     ActiveGrenade activeGrenade;
