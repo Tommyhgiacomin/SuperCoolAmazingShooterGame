@@ -8,7 +8,7 @@ public class Turret : Target
 
     public float shootInterval = 2f;
     public GameObject projectilePrefab;
-    public float projectileSpeed = 3f;
+    public float projectileSpeed = 30f;
 
     [SerializeField] private int _hitsToKill = 2;
     [SerializeField] protected int damage = 10;
@@ -56,13 +56,14 @@ public class Turret : Target
 
     void ShootProjectile()
     {
+        Vector3 shootLoc = gameObject.transform.position;
+        shootLoc.y += 1;
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
+            
             Vector3 direction = (player.transform.position - transform.position).normalized;
-            GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.Euler(direction));
-
-
+            GameObject projectile = Instantiate(projectilePrefab, shootLoc, Quaternion.Euler(direction));
 
             projectile.GetComponent<Rigidbody>().linearVelocity = direction * projectileSpeed;
 

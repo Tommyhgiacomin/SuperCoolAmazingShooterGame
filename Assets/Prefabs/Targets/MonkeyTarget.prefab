@@ -124,7 +124,7 @@ MonoBehaviour:
   scoreValue: 10
   lifetime: 8
   shootInterval: 2
-  projectilePrefab: {fileID: 1955116497652083709, guid: efd8b20fa61ed8142ada6e6cdc5817a5, type: 3}
+  projectilePrefab: {fileID: 1955116497652083709, guid: cf33595c582891943835d6d1d13ebc55, type: 3}
   projectileSpeed: 3
   _hitsToKill: 2
   damage: 10
