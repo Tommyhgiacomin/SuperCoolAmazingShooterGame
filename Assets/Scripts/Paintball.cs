@@ -13,6 +13,7 @@ public class Paintball : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Turret turret = collision.gameObject.GetComponent<Turret>();
+        Health player = collision.gameObject.GetComponent<Health>();
         Target target = collision.gameObject.GetComponent<Target>();
         if (turret != null)
         {
@@ -22,6 +23,13 @@ public class Paintball : MonoBehaviour
         }
         if (target != null)
             target.DestroyTarget();
+
+        if (player != null)
+        {
+                player.TakeDamage(damage);
+
+            Destroy(gameObject);
+        }
 
         Destroy(gameObject);
     }
