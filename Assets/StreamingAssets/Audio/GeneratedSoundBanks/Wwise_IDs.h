@@ -11,6 +11,12 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_MUSIC_PLAYLIST = 4264879856U;
+        static const AkUniqueID PLAY_SINE = 4010112737U;
+    } // namespace EVENTS
+
     namespace STATES
     {
         namespace TIMEOFDAY
