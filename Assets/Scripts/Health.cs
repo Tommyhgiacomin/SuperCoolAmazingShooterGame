@@ -22,6 +22,8 @@ public class Health : MonoBehaviour, IDamageable
     // Setters
     public void TakeDamage(int amount)
     {
+        Debug.Log("TryHitPlayer");
+
         if (IsDead) return;
 
         CurrentHealth = Mathf.Max(CurrentHealth - amount, 0);

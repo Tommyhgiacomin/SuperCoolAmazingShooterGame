@@ -4110,6 +4110,7 @@ Transform:
   - {fileID: 6245296029156217826}
   - {fileID: 2286572111382486296}
   - {fileID: 9145772370470943950}
+  - {fileID: 7309593300403952075}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9142520122289760280
@@ -4127,8 +4128,9 @@ MonoBehaviour:
   scoreValue: 10
   lifetime: 8
   shootInterval: 2
-  projectilePrefab: {fileID: 1955116497652083709, guid: cf33595c582891943835d6d1d13ebc55, type: 3}
+  projectilePrefab: {fileID: 8833489195051162592, guid: 7371e33933c5ebf48ba54cb6722b3571, type: 3}
   projectileSpeed: 30
+  shootPoint: {fileID: 7088618610259872701}
   _hitsToKill: 2
   damage: 10
 --- !u!65 &2892885027903945265
@@ -5297,6 +5299,37 @@ Transform:
   - {fileID: 4919489613981583541}
   - {fileID: 7842487806966647707}
   m_Father: {fileID: 1268083021836229371}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7088618610259872701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7309593300403952075}
+  m_Layer: 0
+  m_Name: shootPointGorilla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7309593300403952075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088618610259872701}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.875, y: 0.791, z: 0.543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7684130811588185925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7123987444104956888
 GameObject:

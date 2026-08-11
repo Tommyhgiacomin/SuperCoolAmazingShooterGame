@@ -10,11 +10,13 @@ public class EnemyProjectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        Health target = collision.gameObject.GetComponent<Health>();
+        Health target = other.GetComponent<Health>();
         if (target != null)
             target.TakeDamage(damage);
+
+        Debug.Log("BananaTouchPlayer");
 
         Destroy(gameObject);
     }
