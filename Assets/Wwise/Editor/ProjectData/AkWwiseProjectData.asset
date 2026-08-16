@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: de87b8a9db738b4aa3c128de118571c4
     GuidInternal: 
-    m_lastTime: -8584172874741063933
+    m_lastTime: -8584147553204113177
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: db010053fcf5194ebbf909f1d895416f
     GuidInternal: 
-    m_lastTime: -8584172874743117447
+    m_lastTime: -8584147553204269821
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: dc63cae625b3234390b7c89a46ffda34
     GuidInternal: 
-    m_lastTime: -8584157243603737896
+    m_lastTime: -8584147553204160440
     List:
     - name: MasterSoundBank
       guid: ca53219e80bf7f45afbef86157d451e0
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d523f354ab71743b57eeb577f58c660
     GuidInternal: 
-    m_lastTime: -8584157264877860445
+    m_lastTime: -8584147495216467483
     List:
     - name: Play_Music_Playlist
       guid: 9be1216ba6e0114dbd0f018b4092a363
@@ -142,22 +142,49 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: f6033285ee13fe468a4eb1e0218925d2
     GuidInternal: 
-    m_lastTime: -8584172808835363242
+    m_lastTime: -8584147494204872420
+    List: []
+  - PhysicalPath: Game Parameters\RTPCTomas.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: RTPCTomas
+      ObjectType: 12
+      guid: 04da71aa373b514cadb13ff753826241
+    ParentPath: Game Parameters\RTPCTomas
+    guid: 04da71aa373b514cadb13ff753826241
+    GuidInternal: 
+    m_lastTime: -8584147490510423317
     List:
-    - name: JumpVolume
-      guid: dd759e546799c749afb3f8f6dc72b580
-      id: 4100142903
+    - name: rtpcplayerSpeed
+      guid: 5a81580ba5e4654184e293b3ca430a00
+      id: 259509480
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: RTPCTomas
         ObjectType: 12
-        guid: f6033285ee13fe468a4eb1e0218925d2
-      - ElementName: JumpVolume
+        guid: 04da71aa373b514cadb13ff753826241
+      - ElementName: rtpcplayerSpeed
         ObjectType: 13
-        guid: dd759e546799c749afb3f8f6dc72b580
-      Path: Game Parameters\Default Work Unit\JumpVolume
+        guid: 5a81580ba5e4654184e293b3ca430a00
+      Path: Game Parameters\RTPCTomas\rtpcplayerSpeed
+    - name: rtpcScore
+      guid: baea257be26f9f4580fc09c7e98d295d
+      id: 3898245870
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: RTPCTomas
+        ObjectType: 12
+        guid: 04da71aa373b514cadb13ff753826241
+      - ElementName: rtpcScore
+        ObjectType: 13
+        guid: baea257be26f9f4580fc09c7e98d295d
+      Path: Game Parameters\RTPCTomas\rtpcScore
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +197,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: adf0e569b5fa1a4787e71a71cceff5fb
     GuidInternal: 
-    m_lastTime: -8584172831390550116
+    m_lastTime: -8584147553204144234
     List:
     - name: TimeOfDay
       guid: 29f788edddd7414e9f44119d76d80769
@@ -250,7 +277,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 4d2f3269cf5aad4994e6ffe5e7961fec
     GuidInternal: 
-    m_lastTime: -8584172831667028758
+    m_lastTime: -8584147553204123569
     List:
     - name: SurfaceMaterial
       guid: aff3e34f7f064649817532e0a7d07e01
@@ -330,7 +357,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2f3fdeb775db2f48bc5a675876791463
     GuidInternal: 
-    m_lastTime: -8584172874741123700
+    m_lastTime: -8584147553204118284
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 020000000500000008000000090000000e0000000f00000016000000c5000000c6000000

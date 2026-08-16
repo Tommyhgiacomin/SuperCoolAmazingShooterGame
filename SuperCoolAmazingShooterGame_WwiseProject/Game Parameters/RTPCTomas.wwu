@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="RTPCTomas" ID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="rtpcplayerSpeed" ID="{0B58815A-E4A5-4165-84E2-93B3CA430A00}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="Min" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

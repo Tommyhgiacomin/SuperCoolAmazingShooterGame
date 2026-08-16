@@ -1,61 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4C6CEBAE-A355-4A1C-B1A6-0CF0BD5EDB60}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{4C6CEBAE-A355-4A1C-B1A6-0CF0BD5EDB60}" PersistMode="Standalone">
-			<ChildrenList>
-				<ActorMixer Name="Player" ID="{6F426554-8D02-4AC9-A29D-81FA27647C96}" ShortID="443922513">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{530001DB-F5FC-4E19-BBF9-09F1D895416F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<RandomSequenceContainer Name="PLY_Jump" ID="{353C270B-DAAA-491B-A703-64FAF3AB7324}" ShortID="913160396">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{530001DB-F5FC-4E19-BBF9-09F1D895416F}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="Sine" ID="{B3935E84-708E-44C1-AD31-6086D8AFBF4C}" ShortID="392065408">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{530001DB-F5FC-4E19-BBF9-09F1D895416F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" ShortID="826087739">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{530001DB-F5FC-4E19-BBF9-09F1D895416F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<SourcePlugin Name="Sine" ID="{AC493452-36F7-4256-8898-43A1583B3AA6}" ShortID="102546109" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-									<Language>SFX</Language>
-								</SourcePlugin>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Sine" ID="{AC493452-36F7-4256-8898-43A1583B3AA6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</ActorMixer>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{4C6CEBAE-A355-4A1C-B1A6-0CF0BD5EDB60}" PersistMode="Standalone"/>
 	</AudioObjects>
 </WwiseDocument>

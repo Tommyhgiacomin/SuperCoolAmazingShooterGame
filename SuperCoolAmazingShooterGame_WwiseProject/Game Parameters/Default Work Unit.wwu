@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{853203F6-13EE-46FE-8A4E-B1E0218925D2}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{853203F6-13EE-46FE-8A4E-B1E0218925D2}" PersistMode="Standalone">
-			<ChildrenList>
-				<GameParameter Name="JumpVolume" ID="{549E75DD-9967-49C7-AFB3-F8F6DC72B580}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-					</PropertyList>
-				</GameParameter>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{853203F6-13EE-46FE-8A4E-B1E0218925D2}" PersistMode="Standalone"/>
 	</GameParameters>
 </WwiseDocument>

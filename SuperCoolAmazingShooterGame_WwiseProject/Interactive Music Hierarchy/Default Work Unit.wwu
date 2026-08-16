@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{18AB2726-4AF2-48DF-AAB4-560ABF38B597}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Music_Playlist" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" ShortID="105395488">
+				<MusicPlaylistContainer Name="musicEvent " ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" ShortID="105395488">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="140.2"/>
 					</PropertyList>

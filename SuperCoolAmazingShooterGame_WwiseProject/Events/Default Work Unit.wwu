@@ -8,7 +8,7 @@
 						<Action Name="" ID="{DB406107-4A1A-4484-A7D7-558D61321D32}" ShortID="30069155">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" WorkUnitID="{4C6CEBAE-A355-4A1C-B1A6-0CF0BD5EDB60}"/>
+									<ObjectRef Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +19,7 @@
 						<Action Name="" ID="{BFEE2E35-E037-472A-BFD5-4C48BDCC475F}" ShortID="249617239">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Playlist" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{18AB2726-4AF2-48DF-AAB4-560ABF38B597}"/>
+									<ObjectRef Name="musicEvent " ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{18AB2726-4AF2-48DF-AAB4-560ABF38B597}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
