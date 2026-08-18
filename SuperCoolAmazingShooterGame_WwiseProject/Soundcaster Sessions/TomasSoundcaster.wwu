@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F09FD81-70D1-4D26-A421-40317F280492}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="TomasSoundcaster" ID="{3F09FD81-70D1-4D26-A421-40317F280492}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="SoundCasterSession" ID="{1CB2CFAA-7B0F-4BBA-B3C3-9A3C6E25CF37}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
