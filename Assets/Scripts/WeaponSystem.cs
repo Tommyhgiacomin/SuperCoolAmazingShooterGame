@@ -81,20 +81,22 @@ public class WeaponSystem : MonoBehaviour
         switch (currentBulletType)
         {
             case BulletType.Paintball:
+                AudioManager.Instance.weaponFirePickupEventPaintball.Post(gameObject);
                 FirePaintball();
                 break;
             case BulletType.Sniper:
+                AudioManager.Instance.weaponFirePickupEventSniper.Post(gameObject);
                 FireSniper();
                 break;
             case BulletType.Shotgun:
+                AudioManager.Instance.weaponFirePickupEventShotgun.Post(gameObject);
                 FireShotgun();
                 break;
             case BulletType.GrenadeLauncher:
+                AudioManager.Instance.weaponFireEventGrenadeLauncher.Post(gameObject);
                 FireGrenade();
                 break;
         }
-
-        AudioManager.Instance.PlayerFire(gameObject);
     }
 
     void FirePaintball()
@@ -112,6 +114,10 @@ public class WeaponSystem : MonoBehaviour
             Target target = hit.collider.GetComponent<Target>();
             if (target != null)
                 target.DestroyTarget();
+
+            AudioManager.Instance.sniperHitEvent.Post(gameObject);
+
+
         }
     }
 

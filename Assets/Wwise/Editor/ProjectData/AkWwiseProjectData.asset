@@ -38,8 +38,41 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: db010053fcf5194ebbf909f1d895416f
     GuidInternal: 
-    m_lastTime: -8584147553204269821
+    m_lastTime: -8584145861018124701
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\TomasMaster-Mixer.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TomasMaster-Mixer
+      ObjectType: 12
+      guid: 8125ec222c320b45945c4280d23f13cc
+    ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
+    guid: 8125ec222c320b45945c4280d23f13cc
+    GuidInternal: 
+    m_lastTime: -8584145720197231489
     List:
+    - name: AMB
+      guid: 297bd98eb0ac6b45a29aa854ee0a4b79
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: AMB
+        ObjectType: 2
+        guid: 297bd98eb0ac6b45a29aa854ee0a4b79
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\AMB
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -47,13 +80,127 @@ MonoBehaviour:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: TomasMaster-Mixer
         ObjectType: 12
-        guid: db010053fcf5194ebbf909f1d895416f
+        guid: 8125ec222c320b45945c4280d23f13cc
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus
+    - name: MX
+      guid: b8ffa399205ecc4287a3b915c34ec808
+      id: 1685527054
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MX
+        ObjectType: 2
+        guid: b8ffa399205ecc4287a3b915c34ec808
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\MX
+    - name: NPC
+      guid: 7269edb79a63d74cb39b3073f25da731
+      id: 662417162
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: NPC
+        ObjectType: 2
+        guid: 7269edb79a63d74cb39b3073f25da731
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\NPC
+    - name: PLY
+      guid: b628b93aad3816489bb14488d22c882a
+      id: 1064786042
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: PLY
+        ObjectType: 2
+        guid: b628b93aad3816489bb14488d22c882a
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\PLY
+    - name: SFX
+      guid: fc10cfcb55eb9a48b1d71ae917778259
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX
+    - name: UI
+      guid: 98cd692737220c47a69f9c5fd8bc93e1
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: UI
+        ObjectType: 2
+        guid: 98cd692737220c47a69f9c5fd8bc93e1
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\UI
+    - name: WPN
+      guid: ccdfbe16b1ce524c94d5a20f10a84c89
+      id: 828766390
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: WPN
+        ObjectType: 2
+        guid: ccdfbe16b1ce524c94d5a20f10a84c89
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\WPN
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +213,20 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: dc63cae625b3234390b7c89a46ffda34
     GuidInternal: 
-    m_lastTime: -8584147553204160440
+    m_lastTime: -8584145861743842789
+    List: []
+  - PhysicalPath: SoundBanks\TomasSoundBanks.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TomasSoundBanks
+      ObjectType: 12
+      guid: e7b4fa478459834ca0622321bdc37025
+    ParentPath: SoundBanks\TomasSoundBanks
+    guid: e7b4fa478459834ca0622321bdc37025
+    GuidInternal: 
+    m_lastTime: -8584145861670338150
     List:
     - name: MasterSoundBank
       guid: ca53219e80bf7f45afbef86157d451e0
@@ -75,13 +235,13 @@ MonoBehaviour:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: TomasSoundBanks
         ObjectType: 12
-        guid: dc63cae625b3234390b7c89a46ffda34
+        guid: e7b4fa478459834ca0622321bdc37025
       - ElementName: MasterSoundBank
         ObjectType: 7
         guid: ca53219e80bf7f45afbef86157d451e0
-      Path: SoundBanks\Default Work Unit\MasterSoundBank
+      Path: SoundBanks\TomasSoundBanks\MasterSoundBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,25 +254,157 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d523f354ab71743b57eeb577f58c660
     GuidInternal: 
-    m_lastTime: -8584147495216467483
+    m_lastTime: -8584145735446188515
+    List: []
+  - PhysicalPath: Events\TomasEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TomasEvents
+      ObjectType: 12
+      guid: ef520a2d1c56b440b625be6d9ebf5659
+    ParentPath: Events\TomasEvents
+    guid: ef520a2d1c56b440b625be6d9ebf5659
+    GuidInternal: 
+    m_lastTime: -8584145735446148292
     List:
-    - name: Play_Music_Playlist
-      guid: 9be1216ba6e0114dbd0f018b4092a363
-      id: 4264879856
+    - name: Play_ambienceEvent
+      guid: 271fb2968f7a1546bd49585a1c7c41f0
+      id: 2095214130
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: TomasEvents
         ObjectType: 12
-        guid: 9d523f354ab71743b57eeb577f58c660
-      - ElementName: Play_Music_Playlist
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_ambienceEvent
         ObjectType: 3
-        guid: 9be1216ba6e0114dbd0f018b4092a363
-      Path: Events\Default Work Unit\Play_Music_Playlist
+        guid: 271fb2968f7a1546bd49585a1c7c41f0
+      Path: Events\TomasEvents\Play_ambienceEvent
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_collectiblePickupEventGrenadeLauncher
+      guid: 59fac1d2d98bb84d8ddddc7e5f307a0b
+      id: 1673387754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_collectiblePickupEventGrenadeLauncher
+        ObjectType: 3
+        guid: 59fac1d2d98bb84d8ddddc7e5f307a0b
+      Path: Events\TomasEvents\Play_collectiblePickupEventGrenadeLauncher
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_collectiblePickupEventShotgun
+      guid: a255b495ed74b34583550dbcc18d153c
+      id: 2884267058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_collectiblePickupEventShotgun
+        ObjectType: 3
+        guid: a255b495ed74b34583550dbcc18d153c
+      Path: Events\TomasEvents\Play_collectiblePickupEventShotgun
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_collectiblePickupEventSniper
+      guid: 85ad960c32ef0a44852dc88eb6f7dc08
+      id: 3395657245
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_collectiblePickupEventSniper
+        ObjectType: 3
+        guid: 85ad960c32ef0a44852dc88eb6f7dc08
+      Path: Events\TomasEvents\Play_collectiblePickupEventSniper
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_grenadeExplosionEvent
+      guid: 0492ba1c94529a47ae708aa7f94ec0a5
+      id: 602429883
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_grenadeExplosionEvent
+        ObjectType: 3
+        guid: 0492ba1c94529a47ae708aa7f94ec0a5
+      Path: Events\TomasEvents\Play_grenadeExplosionEvent
+      maxAttenuation: 30
+      maxDuration: 5.4857397
+      minDuration: 4.6236978
+    - name: Play_musicEventGameplay
+      guid: 9be1216ba6e0114dbd0f018b4092a363
+      id: 3365563017
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_musicEventGameplay
+        ObjectType: 3
+        guid: 9be1216ba6e0114dbd0f018b4092a363
+      Path: Events\TomasEvents\Play_musicEventGameplay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_musicEventMenu
+      guid: a3d486af2042b9469c15bdc4c1e80539
+      id: 2653429192
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_musicEventMenu
+        ObjectType: 3
+        guid: a3d486af2042b9469c15bdc4c1e80539
+      Path: Events\TomasEvents\Play_musicEventMenu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_paintballImpactEvent
+      guid: ce176d2401be03498248184053a540fb
+      id: 518560921
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_paintballImpactEvent
+        ObjectType: 3
+        guid: ce176d2401be03498248184053a540fb
+      Path: Events\TomasEvents\Play_paintballImpactEvent
+      maxAttenuation: 30
+      maxDuration: 1.0708958
+      minDuration: 0.3335625
     - name: Play_Sine
       guid: 75b5a04c2c663a4791e041ba90380eba
       id: 4010112737
@@ -120,16 +412,220 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: TomasEvents
         ObjectType: 12
-        guid: 9d523f354ab71743b57eeb577f58c660
+        guid: ef520a2d1c56b440b625be6d9ebf5659
       - ElementName: Play_Sine
         ObjectType: 3
         guid: 75b5a04c2c663a4791e041ba90380eba
-      Path: Events\Default Work Unit\Play_Sine
+      Path: Events\TomasEvents\Play_Sine
       maxAttenuation: 0
       maxDuration: 1
       minDuration: 1
+    - name: Play_sniperHitEvent
+      guid: 94d34923251da94bb6dab4f991daca33
+      id: 1500279162
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_sniperHitEvent
+        ObjectType: 3
+        guid: 94d34923251da94bb6dab4f991daca33
+      Path: Events\TomasEvents\Play_sniperHitEvent
+      maxAttenuation: 30
+      maxDuration: 1.0212698
+      minDuration: 1.0212698
+    - name: Play_targetHitEventCrocodile
+      guid: a762e55f44f3a947867cd3d63e75ed13
+      id: 4040040456
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_targetHitEventCrocodile
+        ObjectType: 3
+        guid: a762e55f44f3a947867cd3d63e75ed13
+      Path: Events\TomasEvents\Play_targetHitEventCrocodile
+      maxAttenuation: 30
+      maxDuration: 1.7503175
+      minDuration: 1.435669
+    - name: Play_targetHitEventHowlerMonkey
+      guid: d64e3486e334db4ca63b5eee175d9635
+      id: 3975240756
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_targetHitEventHowlerMonkey
+        ObjectType: 3
+        guid: d64e3486e334db4ca63b5eee175d9635
+      Path: Events\TomasEvents\Play_targetHitEventHowlerMonkey
+      maxAttenuation: 30
+      maxDuration: 0.6396667
+      minDuration: 0.44627082
+    - name: Play_targetHitEventJaguar
+      guid: 30fd131c29e6774393b1ad67c0fd7cf8
+      id: 261501986
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_targetHitEventJaguar
+        ObjectType: 3
+        guid: 30fd131c29e6774393b1ad67c0fd7cf8
+      Path: Events\TomasEvents\Play_targetHitEventJaguar
+      maxAttenuation: 30
+      maxDuration: 1.1193424
+      minDuration: 0.48301587
+    - name: Play_targetSpawnEvent
+      guid: 24fbfc70f3a9c746a08a16308092e9c5
+      id: 2727600170
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_targetSpawnEvent
+        ObjectType: 3
+        guid: 24fbfc70f3a9c746a08a16308092e9c5
+      Path: Events\TomasEvents\Play_targetSpawnEvent
+      maxAttenuation: 30
+      maxDuration: 0.22055782
+      minDuration: 0.22055782
+    - name: Play_uiClickEvent
+      guid: 1dbe14c5a010984d98ca4d9f7ab19cee
+      id: 3532474000
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_uiClickEvent
+        ObjectType: 3
+        guid: 1dbe14c5a010984d98ca4d9f7ab19cee
+      Path: Events\TomasEvents\Play_uiClickEvent
+      maxAttenuation: 0
+      maxDuration: 0.2763125
+      minDuration: 0.2763125
+    - name: Play_weaponFireEventGrenadeLauncher
+      guid: 432da3d14a3bf041a2a566b288a6be13
+      id: 3022987204
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_weaponFireEventGrenadeLauncher
+        ObjectType: 3
+        guid: 432da3d14a3bf041a2a566b288a6be13
+      Path: Events\TomasEvents\Play_weaponFireEventGrenadeLauncher
+      maxAttenuation: 0
+      maxDuration: 2.1905208
+      minDuration: 1.8460938
+    - name: Play_weaponFireEventPaintball
+      guid: 89a0fbc25286a242af22e7f7454ad183
+      id: 3348176073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_weaponFireEventPaintball
+        ObjectType: 3
+        guid: 89a0fbc25286a242af22e7f7454ad183
+      Path: Events\TomasEvents\Play_weaponFireEventPaintball
+      maxAttenuation: 0
+      maxDuration: 1.5540589
+      minDuration: 1.5540589
+    - name: Play_weaponFireEventShotgun
+      guid: 85937c73982c3846a209d6d2c5497d37
+      id: 2392080756
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_weaponFireEventShotgun
+        ObjectType: 3
+        guid: 85937c73982c3846a209d6d2c5497d37
+      Path: Events\TomasEvents\Play_weaponFireEventShotgun
+      maxAttenuation: 0
+      maxDuration: 3.1152916
+      minDuration: 3.1152916
+    - name: Play_weaponFireEventSniper
+      guid: 479d6071de811c43ae7c57032f291b30
+      id: 98322895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Play_weaponFireEventSniper
+        ObjectType: 3
+        guid: 479d6071de811c43ae7c57032f291b30
+      Path: Events\TomasEvents\Play_weaponFireEventSniper
+      maxAttenuation: 0
+      maxDuration: 2.011604
+      minDuration: 1.9177291
+    - name: Stop_musicEventGameplay
+      guid: 65516108b720774eba1e83a38f2b35c7
+      id: 2464072899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Stop_musicEventGameplay
+        ObjectType: 3
+        guid: 65516108b720774eba1e83a38f2b35c7
+      Path: Events\TomasEvents\Stop_musicEventGameplay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_musicEventMenu
+      guid: a173f1497aa4e34792cbd637378d68b3
+      id: 2127541354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Stop_musicEventMenu
+        ObjectType: 3
+        guid: a173f1497aa4e34792cbd637378d68b3
+      Path: Events\TomasEvents\Stop_musicEventMenu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,20 +638,20 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: f6033285ee13fe468a4eb1e0218925d2
     GuidInternal: 
-    m_lastTime: -8584147494204872420
+    m_lastTime: -8584146151081825533
     List: []
-  - PhysicalPath: Game Parameters\RTPCTomas.wwu
+  - PhysicalPath: Game Parameters\TomasRTPCs.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: RTPCTomas
+    - ElementName: TomasRTPCs
       ObjectType: 12
       guid: 04da71aa373b514cadb13ff753826241
-    ParentPath: Game Parameters\RTPCTomas
+    ParentPath: Game Parameters\TomasRTPCs
     guid: 04da71aa373b514cadb13ff753826241
     GuidInternal: 
-    m_lastTime: -8584147490510423317
+    m_lastTime: -8584145836794832392
     List:
     - name: rtpcplayerSpeed
       guid: 5a81580ba5e4654184e293b3ca430a00
@@ -164,13 +660,13 @@ MonoBehaviour:
       - ElementName: Game Parameters
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: RTPCTomas
+      - ElementName: TomasRTPCs
         ObjectType: 12
         guid: 04da71aa373b514cadb13ff753826241
       - ElementName: rtpcplayerSpeed
         ObjectType: 13
         guid: 5a81580ba5e4654184e293b3ca430a00
-      Path: Game Parameters\RTPCTomas\rtpcplayerSpeed
+      Path: Game Parameters\TomasRTPCs\rtpcplayerSpeed
     - name: rtpcScore
       guid: baea257be26f9f4580fc09c7e98d295d
       id: 3898245870
@@ -178,13 +674,13 @@ MonoBehaviour:
       - ElementName: Game Parameters
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: RTPCTomas
+      - ElementName: TomasRTPCs
         ObjectType: 12
         guid: 04da71aa373b514cadb13ff753826241
       - ElementName: rtpcScore
         ObjectType: 13
         guid: baea257be26f9f4580fc09c7e98d295d
-      Path: Game Parameters\RTPCTomas\rtpcScore
+      Path: Game Parameters\TomasRTPCs\rtpcScore
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -197,71 +693,84 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: adf0e569b5fa1a4787e71a71cceff5fb
     GuidInternal: 
-    m_lastTime: -8584147553204144234
+    m_lastTime: -8584145850940872177
+    List: []
+  - PhysicalPath: States\TomasStates.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TomasStates
+      ObjectType: 12
+      guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+    ParentPath: States\TomasStates
+    guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+    GuidInternal: 
+    m_lastTime: -8584145850940794202
     List:
-    - name: TimeOfDay
-      guid: 29f788edddd7414e9f44119d76d80769
-      id: 3729505769
+    - name: GameState
+      guid: 02c5196a5c4f634889b92b7b0d1544de
+      id: 4091656514
       PathAndIcons:
       - ElementName: States
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
+      - ElementName: TomasStates
         ObjectType: 12
-        guid: adf0e569b5fa1a4787e71a71cceff5fb
-      - ElementName: TimeOfDay
+        guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+      - ElementName: GameState
         ObjectType: 9
-        guid: 29f788edddd7414e9f44119d76d80769
-      Path: States\Default Work Unit\TimeOfDay
+        guid: 02c5196a5c4f634889b92b7b0d1544de
+      Path: States\TomasStates\GameState
       values:
-      - name: Day
-        guid: b2d2cdc59415894c837597cd8359f08a
-        id: 311764537
+      - name: Menu
+        guid: 7bd3adb876291a419a068dc834be3b8e
+        id: 2607556080
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
           guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
+        - ElementName: TomasStates
           ObjectType: 12
-          guid: adf0e569b5fa1a4787e71a71cceff5fb
-        - ElementName: TimeOfDay
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: GameState
           ObjectType: 9
-          guid: 29f788edddd7414e9f44119d76d80769
-        - ElementName: Day
+          guid: 02c5196a5c4f634889b92b7b0d1544de
+        - ElementName: Menu
           ObjectType: 8
-          guid: b2d2cdc59415894c837597cd8359f08a
-      - name: Night
-        guid: 591b2f6f669ac54eb56e692861623255
-        id: 1011622525
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: adf0e569b5fa1a4787e71a71cceff5fb
-        - ElementName: TimeOfDay
-          ObjectType: 9
-          guid: 29f788edddd7414e9f44119d76d80769
-        - ElementName: Night
-          ObjectType: 8
-          guid: 591b2f6f669ac54eb56e692861623255
+          guid: 7bd3adb876291a419a068dc834be3b8e
       - name: None
-        guid: c0592a071f215b47b0d26297f9b6fc3c
+        guid: 5929139861161b4c9d2f46ed6a605659
         id: 748895195
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
           guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
+        - ElementName: TomasStates
           ObjectType: 12
-          guid: adf0e569b5fa1a4787e71a71cceff5fb
-        - ElementName: TimeOfDay
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: GameState
           ObjectType: 9
-          guid: 29f788edddd7414e9f44119d76d80769
+          guid: 02c5196a5c4f634889b92b7b0d1544de
         - ElementName: None
           ObjectType: 8
-          guid: c0592a071f215b47b0d26297f9b6fc3c
+          guid: 5929139861161b4c9d2f46ed6a605659
+      - name: Running
+        guid: 4da57499bd58c6428a69c9029217513f
+        id: 3863236874
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: TomasStates
+          ObjectType: 12
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 02c5196a5c4f634889b92b7b0d1544de
+        - ElementName: Running
+          ObjectType: 8
+          guid: 4da57499bd58c6428a69c9029217513f
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -277,74 +786,8 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 4d2f3269cf5aad4994e6ffe5e7961fec
     GuidInternal: 
-    m_lastTime: -8584147553204123569
-    List:
-    - name: SurfaceMaterial
-      guid: aff3e34f7f064649817532e0a7d07e01
-      id: 171170469
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4d2f3269cf5aad4994e6ffe5e7961fec
-      - ElementName: SurfaceMaterial
-        ObjectType: 11
-        guid: aff3e34f7f064649817532e0a7d07e01
-      Path: Switches\Default Work Unit\SurfaceMaterial
-      values:
-      - name: Concrete
-        guid: fc4257fe3c57e24e8f33a8cfd508bc7e
-        id: 841620460
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 4d2f3269cf5aad4994e6ffe5e7961fec
-        - ElementName: SurfaceMaterial
-          ObjectType: 11
-          guid: aff3e34f7f064649817532e0a7d07e01
-        - ElementName: Concrete
-          ObjectType: 10
-          guid: fc4257fe3c57e24e8f33a8cfd508bc7e
-      - name: Grass
-        guid: 5b4a8bb0d5080141a8b4684da228fab5
-        id: 4248645337
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 4d2f3269cf5aad4994e6ffe5e7961fec
-        - ElementName: SurfaceMaterial
-          ObjectType: 11
-          guid: aff3e34f7f064649817532e0a7d07e01
-        - ElementName: Grass
-          ObjectType: 10
-          guid: 5b4a8bb0d5080141a8b4684da228fab5
-      - name: Metal
-        guid: b2eee0222d64ad45a656cfb829ce0b19
-        id: 2473969246
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 4d2f3269cf5aad4994e6ffe5e7961fec
-        - ElementName: SurfaceMaterial
-          ObjectType: 11
-          guid: aff3e34f7f064649817532e0a7d07e01
-        - ElementName: Metal
-          ObjectType: 10
-          guid: b2eee0222d64ad45a656cfb829ce0b19
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8584145862127050403
+    List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -360,7 +803,7 @@ MonoBehaviour:
     m_lastTime: -8584147553204118284
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 020000000500000008000000090000000e0000000f00000016000000c5000000c6000000
+  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000e0000000f0000001400000016000000170000001c0000001e00000020000000210000002600000028000000c5000000c6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

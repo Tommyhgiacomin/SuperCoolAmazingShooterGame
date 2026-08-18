@@ -1,13 +1,20 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
+	4091656514	GameState			\TomasStates\GameState	
 
 State	ID	Name	State Group			Notes
-	311764537	Day	TimeOfDay			
-	748895195	None	TimeOfDay			
-	1011622525	Night	TimeOfDay			
+	748895195	None	GameState			
+	2607556080	Menu	GameState			
+	3863236874	Running	GameState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	393239870	SFX			\TomasMaster-Mixer\Master Audio Bus\SFX	
+	662417162	NPC			\TomasMaster-Mixer\Master Audio Bus\SFX\NPC	
+	828766390	WPN			\TomasMaster-Mixer\Master Audio Bus\SFX\WPN	
+	1064786042	PLY			\TomasMaster-Mixer\Master Audio Bus\SFX\PLY	
+	1117531639	AMB			\TomasMaster-Mixer\Master Audio Bus\SFX\AMB	
+	1551306167	UI			\TomasMaster-Mixer\Master Audio Bus\SFX\UI	
+	1685527054	MX			\TomasMaster-Mixer\Master Audio Bus\MX	
+	3803692087	Master Audio Bus			\TomasMaster-Mixer\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

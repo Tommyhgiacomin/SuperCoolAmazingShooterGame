@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{09A2C7C8-181F-3130-4A3D-0A9E81410596}",
+    "Hash": "{E69FAF6C-C4F6-4430-5C48-A0243D2FD01F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,78 +36,112 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX",
+      "GUID": "{CBCF10FC-EB55-489A-B1D7-1AE917778259}",
+      "Color": "14"
+     },
+     {
+      "Id": "662417162",
+      "Name": "NPC",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\NPC",
+      "GUID": "{B7ED6972-639A-4CD7-B39B-3073F25DA731}",
+      "Color": "14"
+     },
+     {
+      "Id": "828766390",
+      "Name": "WPN",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN",
+      "GUID": "{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}",
+      "Color": "2"
+     },
+     {
+      "Id": "1064786042",
+      "Name": "PLY",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\PLY",
+      "GUID": "{3AB928B6-38AD-4816-9BB1-4488D22C882A}",
+      "Color": "14"
+     },
+     {
+      "Id": "1117531639",
+      "Name": "AMB",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\AMB",
+      "GUID": "{8ED97B29-ACB0-456B-A29A-A854EE0A4B79}",
+      "Color": "4"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\UI",
+      "GUID": "{2769CD98-2237-470C-A69F-9C5FD8BC93E1}",
+      "Color": "24"
+     },
+     {
+      "Id": "1685527054",
+      "Name": "MX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\MX",
+      "GUID": "{99A3FFB8-5E20-42CC-87A3-B915C34EC808}",
+      "Color": "25"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
      }
     ],
     "GameParameters": [
      {
-      "Id": "4100142903",
-      "Name": "JumpVolume",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\JumpVolume",
-      "GUID": "{549E75DD-9967-49C7-AFB3-F8F6DC72B580}"
+      "Id": "259509480",
+      "Name": "rtpcplayerSpeed",
+      "ObjectPath": "\\Game Parameters\\TomasRTPCs\\rtpcplayerSpeed",
+      "GUID": "{0B58815A-E4A5-4165-84E2-93B3CA430A00}",
+      "Color": "10"
+     },
+     {
+      "Id": "3898245870",
+      "Name": "rtpcScore",
+      "ObjectPath": "\\Game Parameters\\TomasRTPCs\\rtpcScore",
+      "GUID": "{7B25EABA-6FE2-459F-80FC-09C7E98D295D}",
+      "Color": "10"
      }
     ],
     "StateGroups": [
      {
-      "Id": "3729505769",
-      "Name": "TimeOfDay",
-      "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay",
-      "GUID": "{ED88F729-D7DD-4E41-9F44-119D76D80769}",
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\TomasStates\\GameState",
+      "GUID": "{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}",
+      "Color": "10",
       "States": [
-       {
-        "Id": "311764537",
-        "Name": "Day",
-        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Day",
-        "GUID": "{C5CDD2B2-1594-4C89-8375-97CD8359F08A}"
-       },
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\None",
-        "GUID": "{072A59C0-211F-475B-B0D2-6297F9B6FC3C}"
+        "ObjectPath": "\\States\\TomasStates\\GameState\\None",
+        "GUID": "{98132959-1661-4C1B-9D2F-46ED6A605659}",
+        "Color": "10"
        },
        {
-        "Id": "1011622525",
-        "Name": "Night",
-        "ObjectPath": "\\States\\Default Work Unit\\TimeOfDay\\Night",
-        "GUID": "{6F2F1B59-9A66-4EC5-B56E-692861623255}"
-       }
-      ]
-     }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "171170469",
-      "Name": "SurfaceMaterial",
-      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial",
-      "GUID": "{4FE3F3AF-067F-4946-8175-32E0A7D07E01}",
-      "Switches": [
-       {
-        "Id": "841620460",
-        "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Concrete",
-        "GUID": "{FE5742FC-573C-4EE2-8F33-A8CFD508BC7E}"
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Menu",
+        "GUID": "{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}",
+        "Color": "10"
        },
        {
-        "Id": "2473969246",
-        "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Metal",
-        "GUID": "{22E0EEB2-642D-45AD-A656-CFB829CE0B19}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Grass",
-        "GUID": "{B08B4A5B-08D5-4101-A8B4-684DA228FAB5}"
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Running",
+        "GUID": "{9974A54D-58BD-42C6-8A69-C9029217513F}",
+        "Color": "10"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{ABC6FB58-E9FD-A57D-40A1-E750E981C3E1}"
+  "FileHash": "{36925711-CBEA-7E90-DA31-AA9FFF31B420}"
  }
 }

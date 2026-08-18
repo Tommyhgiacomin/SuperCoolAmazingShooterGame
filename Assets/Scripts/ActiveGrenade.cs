@@ -31,6 +31,8 @@ public class ActiveGrenade : MonoBehaviour
         if (weaponSystem != null)
             weaponSystem.ClearActiveGrenade();
 
+        AudioManager.Instance.grenadeExplosionEvent.Post(gameObject);
+
         Destroy(gameObject);
     }
 }

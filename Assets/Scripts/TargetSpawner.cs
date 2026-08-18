@@ -41,5 +41,9 @@ public class TargetSpawner : MonoBehaviour
         );
 
         Instantiate(prefab, pos, Quaternion.identity);
+
+        AudioManager.Instance.targetSpawnEvent.Post(gameObject);
+
+
     }
 }

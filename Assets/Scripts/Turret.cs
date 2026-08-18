@@ -29,6 +29,7 @@ public class Turret : Target
     public void TakeDamage(int amount)
     {
         _hitsToKill--;
+        AudioManager.Instance.targetHitEventMonkey.Post(gameObject);
 
         if (_hitsToKill <= 0)
         {

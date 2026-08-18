@@ -13,45 +13,49 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_MUSIC_PLAYLIST = 4264879856U;
+        static const AkUniqueID PLAY_AMBIENCEEVENT = 2095214130U;
+        static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTGRENADELAUNCHER = 1673387754U;
+        static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSHOTGUN = 2884267058U;
+        static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSNIPER = 3395657245U;
+        static const AkUniqueID PLAY_GRENADEEXPLOSIONEVENT = 602429883U;
+        static const AkUniqueID PLAY_MUSICEVENTGAMEPLAY = 3365563017U;
+        static const AkUniqueID PLAY_MUSICEVENTMENU = 2653429192U;
+        static const AkUniqueID PLAY_PAINTBALLIMPACTEVENT = 518560921U;
         static const AkUniqueID PLAY_SINE = 4010112737U;
+        static const AkUniqueID PLAY_SNIPERHITEVENT = 1500279162U;
+        static const AkUniqueID PLAY_TARGETHITEVENTCROCODILE = 4040040456U;
+        static const AkUniqueID PLAY_TARGETHITEVENTHOWLERMONKEY = 3975240756U;
+        static const AkUniqueID PLAY_TARGETHITEVENTJAGUAR = 261501986U;
+        static const AkUniqueID PLAY_TARGETSPAWNEVENT = 2727600170U;
+        static const AkUniqueID PLAY_UICLICKEVENT = 3532474000U;
+        static const AkUniqueID PLAY_WEAPONFIREEVENTGRENADELAUNCHER = 3022987204U;
+        static const AkUniqueID PLAY_WEAPONFIREEVENTPAINTBALL = 3348176073U;
+        static const AkUniqueID PLAY_WEAPONFIREEVENTSHOTGUN = 2392080756U;
+        static const AkUniqueID PLAY_WEAPONFIREEVENTSNIPER = 98322895U;
+        static const AkUniqueID STOP_MUSICEVENTGAMEPLAY = 2464072899U;
+        static const AkUniqueID STOP_MUSICEVENTMENU = 2127541354U;
     } // namespace EVENTS
 
     namespace STATES
     {
-        namespace TIMEOFDAY
+        namespace GAMESTATE
         {
-            static const AkUniqueID GROUP = 3729505769U;
+            static const AkUniqueID GROUP = 4091656514U;
 
             namespace STATE
             {
-                static const AkUniqueID DAY = 311764537U;
-                static const AkUniqueID NIGHT = 1011622525U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RUNNING = 3863236874U;
             } // namespace STATE
-        } // namespace TIMEOFDAY
+        } // namespace GAMESTATE
 
     } // namespace STATES
 
-    namespace SWITCHES
-    {
-        namespace SURFACEMATERIAL
-        {
-            static const AkUniqueID GROUP = 171170469U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID CONCRETE = 841620460U;
-                static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID METAL = 2473969246U;
-            } // namespace SWITCH
-        } // namespace SURFACEMATERIAL
-
-    } // namespace SWITCHES
-
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID JUMPVOLUME = 4100142903U;
+        static const AkUniqueID RTPCPLAYERSPEED = 259509480U;
+        static const AkUniqueID RTPCSCORE = 3898245870U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -62,7 +66,14 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMB = 1117531639U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MX = 1685527054U;
+        static const AkUniqueID NPC = 662417162U;
+        static const AkUniqueID PLY = 1064786042U;
+        static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID WPN = 828766390U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

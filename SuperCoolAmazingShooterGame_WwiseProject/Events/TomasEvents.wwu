@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="TomasEvents" ID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_musicEventGameplay" ID="{6B21E19B-E0A6-4D11-BD0F-018B4092A363}">
+					<ChildrenList>
+						<Action Name="" ID="{BFEE2E35-E037-472A-BFD5-4C48BDCC475F}" ShortID="249617239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicEventGameplay" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sine" ID="{4CA0B575-662C-473A-91E0-41BA90380EBA}">
+					<ChildrenList>
+						<Action Name="" ID="{DB406107-4A1A-4484-A7D7-558D61321D32}" ShortID="30069155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_paintballImpactEvent" ID="{246D17CE-BE01-4903-8248-184053A540FB}">
+					<ChildrenList>
+						<Action Name="" ID="{941A6BFF-1E26-4F68-8D55-19D059D716FD}" ShortID="951203635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="paintballImpactEvent" ID="{487CDCC0-EE9E-4BC8-8BC5-81B1908848BE}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sniperHitEvent" ID="{2349D394-1D25-4BA9-B6DA-B4F991DACA33}">
+					<ChildrenList>
+						<Action Name="" ID="{B4E5A6BB-C464-4493-B574-4F262EEC0EFF}" ShortID="61747077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sniperHitEvent" ID="{B4930826-4914-45FA-A5C2-EBF6430B6844}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_grenadeExplosionEvent" ID="{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}">
+					<ChildrenList>
+						<Action Name="" ID="{AA6D0F34-229D-4416-BEEB-B0947E32D689}" ShortID="203143554">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grenadeExplosionEvent" ID="{B6DCF1F7-C924-4AFC-8B0A-5C80EC8E7B16}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_uiClickEvent" ID="{C514BE1D-10A0-4D98-98CA-4D9F7AB19CEE}">
+					<ChildrenList>
+						<Action Name="" ID="{8E4BE5CD-F5AF-4125-8137-33668D99B940}" ShortID="816947500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="uiClickEvent" ID="{D74DA3C0-1DEC-4D2B-A941-A1D0F75A9B33}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_targetSpawnEvent" ID="{70FCFB24-A9F3-46C7-A08A-16308092E9C5}">
+					<ChildrenList>
+						<Action Name="" ID="{EE766F3B-3BE0-40F7-B019-3DC89B5FCAFD}" ShortID="427907495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="targetSpawnEvent" ID="{363BD4B4-A9B9-4CA9-B154-0FBC16B84D5B}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambienceEvent" ID="{96B21F27-7A8F-4615-BD49-585A1C7C41F0}">
+					<ChildrenList>
+						<Action Name="" ID="{67890A7D-8CA0-4A19-914D-C4CAB12A4012}" ShortID="814487565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambienceEvent" ID="{25FBB437-2EF7-4297-8044-3C8DC2C9C80F}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_targetHitEventCrocodile" ID="{5FE562A7-F344-47A9-867C-D3D63E75ED13}">
+					<ChildrenList>
+						<Action Name="" ID="{2FD61DF7-BC12-42F4-8F08-C832F13C6C98}" ShortID="153125470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="targetHitEventCrocodile" ID="{4F99B458-32EE-4B16-90AC-888BB0069C62}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_weaponFireEventPaintball" ID="{C2FBA089-8652-42A2-AF22-E7F7454AD183}">
+					<ChildrenList>
+						<Action Name="" ID="{780F76BF-8E70-43CF-8DA8-9EF0DB96D4BE}" ShortID="470118442">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="weaponFireEventPaintball" ID="{5D0E6299-0E43-474B-8AB7-65ED47B28D72}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_collectiblePickupEventSniper" ID="{0C96AD85-EF32-440A-852D-C88EB6F7DC08}">
+					<ChildrenList>
+						<Action Name="" ID="{879F3F71-7422-4ED4-9A2C-76D2638DA694}" ShortID="341384759">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="collectiblePickupEventSniper" ID="{9D6B5DF6-4241-4293-A52E-1BE081937718}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_weaponFireEventShotgun" ID="{737C9385-2C98-4638-A209-D6D2C5497D37}">
+					<ChildrenList>
+						<Action Name="" ID="{13440214-75D8-4D8C-9BF9-BBB29905022A}" ShortID="334675007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="weaponFireEventShotgun" ID="{4260D57B-E35D-4ED2-B610-01DE352D313B}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_targetHitEventJaguar" ID="{1C13FD30-E629-4377-93B1-AD67C0FD7CF8}">
+					<ChildrenList>
+						<Action Name="" ID="{118B20E1-5CA9-46EB-9A09-EC07FE3C1211}" ShortID="322847732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="targetHitEventJaguar" ID="{5AB40B9B-57D4-4BAC-98C3-22722E6590E4}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_targetHitEventHowlerMonkey" ID="{86344ED6-34E3-4CDB-A63B-5EEE175D9635}">
+					<ChildrenList>
+						<Action Name="" ID="{D4415FD4-76F5-4761-BB76-A366EB58D840}" ShortID="589747385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="targetHitEventHowlerMonkey" ID="{5CA1282E-5B2A-4786-AE24-54314BD74072}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_collectiblePickupEventShotgun" ID="{95B455A2-74ED-45B3-8355-0DBCC18D153C}">
+					<ChildrenList>
+						<Action Name="" ID="{FD483EB6-7D99-4CF3-A96C-B42C6813C000}" ShortID="182988921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="collectiblePickupEventShotgun" ID="{D56663B5-8AE8-49B4-94A6-D0016B8E1EE9}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_weaponFireEventGrenadeLauncher" ID="{D1A32D43-3B4A-41F0-A2A5-66B288A6BE13}">
+					<ChildrenList>
+						<Action Name="" ID="{56133595-7E85-40ED-B5AC-8598E3B6A83D}" ShortID="108100464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="weaponFireEventGrenadeLauncher" ID="{D0FBF249-AA87-4EC0-8C3C-F8C65DA919FF}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_collectiblePickupEventGrenadeLauncher" ID="{D2C1FA59-8BD9-4DB8-8DDD-DC7E5F307A0B}">
+					<ChildrenList>
+						<Action Name="" ID="{7E3F9DDC-C479-435D-B74E-30F4775DA5C0}" ShortID="56410673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="collectiblePickupEventGrenadeLauncher" ID="{667568B3-3B0B-456E-A38F-56F67EDF5EE9}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_weaponFireEventSniper" ID="{71609D47-81DE-431C-AE7C-57032F291B30}">
+					<ChildrenList>
+						<Action Name="" ID="{0B38E4FF-3BE3-4495-8EB4-C8B4B6AB9959}" ShortID="261386361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="weaponFireEventSniper" ID="{2C2A7D40-7BAC-4E27-B7FF-CF5D15502C90}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_musicEventMenu" ID="{AF86D4A3-4220-46B9-9C15-BDC4C1E80539}">
+					<ChildrenList>
+						<Action Name="" ID="{29509E1D-2EF1-48FE-A650-946583A9F153}" ShortID="1049022703">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicEventMenu" ID="{05EBAD41-557B-417C-911B-D3757FAAAF99}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_musicEventMenu" ID="{49F173A1-A47A-47E3-92CB-D637378D68B3}">
+					<ChildrenList>
+						<Action Name="" ID="{925D49A2-FC05-45E3-82AF-88E07B8F8A40}" ShortID="997025510">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicEventMenu" ID="{05EBAD41-557B-417C-911B-D3757FAAAF99}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_musicEventGameplay" ID="{08615165-20B7-4E77-BA1E-83A38F2B35C7}">
+					<ChildrenList>
+						<Action Name="" ID="{E1113649-E948-4F5F-A65A-B2BFE7EC5BA3}" ShortID="617359291">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicEventGameplay" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

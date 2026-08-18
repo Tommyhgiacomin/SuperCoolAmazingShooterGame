@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{353F529D-B74A-4317-B57E-EB577F58C660}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{353F529D-B74A-4317-B57E-EB577F58C660}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="Play_Sine" ID="{4CA0B575-662C-473A-91E0-41BA90380EBA}">
-					<ChildrenList>
-						<Action Name="" ID="{DB406107-4A1A-4484-A7D7-558D61321D32}" ShortID="30069155">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sine" ID="{FCE18E13-7E75-49D1-AF82-A3130F4AED08}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Music_Playlist" ID="{6B21E19B-E0A6-4D11-BD0F-018B4092A363}">
-					<ChildrenList>
-						<Action Name="" ID="{BFEE2E35-E037-472A-BFD5-4C48BDCC475F}" ShortID="249617239">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musicEvent " ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{18AB2726-4AF2-48DF-AAB4-560ABF38B597}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{353F529D-B74A-4317-B57E-EB577F58C660}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

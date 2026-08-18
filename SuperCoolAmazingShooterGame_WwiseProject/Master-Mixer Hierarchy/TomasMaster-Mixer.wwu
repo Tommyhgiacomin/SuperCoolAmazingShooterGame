@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22EC2581-322C-450B-945C-4280D23F13CC}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="TomasMaster-Mixer" ID="{22EC2581-322C-450B-945C-4280D23F13CC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{5137DB50-EB0D-432D-A483-0693D63C93CA}" WorkUnitID="{6FD50314-9875-4586-BB1C-7C121ABD3623}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{CBCF10FC-EB55-489A-B1D7-1AE917778259}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.01"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AMB" ID="{8ED97B29-ACB0-456B-A29A-A854EE0A4B79}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+												<CustomState Name="" ID="{6BFE87AE-49EA-43EB-BA47-5168EBC4FBE3}" ShortID="338559553">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16" Value="39"/>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+												<CustomState Name="" ID="{3C86D5E6-E680-4216-A653-9EF19DEF18B7}" ShortID="421390095"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+												<CustomState Name="" ID="{0E441ED0-3C95-4D37-9F54-BF6BFB32E7C2}" ShortID="489682607">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+												<CustomState Name="" ID="{2D430FDB-C5C3-4979-8BD9-46D4B8FF6351}" ShortID="193915949"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeSCurve</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="NPC" ID="{B7ED6972-639A-4CD7-B39B-3073F25DA731}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+												<CustomState Name="" ID="{6F94F7C7-1901-4BED-91FA-4A7FED2E1AA6}" ShortID="1053089124">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+												<CustomState Name="" ID="{34DF2D53-7FB8-4336-B0A7-FC36E90E946A}" ShortID="252719215"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeSCurve</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="UI" ID="{2769CD98-2237-470C-A69F-9C5FD8BC93E1}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeSCurve</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="PLY" ID="{3AB928B6-38AD-4816-9BB1-4488D22C882A}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+												<CustomState Name="" ID="{4431007B-7CA7-4D43-96D0-45AA6CBAB292}" ShortID="716313196">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+												<CustomState Name="" ID="{62E484AA-73A9-4879-AE61-64BF1FF5D7A2}" ShortID="1011794176"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0.100000001490116</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeSCurve</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+										<CustomState Name="" ID="{7DA163C4-E746-47CE-A627-D4E50D735F0B}" ShortID="267055219">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="31"/>
+												<Property Name="Lowpass" Type="int16" Value="55"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+										<CustomState Name="" ID="{B692689C-2ED0-4371-8F74-BFC600BFF0BB}" ShortID="764882756"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

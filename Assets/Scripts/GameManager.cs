@@ -27,12 +27,17 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
+
     }
 
     void Start()
     {
         StartGame();
-        AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 0.7f);
+        AudioManager.Instance.musicEventMenuStop.Post(gameObject);
+        AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 1f);
+        AudioManager.Instance.ambienceEvent.Post(gameObject);
+        AudioManager.Instance.musicEventGameplay.Post(gameObject);
+
     }
 
     void Update()
@@ -64,10 +69,12 @@ public class GameManager : MonoBehaviour
         if (!IsGameActive) return;
         Score += points;
         OnScoreChanged?.Invoke(Score);
+        AudioManager.Instance.rtpcScore.SetGlobalValue(points);
     }
 
     void EndGame()
     {
+
         IsGameActive = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -77,12 +84,14 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
+        AudioManager.Instance.uiClickEvent.Post(gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void LoadMainMenu()
     {
         Time.timeScale = 1f;
+        AudioManager.Instance.uiClickEvent.Post(gameObject);
         SceneManager.LoadScene("MainMenu");
     }
 }

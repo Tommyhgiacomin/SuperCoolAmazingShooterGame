@@ -62,10 +62,12 @@ public class PlayerController : MonoBehaviour, IDamageable
         if (Input.GetKey(KeyCode.LeftShift))
         {
             _isRunning = true;
+            AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 2f);
         }
         else
         {
             _isRunning = false;
+            AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 1f);
         }
 
         float speed = _isRunning ? runSpeed : moveSpeed;

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
   m_Name: 6B21E19B-E0A6-4D11-BD0F-018B4092A363
   m_EditorClassIdentifier: 
-  objectName: Play_Music_Playlist
-  id: 4264879856
+  objectName: Play_musicEventGameplay
+  id: 3365563017
   guid: 6B21E19B-E0A6-4D11-BD0F-018B4092A363
   IsInUserDefinedSoundBank: 1

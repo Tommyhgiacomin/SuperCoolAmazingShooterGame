@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
+  m_Name: 70FCFB24-A9F3-46C7-A08A-16308092E9C5
+  m_EditorClassIdentifier: 
+  objectName: Play_targetSpawnEvent
+  id: 2727600170
+  guid: 70FCFB24-A9F3-46C7-A08A-16308092E9C5
+  IsInUserDefinedSoundBank: 1

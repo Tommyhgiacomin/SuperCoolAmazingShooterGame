@@ -1584,76 +1584,100 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaf032629000e842ab94a36058cfa52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponFireEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   ambienceEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: df0f657f9022267418fa0c456d923e63, type: 2}
   targetSpawnEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  collectiblePickupEvent:
+    WwiseObjectReference: {fileID: 11400000, guid: 3f8c6a70c4a7a7e4cb3da98cfb72d23b, type: 2}
+  collectiblePickupEventGrenadeLauncher:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  musicEvent:
+    WwiseObjectReference: {fileID: 11400000, guid: a683ff35900bcb84991a9692407ff200, type: 2}
+  collectiblePickupEventSniper:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c87c7c991e914f446a64c7904b7de241, type: 2}
+  collectiblePickupEventShotgun:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dc3b531eca159724b8bbe6cf426f7893, type: 2}
+  musicEventGameplay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2db28dd47e539a14090c591855b8e18d, type: 2}
+  musicEventGameplayStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7bc7db6f1f8a55f40833b8c98a0c0eb0, type: 2}
+  musicEventMenu:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 13d9e6963ce130146bf78f82f27a9a76, type: 2}
+  musicEventMenuStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4ede1a8c1f5c6e140acf7eea6dbafa25, type: 2}
   sniperHitEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  targetHitEvent:
+    WwiseObjectReference: {fileID: 11400000, guid: b1f7f1606c2227f4fa54e3dc367381c5, type: 2}
+  targetHitEventJaguar:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4bf84328587bbfa45a264c701654c4a5, type: 2}
+  targetHitEventMonkey:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c58fef40e610c3947bd3efae230c56ab, type: 2}
+  targetHitEventCrocodile:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df987c243d4b4934a88844a50ac757b0, type: 2}
   grenadeExplosionEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 340333fae41efd94a816d58535a0d36c, type: 2}
   paintballImpactEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e82f23654bda0914a986b8029419a7eb, type: 2}
+  weaponFireEventGrenadeLauncher:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c35b436b6d00341419663be0740ed0f0, type: 2}
+  weaponFirePickupEventSniper:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8362b37b51b3c1b45addd68a4b1f32f0, type: 2}
+  weaponFirePickupEventShotgun:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 613c9ae7e0ca2e14d887b71bf79f84dc, type: 2}
+  weaponFirePickupEventPaintball:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: da5a0074e76366943a0f92002a99fd2f, type: 2}
   uiClickEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f52eb3b2fa0bbd14ab804ed83cbe3f3f, type: 2}
   stateMenu:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  weaponSwitch:
-    idInternal: 0
-    valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  grenadeSwitch:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  surfaceMaterial:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2c44bb9b482870f4ba68e682fbf6ce57, type: 2}
   rtpcPlayerSpeed:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 48e136cd341f9c84fb06b98509126f9c, type: 2}
   rtpcScore:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d0653a79a5ad32b42a5712dd98fcde77, type: 2}
 --- !u!1 &935320988
 GameObject:
   m_ObjectHideFlags: 0

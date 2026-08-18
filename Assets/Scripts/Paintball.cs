@@ -21,7 +21,24 @@ public class Paintball : MonoBehaviour
             return;
         }
         if (target != null)
+        {
+            if (target.CompareTag("Crocodile"))
+            {
+                AudioManager.Instance.targetHitEventJaguar.Post(gameObject);
+
+            }
+
+            if (target.CompareTag("Jaguar"))
+            {
+                AudioManager.Instance.targetHitEventCrocodile.Post(gameObject);
+
+            }
             target.DestroyTarget();
+
+        }
+
+        AudioManager.Instance.paintballImpactEvent.Post(gameObject);
+
 
         Destroy(gameObject);
     }

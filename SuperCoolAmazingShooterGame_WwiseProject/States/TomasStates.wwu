@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E0B1EA9-CBE3-4E51-B59E-4513E9DC50B0}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="TomasStates" ID="{6E0B1EA9-CBE3-4E51-B59E-4513E9DC50B0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}">
+					<ChildrenList>
+						<State Name="None" ID="{98132959-1661-4C1B-9D2F-46ED6A605659}"/>
+						<State Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>
+						<State Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

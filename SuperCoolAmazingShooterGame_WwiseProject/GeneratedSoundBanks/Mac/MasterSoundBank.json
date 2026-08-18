@@ -9,12 +9,253 @@
     "Id": "971909502",
     "Type": "User",
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
+    "Color": "10",
     "Language": "SFX",
-    "Hash": "{6A9FECFD-23FF-EF26-5A40-F8248678B660}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterSoundBank",
+    "Hash": "{F278B64D-F7A0-EF85-C214-AD739AD92CFD}",
+    "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
     "Media": [
+     {
+      "Id": "3669320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls 2.wav",
+      "CachePath": "8C/{8C55D5D2-E4E0-A0BD-D3A1-B37167E0F19D}.wem"
+     },
+     {
+      "Id": "92861696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy02.wav",
+      "CachePath": "B4/{B4CE25FB-0F27-F485-A700-76FAEBCF7804}.wem"
+     },
+     {
+      "Id": "114438353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy03.wav",
+      "CachePath": "12/{1262F2BC-0DEA-8C6B-1A4A-E9068F59A444}.wem"
+     },
+     {
+      "Id": "128343529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav",
+      "CachePath": "E6/{E6D8C990-CA9A-DAA3-8482-DB8618A8E7DA}.wem"
+     },
+     {
+      "Id": "140371667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20.wav",
+      "CachePath": "B5/{B5DF4F97-4658-FBA5-94BF-279F2C9A92E5}.wem"
+     },
+     {
+      "Id": "157732001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HRCK Impact - Rock Thunk 3.wav",
+      "CachePath": "9A/{9A882B27-EE68-3526-3790-E73772D9BEAC}.wem"
+     },
+     {
+      "Id": "164352216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "97 - Bubble Gum Pops 5x.wav",
+      "CachePath": "E4/{E466182B-8E21-F4C5-55F5-A45E8D5C8D0A}.wem"
+     },
+     {
+      "Id": "232401488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Monkey_Scream_Excited_01.wav",
+      "CachePath": "57/{57DD7ADD-5901-8A32-3D5E-D53C6F65491A}.wem"
+     },
+     {
+      "Id": "243813065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Monkey_Laugh_Squeal_Happy 1.wav",
+      "CachePath": "EA/{EA674E31-40E4-35E6-251B-E3BBCBD87621}.wem"
+     },
+     {
+      "Id": "260054872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wind, General, Wind Gusts, Light Whistles, Floor Valley 01 SND81344.wav",
+      "CachePath": "94/{94D6B9D9-727C-112B-41DE-4449D7821C61}.wem"
+     },
+     {
+      "Id": "278959451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls.wav",
+      "CachePath": "5B/{5B8A0EFB-4426-B649-94EB-8414B75C154D}.wem"
+     },
+     {
+      "Id": "301232622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail.wav",
+      "CachePath": "A0/{A0480F37-FE0D-A150-7CBC-2CC414BDA183}.wem"
+     },
+     {
+      "Id": "313360991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls 1.wav",
+      "CachePath": "A5/{A5FC3EB7-D261-4134-781C-55B46A606911}.wem"
+     },
+     {
+      "Id": "361206871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "20 Sword Or Bayonet Juicy Stab 4_ With Short Gush Impact.wav",
+      "CachePath": "F6/{F603C34B-02C0-FC9E-32B8-53D1AB0F6B29}.wem"
+     },
+     {
+      "Id": "382970631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Fire_04.wav",
+      "CachePath": "87/{875438B3-A71E-12C4-58B4-FD8BDFCF83B6}.wem"
+     },
+     {
+      "Id": "385128980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "User Interface, Click, UI Buttons, Bubbly, Option SND115491.wav",
+      "CachePath": "D9/{D9EAC692-07EF-D1FE-FCE2-ACD43769652B}.wem"
+     },
+     {
+      "Id": "387174201",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy01.wav",
+      "CachePath": "87/{873EDB65-DD4C-3917-0368-0A5425754895}.wem"
+     },
+     {
+      "Id": "415893018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "User Interface, Click, UI Buttons, Dull, Menu SND115485.wav",
+      "CachePath": "32/{32DE8565-9686-1B52-AB9A-C36068C0CD7D}.wem"
+     },
+     {
+      "Id": "422748391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 2.wav",
+      "CachePath": "01/{01F97B9B-AEAE-DB35-A184-43C5625364F1}.wem"
+     },
+     {
+      "Id": "426351017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "85 - Bullet Body Hits Light Thump 1.wav",
+      "CachePath": "D1/{D1E2BBDA-49A1-148B-3C31-4F2493416941}.wem"
+     },
+     {
+      "Id": "431872544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "freetousesounds - Screaming Sounds Balloon Explosions For Impulse Response - 08 Balloon, Boom, Explosion, Popping, Convolution Reverb, Room 05, 19232, 05.wav",
+      "CachePath": "BB/{BB68C2E6-EDE5-C5EE-3AC5-83CE99C5CC41}.wem"
+     },
+     {
+      "Id": "436866977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "85 - Bullet Body Hits Light Thump 3.wav",
+      "CachePath": "D9/{D9C78702-B05C-BCEC-6D34-1AA3C02F047A}.wem"
+     },
+     {
+      "Id": "441792550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Fire03.wav",
+      "CachePath": "C7/{C75AED9A-6EC0-7B67-FE12-A2EFBEE7D093}.wem"
+     },
+     {
+      "Id": "442948291",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav",
+      "CachePath": "1D/{1D7EC99F-59F8-F829-BC1B-31BCBC208B20}.wem"
+     },
+     {
+      "Id": "506368015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds,Crickets,Costa Rica,Calm 2.wav",
+      "CachePath": "F2/{F2C00AE4-01F8-F158-B41C-D08915AF2F9D}.wem"
+     },
+     {
+      "Id": "565024038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy04.wav",
+      "CachePath": "10/{10FEDED8-7E2E-3737-D1EC-277EE49FC312}.wem"
+     },
+     {
+      "Id": "590580905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "18 - Animal, Jaguar Growling, Cat 1.wav",
+      "CachePath": "BB/{BB1D527C-5C45-F7C4-B4E7-A69E94BD6297}.wem"
+     },
+     {
+      "Id": "590701373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "19 Sword Or Bayonet Juicy Stab 3_ With Short Gush Impact.wav",
+      "CachePath": "B9/{B959264D-C8CB-E8AE-0A9C-5195444EECFD}.wem"
+     },
+     {
+      "Id": "593650771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Monkey_Scream_Excited_01 1.wav",
+      "CachePath": "92/{92183C7C-D451-8722-EA46-737011F7BF5A}.wem"
+     },
+     {
+      "Id": "604506158",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "85 - Bullet Body Hits Light Thump 2.wav",
+      "CachePath": "EE/{EEDB38DC-7DB4-4B57-606A-7182C3CAE33C}.wem"
+     },
      {
       "Id": "657568556",
       "Language": "SFX",
@@ -22,6 +263,110 @@
       "Location": "Memory",
       "ShortName": "Al Son Del Dolor[rebalanced].wav",
       "CachePath": "39/{39CA9D8B-8B30-5AE0-DA54-D3366D6484D3}.wem"
+     },
+     {
+      "Id": "675014494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1.wav",
+      "CachePath": "DA/{DA768FCB-8F1D-FC86-B03D-0996B19FFBC8}.wem"
+     },
+     {
+      "Id": "720949479",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1.wav",
+      "CachePath": "17/{171A6C05-119B-C321-0885-BA3C1AA329B9}.wem"
+     },
+     {
+      "Id": "736342338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shotgun_Fire02.wav",
+      "CachePath": "CA/{CA6A9E89-318F-05FA-DC72-A599AFCDB1B1}.wem"
+     },
+     {
+      "Id": "767742180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CTCK IMPACT Chain Snapper 1.wav",
+      "CachePath": "A6/{A6AFAD25-237F-0E88-7A96-7899A1512B19}.wem"
+     },
+     {
+      "Id": "773004012",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HRCK Impact - Rock Thunk 1.wav",
+      "CachePath": "00/{00ABE0E4-2E7E-8B4C-F56F-550FB6F93C73}.wem"
+     },
+     {
+      "Id": "815320883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HRCK Impact - Rock Thunk 2.wav",
+      "CachePath": "5E/{5EAB2570-4347-E9D6-EF6E-C623E63A2838}.wem"
+     },
+     {
+      "Id": "846574635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "18 - Animal, Jaguar Growling, Cat.wav",
+      "CachePath": "50/{50F09033-E499-6D04-0077-BFDDC9B3F4EA}.wem"
+     },
+     {
+      "Id": "866085168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "freetousesounds - Screaming Sounds Balloon Explosions For Impulse Response - 07 Balloon, Boom, Explosion, Popping, Convolution Reverb, Room 04, 19232, 04.wav",
+      "CachePath": "B6/{B6E1A40E-B12C-F05E-8592-7CAEF82A82AD}.wem"
+     },
+     {
+      "Id": "938724743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "85 - Bullet Body Hits Light Thump.wav",
+      "CachePath": "D2/{D264ECD9-4B44-A0E8-1FC0-00AE8CF0B099}.wem"
+     },
+     {
+      "Id": "939230082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2.wav",
+      "CachePath": "7C/{7C82BED8-82DD-6F67-403A-789C1134AA13}.wem"
+     },
+     {
+      "Id": "952542579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Monkey_Laugh_Squeal_Happy.wav",
+      "CachePath": "74/{7421F711-BD28-F586-345E-1622E2C99B17}.wem"
+     },
+     {
+      "Id": "1071143885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CTCK IMPACT Chain Snapper.wav",
+      "CachePath": "F2/{F2840DD9-094B-83A4-8EDC-4D2D7E732ECA}.wem"
+     },
+     {
+      "Id": "1073190656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k).wav",
+      "CachePath": "22/{225850EB-AF57-DD06-1276-518E7ABCF49B}.wem"
      }
     ],
     "Plugins": {
@@ -38,10 +383,81 @@
     },
     "Events": [
      {
-      "Id": "4264879856",
-      "Name": "Play_Music_Playlist",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Playlist",
+      "Id": "2095214130",
+      "Name": "Play_ambienceEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_ambienceEvent",
+      "GUID": "{96B21F27-7A8F-4615-BD49-585A1C7C41F0}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "141.68533",
+      "DurationMax": "141.68533",
+      "MediaRefs": [
+       {
+        "Id": "260054872"
+       },
+       {
+        "Id": "506368015"
+       }
+      ]
+     },
+     {
+      "Id": "1673387754",
+      "Name": "Play_collectiblePickupEventGrenadeLauncher",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventGrenadeLauncher",
+      "GUID": "{D2C1FA59-8BD9-4DB8-8DDD-DC7E5F307A0B}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2884267058",
+      "Name": "Play_collectiblePickupEventShotgun",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventShotgun",
+      "GUID": "{95B455A2-74ED-45B3-8355-0DBCC18D153C}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3395657245",
+      "Name": "Play_collectiblePickupEventSniper",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventSniper",
+      "GUID": "{0C96AD85-EF32-440A-852D-C88EB6F7DC08}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "602429883",
+      "Name": "Play_grenadeExplosionEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_grenadeExplosionEvent",
+      "GUID": "{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "4.6236978",
+      "DurationMax": "5.4857397",
+      "MediaRefs": [
+       {
+        "Id": "140371667"
+       },
+       {
+        "Id": "720949479"
+       },
+       {
+        "Id": "939230082"
+       }
+      ]
+     },
+     {
+      "Id": "3365563017",
+      "Name": "Play_musicEventGameplay",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventGameplay",
       "GUID": "{6B21E19B-E0A6-4D11-BD0F-018B4092A363}",
+      "Color": "10",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -50,10 +466,51 @@
       ]
      },
      {
+      "Id": "2653429192",
+      "Name": "Play_musicEventMenu",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventMenu",
+      "GUID": "{AF86D4A3-4220-46B9-9C15-BDC4C1E80539}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "1073190656"
+       }
+      ]
+     },
+     {
+      "Id": "518560921",
+      "Name": "Play_paintballImpactEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_paintballImpactEvent",
+      "GUID": "{246D17CE-BE01-4903-8248-184053A540FB}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3335625",
+      "DurationMax": "1.0708958",
+      "MediaRefs": [
+       {
+        "Id": "426351017"
+       },
+       {
+        "Id": "436866977"
+       },
+       {
+        "Id": "604506158"
+       },
+       {
+        "Id": "938724743"
+       }
+      ]
+     },
+     {
       "Id": "4010112737",
       "Name": "Play_Sine",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Sine",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_Sine",
       "GUID": "{4CA0B575-662C-473A-91E0-41BA90380EBA}",
+      "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "1",
       "DurationMax": "1",
@@ -64,10 +521,243 @@
         }
        ]
       }
+     },
+     {
+      "Id": "1500279162",
+      "Name": "Play_sniperHitEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_sniperHitEvent",
+      "GUID": "{2349D394-1D25-4BA9-B6DA-B4F991DACA33}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0212698",
+      "DurationMax": "1.0212698",
+      "MediaRefs": [
+       {
+        "Id": "128343529"
+       },
+       {
+        "Id": "361206871"
+       },
+       {
+        "Id": "442948291"
+       },
+       {
+        "Id": "590701373"
+       }
+      ]
+     },
+     {
+      "Id": "4040040456",
+      "Name": "Play_targetHitEventCrocodile",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventCrocodile",
+      "GUID": "{5FE562A7-F344-47A9-867C-D3D63E75ED13}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.435669",
+      "DurationMax": "1.7503175",
+      "MediaRefs": [
+       {
+        "Id": "3669320"
+       },
+       {
+        "Id": "278959451"
+       },
+       {
+        "Id": "313360991"
+       }
+      ]
+     },
+     {
+      "Id": "3975240756",
+      "Name": "Play_targetHitEventHowlerMonkey",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventHowlerMonkey",
+      "GUID": "{86344ED6-34E3-4CDB-A63B-5EEE175D9635}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.44627082",
+      "DurationMax": "0.6396667",
+      "MediaRefs": [
+       {
+        "Id": "232401488"
+       },
+       {
+        "Id": "243813065"
+       },
+       {
+        "Id": "593650771"
+       },
+       {
+        "Id": "952542579"
+       }
+      ]
+     },
+     {
+      "Id": "261501986",
+      "Name": "Play_targetHitEventJaguar",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventJaguar",
+      "GUID": "{1C13FD30-E629-4377-93B1-AD67C0FD7CF8}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48301587",
+      "DurationMax": "1.1193424",
+      "MediaRefs": [
+       {
+        "Id": "590580905"
+       },
+       {
+        "Id": "846574635"
+       }
+      ]
+     },
+     {
+      "Id": "2727600170",
+      "Name": "Play_targetSpawnEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_targetSpawnEvent",
+      "GUID": "{70FCFB24-A9F3-46C7-A08A-16308092E9C5}",
+      "Color": "10",
+      "MaxAttenuation": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22055782",
+      "DurationMax": "0.22055782",
+      "MediaRefs": [
+       {
+        "Id": "164352216"
+       }
+      ]
+     },
+     {
+      "Id": "3532474000",
+      "Name": "Play_uiClickEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_uiClickEvent",
+      "GUID": "{C514BE1D-10A0-4D98-98CA-4D9F7AB19CEE}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2763125",
+      "DurationMax": "0.2763125",
+      "MediaRefs": [
+       {
+        "Id": "385128980"
+       },
+       {
+        "Id": "415893018"
+       }
+      ]
+     },
+     {
+      "Id": "3022987204",
+      "Name": "Play_weaponFireEventGrenadeLauncher",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventGrenadeLauncher",
+      "GUID": "{D1A32D43-3B4A-41F0-A2A5-66B288A6BE13}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8460938",
+      "DurationMax": "2.1905208",
+      "MediaRefs": [
+       {
+        "Id": "157732001"
+       },
+       {
+        "Id": "431872544"
+       },
+       {
+        "Id": "767742180"
+       },
+       {
+        "Id": "773004012"
+       },
+       {
+        "Id": "815320883"
+       },
+       {
+        "Id": "866085168"
+       },
+       {
+        "Id": "1071143885"
+       }
+      ]
+     },
+     {
+      "Id": "3348176073",
+      "Name": "Play_weaponFireEventPaintball",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventPaintball",
+      "GUID": "{C2FBA089-8652-42A2-AF22-E7F7454AD183}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5540589",
+      "DurationMax": "1.5540589",
+      "MediaRefs": [
+       {
+        "Id": "301232622"
+       },
+       {
+        "Id": "422748391"
+       },
+       {
+        "Id": "675014494"
+       }
+      ]
+     },
+     {
+      "Id": "2392080756",
+      "Name": "Play_weaponFireEventShotgun",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventShotgun",
+      "GUID": "{737C9385-2C98-4638-A209-D6D2C5497D37}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "3.1152916",
+      "DurationMax": "3.1152916",
+      "MediaRefs": [
+       {
+        "Id": "382970631"
+       },
+       {
+        "Id": "441792550"
+       },
+       {
+        "Id": "736342338"
+       }
+      ]
+     },
+     {
+      "Id": "98322895",
+      "Name": "Play_weaponFireEventSniper",
+      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventSniper",
+      "GUID": "{71609D47-81DE-431C-AE7C-57032F291B30}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9177291",
+      "DurationMax": "2.011604",
+      "MediaRefs": [
+       {
+        "Id": "92861696"
+       },
+       {
+        "Id": "114438353"
+       },
+       {
+        "Id": "387174201"
+       },
+       {
+        "Id": "565024038"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "259509480",
+      "Name": "rtpcplayerSpeed",
+      "ObjectPath": "\\Game Parameters\\TomasRTPCs\\rtpcplayerSpeed",
+      "GUID": "{0B58815A-E4A5-4165-84E2-93B3CA430A00}",
+      "Color": "10"
      }
     ]
    }
   ],
-  "FileHash": "{4FD85CF2-6778-3E80-DBE5-13F757DEA857}"
+  "FileHash": "{FDF15036-0C10-A7C2-B642-3F864FF4452D}"
  }
 }
