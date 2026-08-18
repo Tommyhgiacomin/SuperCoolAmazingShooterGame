@@ -46,6 +46,7 @@ public class GameUI : MonoBehaviour
 
     void UpdateScore(int score)
     {
+        AudioManager.Instance.rtpcScore.SetGlobalValue(score);
         scoreText.text = "Score: " + score;
     }
 

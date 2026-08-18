@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,6 +15,9 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+
+        AudioManager.Instance.stateMenu.SetValue();
+
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

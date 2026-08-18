@@ -8,8 +8,15 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundcasterSession Name="SoundCasterSession" ID="{1CB2CFAA-7B0F-4BBA-B3C3-9A3C6E25CF37}">
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}"/>
+							<Value>427</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{98132959-1661-4C1B-9D2F-46ED6A605659}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

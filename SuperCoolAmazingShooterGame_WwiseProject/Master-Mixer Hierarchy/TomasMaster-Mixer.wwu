@@ -209,6 +209,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>

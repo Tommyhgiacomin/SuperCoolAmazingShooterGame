@@ -69,7 +69,6 @@ public class GameManager : MonoBehaviour
         if (!IsGameActive) return;
         Score += points;
         OnScoreChanged?.Invoke(Score);
-        AudioManager.Instance.rtpcScore.SetGlobalValue(points);
     }
 
     void EndGame()
