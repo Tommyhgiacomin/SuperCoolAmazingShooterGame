@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
             quitButton.onClick.AddListener(Quit);
 
         AudioManager.Instance.musicEventGameplayStop.Post(gameObject);
-        AudioManager.Instance.musicEventMenu.Post(gameObject);
+        AudioManager.Instance.musicEventMenu.Post(gameObject);  
 
     }
 
