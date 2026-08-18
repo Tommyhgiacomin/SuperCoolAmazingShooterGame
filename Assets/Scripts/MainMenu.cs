@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
         AudioManager.Instance.musicEventGameplayStop.Post(gameObject);
         AudioManager.Instance.musicEventMenu.Post(gameObject);  
 
-    }
+    }   
 
     void Play()
     {
