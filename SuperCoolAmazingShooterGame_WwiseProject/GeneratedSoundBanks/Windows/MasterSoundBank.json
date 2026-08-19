@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{00999490-6EDA-EBFE-3898-E66FA328481B}",
+    "Hash": "{3EC86362-E05C-2E46-F95B-0144A6ABE2EE}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -451,28 +451,40 @@
       ]
      },
      {
-      "Id": "3365563017",
-      "Name": "Play_musicEventGameplay",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventGameplay",
-      "GUID": "{6B21E19B-E0A6-4D11-BD0F-018B4092A363}",
+      "Id": "3947573021",
+      "Name": "Play_musicEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Play_musicEvent",
+      "GUID": "{F25E9AEA-3BE6-4043-AD3E-73D07375B7D0}",
       "Color": "10",
       "DurationType": "Infinite",
-      "MediaRefs": [
+      "SwitchContainers": [
        {
-        "Id": "657568556"
-       }
-      ]
-     },
-     {
-      "Id": "2653429192",
-      "Name": "Play_musicEventMenu",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventMenu",
-      "GUID": "{AF86D4A3-4220-46B9-9C15-BDC4C1E80539}",
-      "Color": "10",
-      "DurationType": "Infinite",
-      "MediaRefs": [
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2607556080",
+         "GUID": "{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}",
+         "Color": "10"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1073190656"
+         }
+        ]
+       },
        {
-        "Id": "1073190656"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3863236874",
+         "GUID": "{9974A54D-58BD-42C6-8A69-C9029217513F}",
+         "Color": "10"
+        },
+        "MediaRefs": [
+         {
+          "Id": "657568556"
+         }
+        ]
        }
       ]
      },
@@ -743,21 +755,10 @@
       ]
      },
      {
-      "Id": "2464072899",
-      "Name": "Stop_musicEventGameplay",
-      "ObjectPath": "\\Events\\TomasEvents\\Stop_musicEventGameplay",
-      "GUID": "{08615165-20B7-4E77-BA1E-83A38F2B35C7}",
-      "Color": "10",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "2127541354",
-      "Name": "Stop_musicEventMenu",
-      "ObjectPath": "\\Events\\TomasEvents\\Stop_musicEventMenu",
-      "GUID": "{49F173A1-A47A-47E3-92CB-D637378D68B3}",
+      "Id": "2234563059",
+      "Name": "Stop_musicEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Stop_musicEvent",
+      "GUID": "{5B9ACA96-C635-4667-8B56-9BF1B93ACF2A}",
       "Color": "10",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -780,9 +781,41 @@
       "GUID": "{7B25EABA-6FE2-459F-80FC-09C7E98D295D}",
       "Color": "10"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\TomasStates\\GameState",
+      "GUID": "{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}",
+      "Color": "10",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\None",
+        "GUID": "{98132959-1661-4C1B-9D2F-46ED6A605659}",
+        "Color": "10"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Menu",
+        "GUID": "{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}",
+        "Color": "10"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Running",
+        "GUID": "{9974A54D-58BD-42C6-8A69-C9029217513F}",
+        "Color": "10"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{F434260F-E83A-26DA-B0C8-62D07C7E54C8}"
+  "FileHash": "{48F67706-A529-3FF7-C445-6FB5C4B55404}"
  }
 }

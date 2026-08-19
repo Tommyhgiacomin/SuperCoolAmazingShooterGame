@@ -1073,7 +1073,7 @@ MonoBehaviour:
   musicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2db28dd47e539a14090c591855b8e18d, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 43e5eee178be151479a4658561231a2c, type: 2}
   beatLight: {fileID: 497866153}
   pulseIntensity: 2
   fadeSpeed: 8
@@ -1745,22 +1745,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: dc3b531eca159724b8bbe6cf426f7893, type: 2}
-  musicEventGameplay:
+  musicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2db28dd47e539a14090c591855b8e18d, type: 2}
-  musicEventGameplayStop:
+    WwiseObjectReference: {fileID: 11400000, guid: 43e5eee178be151479a4658561231a2c, type: 2}
+  musicEventStop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7bc7db6f1f8a55f40833b8c98a0c0eb0, type: 2}
-  musicEventMenu:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 13d9e6963ce130146bf78f82f27a9a76, type: 2}
-  musicEventMenuStop:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4ede1a8c1f5c6e140acf7eea6dbafa25, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: b9ec6e7243bcec2458dd99cf3e77ce0f, type: 2}
   sniperHitEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -1805,6 +1797,12 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f52eb3b2fa0bbd14ab804ed83cbe3f3f, type: 2}
+  stateGameplay:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fd0d59f123a8aaf4f90400a1bfb7c7aa, type: 2}
   stateMenu:
     idInternal: 0
     valueGuidInternal: 

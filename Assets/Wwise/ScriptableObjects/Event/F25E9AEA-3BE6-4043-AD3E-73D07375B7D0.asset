@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
-  m_Name: AF86D4A3-4220-46B9-9C15-BDC4C1E80539
+  m_Name: F25E9AEA-3BE6-4043-AD3E-73D07375B7D0
   m_EditorClassIdentifier: 
-  objectName: Play_musicEventMenu
-  id: 2653429192
-  guid: AF86D4A3-4220-46B9-9C15-BDC4C1E80539
+  objectName: Play_musicEvent
+  id: 3947573021
+  guid: F25E9AEA-3BE6-4043-AD3E-73D07375B7D0
   IsInUserDefinedSoundBank: 1

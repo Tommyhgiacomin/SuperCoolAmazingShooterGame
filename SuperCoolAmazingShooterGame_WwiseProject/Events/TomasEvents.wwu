@@ -7,17 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_musicEventGameplay" ID="{6B21E19B-E0A6-4D11-BD0F-018B4092A363}">
-					<ChildrenList>
-						<Action Name="" ID="{BFEE2E35-E037-472A-BFD5-4C48BDCC475F}" ShortID="249617239">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musicEventGameplay" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Sine" ID="{4CA0B575-662C-473A-91E0-41BA90380EBA}">
 					<ChildrenList>
 						<Action Name="" ID="{DB406107-4A1A-4484-A7D7-558D61321D32}" ShortID="30069155">
@@ -205,45 +194,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_musicEventMenu" ID="{AF86D4A3-4220-46B9-9C15-BDC4C1E80539}">
+				<Folder Name="Music" ID="{CA7C7903-6641-4657-B7E5-ACE62FE0E128}" ShortID="891037012">
 					<ChildrenList>
-						<Action Name="" ID="{29509E1D-2EF1-48FE-A650-946583A9F153}" ShortID="1049022703">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musicEventMenu" ID="{05EBAD41-557B-417C-911B-D3757FAAAF99}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_musicEvent" ID="{F25E9AEA-3BE6-4043-AD3E-73D07375B7D0}">
+							<ChildrenList>
+								<Action Name="" ID="{998467D4-AB27-4B31-81B7-921F18570347}" ShortID="501458575">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="musicEvent" ID="{FB9D8134-F767-4FC9-BC38-0F5C2957C7D8}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_musicEvent" ID="{5B9ACA96-C635-4667-8B56-9BF1B93ACF2A}">
+							<ChildrenList>
+								<Action Name="" ID="{AA3F825B-83EE-4C5D-93A8-89F937D95CE5}" ShortID="886945548">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="musicEvent" ID="{FB9D8134-F767-4FC9-BC38-0F5C2957C7D8}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_musicEventMenu" ID="{49F173A1-A47A-47E3-92CB-D637378D68B3}">
-					<ChildrenList>
-						<Action Name="" ID="{925D49A2-FC05-45E3-82AF-88E07B8F8A40}" ShortID="997025510">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musicEventMenu" ID="{05EBAD41-557B-417C-911B-D3757FAAAF99}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_musicEventGameplay" ID="{08615165-20B7-4E77-BA1E-83A38F2B35C7}">
-					<ChildrenList>
-						<Action Name="" ID="{E1113649-E948-4F5F-A65A-B2BFE7EC5BA3}" ShortID="617359291">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="musicEventGameplay" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" WorkUnitID="{6F9549D1-DB26-4112-ADF6-F23C69E1DE7C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

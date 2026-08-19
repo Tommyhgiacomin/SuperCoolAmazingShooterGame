@@ -18,8 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSHOTGUN = 2884267058U;
         static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSNIPER = 3395657245U;
         static const AkUniqueID PLAY_GRENADEEXPLOSIONEVENT = 602429883U;
-        static const AkUniqueID PLAY_MUSICEVENTGAMEPLAY = 3365563017U;
-        static const AkUniqueID PLAY_MUSICEVENTMENU = 2653429192U;
+        static const AkUniqueID PLAY_MUSICEVENT = 3947573021U;
         static const AkUniqueID PLAY_PAINTBALLIMPACTEVENT = 518560921U;
         static const AkUniqueID PLAY_SINE = 4010112737U;
         static const AkUniqueID PLAY_SNIPERHITEVENT = 1500279162U;
@@ -32,8 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_WEAPONFIREEVENTPAINTBALL = 3348176073U;
         static const AkUniqueID PLAY_WEAPONFIREEVENTSHOTGUN = 2392080756U;
         static const AkUniqueID PLAY_WEAPONFIREEVENTSNIPER = 98322895U;
-        static const AkUniqueID STOP_MUSICEVENTGAMEPLAY = 2464072899U;
-        static const AkUniqueID STOP_MUSICEVENTMENU = 2127541354U;
+        static const AkUniqueID STOP_MUSICEVENT = 2234563059U;
     } // namespace EVENTS
 
     namespace STATES

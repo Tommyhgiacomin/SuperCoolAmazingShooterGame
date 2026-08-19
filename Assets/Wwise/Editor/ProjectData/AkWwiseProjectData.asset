@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
     guid: 8125ec222c320b45945c4280d23f13cc
     GuidInternal: 
-    m_lastTime: -8584145260453635160
+    m_lastTime: -8584145008504535199
     List:
     - name: AMB
       guid: 297bd98eb0ac6b45a29aa854ee0a4b79
@@ -254,7 +254,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d523f354ab71743b57eeb577f58c660
     GuidInternal: 
-    m_lastTime: -8584145281943767084
+    m_lastTime: -8584145241208014413
     List: []
   - PhysicalPath: Events\TomasEvents.wwu
     PathAndIcons:
@@ -267,8 +267,25 @@ MonoBehaviour:
     ParentPath: Events\TomasEvents
     guid: ef520a2d1c56b440b625be6d9ebf5659
     GuidInternal: 
-    m_lastTime: -8584145281943767084
+    m_lastTime: -8584145241207963647
     List:
+    - name: Music
+      guid: 03797cca41665746b7e5ace62fe0e128
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Music
+        ObjectType: 4
+        guid: 03797cca41665746b7e5ace62fe0e128
+      Path: Events\TomasEvents\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_ambienceEvent
       guid: 271fb2968f7a1546bd49585a1c7c41f0
       id: 2095214130
@@ -354,9 +371,9 @@ MonoBehaviour:
       maxAttenuation: 30
       maxDuration: 5.4857397
       minDuration: 4.6236978
-    - name: Play_musicEventGameplay
-      guid: 9be1216ba6e0114dbd0f018b4092a363
-      id: 3365563017
+    - name: Play_musicEvent
+      guid: ea9a5ef2e63b4340ad3e73d07375b7d0
+      id: 3947573021
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -364,27 +381,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
-      - ElementName: Play_musicEventGameplay
+      - ElementName: Music
+        ObjectType: 4
+        guid: 03797cca41665746b7e5ace62fe0e128
+      - ElementName: Play_musicEvent
         ObjectType: 3
-        guid: 9be1216ba6e0114dbd0f018b4092a363
-      Path: Events\TomasEvents\Play_musicEventGameplay
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Play_musicEventMenu
-      guid: a3d486af2042b9469c15bdc4c1e80539
-      id: 2653429192
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: TomasEvents
-        ObjectType: 12
-        guid: ef520a2d1c56b440b625be6d9ebf5659
-      - ElementName: Play_musicEventMenu
-        ObjectType: 3
-        guid: a3d486af2042b9469c15bdc4c1e80539
-      Path: Events\TomasEvents\Play_musicEventMenu
+        guid: ea9a5ef2e63b4340ad3e73d07375b7d0
+      Path: Events\TomasEvents\Music\Play_musicEvent
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -592,9 +595,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.011604
       minDuration: 1.9177291
-    - name: Stop_musicEventGameplay
-      guid: 65516108b720774eba1e83a38f2b35c7
-      id: 2464072899
+    - name: Stop_musicEvent
+      guid: 96ca9a5b35c667468b569bf1b93acf2a
+      id: 2234563059
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -602,27 +605,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
-      - ElementName: Stop_musicEventGameplay
+      - ElementName: Music
+        ObjectType: 4
+        guid: 03797cca41665746b7e5ace62fe0e128
+      - ElementName: Stop_musicEvent
         ObjectType: 3
-        guid: 65516108b720774eba1e83a38f2b35c7
-      Path: Events\TomasEvents\Stop_musicEventGameplay
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Stop_musicEventMenu
-      guid: a173f1497aa4e34792cbd637378d68b3
-      id: 2127541354
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: TomasEvents
-        ObjectType: 12
-        guid: ef520a2d1c56b440b625be6d9ebf5659
-      - ElementName: Stop_musicEventMenu
-        ObjectType: 3
-        guid: a173f1497aa4e34792cbd637378d68b3
-      Path: Events\TomasEvents\Stop_musicEventMenu
+        guid: 96ca9a5b35c667468b569bf1b93acf2a
+      Path: Events\TomasEvents\Music\Stop_musicEvent
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -803,7 +792,7 @@ MonoBehaviour:
     m_lastTime: -8584147553204118284
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000e0000000f0000001400000016000000170000001c0000001e00000020000000210000002600000028000000c5000000c6000000
+  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000c0000000e0000000f0000001400000016000000170000001c0000001e0000001f00000020000000210000002600000028000000c5000000c6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -92,7 +92,7 @@
 										<DuckItem>
 											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
 											<DuckingParam>
-												<Volume>-3</Volume>
+												<Volume>-5</Volume>
 												<FadeInTime>0.100000001490116</FadeInTime>
 												<FadeOutTime>0.100000001490116</FadeOutTime>
 												<FadeCurve>FadeSCurve</FadeCurve>
@@ -130,7 +130,7 @@
 										<DuckItem>
 											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
 											<DuckingParam>
-												<Volume>-3</Volume>
+												<Volume>-5</Volume>
 												<FadeInTime>0.100000001490116</FadeInTime>
 												<FadeOutTime>0.100000001490116</FadeOutTime>
 												<FadeCurve>FadeSCurve</FadeCurve>
@@ -153,7 +153,7 @@
 										<DuckItem>
 											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
 											<DuckingParam>
-												<Volume>-3</Volume>
+												<Volume>-5</Volume>
 												<FadeInTime>0.100000001490116</FadeInTime>
 												<FadeOutTime>0.100000001490116</FadeOutTime>
 												<FadeCurve>FadeSCurve</FadeCurve>
@@ -191,7 +191,7 @@
 										<DuckItem>
 											<BusRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}"/>
 											<DuckingParam>
-												<Volume>-3</Volume>
+												<Volume>-5</Volume>
 												<FadeInTime>0.100000001490116</FadeInTime>
 												<FadeOutTime>0.100000001490116</FadeOutTime>
 												<FadeCurve>FadeSCurve</FadeCurve>
@@ -230,12 +230,7 @@
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="Menu" ID="{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}"/>
-										<CustomState Name="" ID="{7DA163C4-E746-47CE-A627-D4E50D735F0B}" ShortID="267055219">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="31"/>
-												<Property Name="Lowpass" Type="int16" Value="55"/>
-											</PropertyList>
-										</CustomState>
+										<CustomState Name="" ID="{7DA163C4-E746-47CE-A627-D4E50D735F0B}" ShortID="267055219"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Running" ID="{9974A54D-58BD-42C6-8A69-C9029217513F}"/>

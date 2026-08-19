@@ -1570,12 +1570,12 @@
 																		<PointList>
 																			<Point>
 																				<XPos>1</XPos>
-																				<YPos>-20</YPos>
+																				<YPos>-10</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>2</XPos>
-																				<YPos>0</YPos>
+																				<YPos>6.26122</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

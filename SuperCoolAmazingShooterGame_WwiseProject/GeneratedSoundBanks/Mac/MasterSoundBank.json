@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{F278B64D-F7A0-EF85-C214-AD739AD92CFD}",
+    "Hash": "{C1324927-A261-7FAD-8423-1F737D299249}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -94,7 +94,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wind, General, Wind Gusts, Light Whistles, Floor Valley 01 SND81344.wav",
-      "CachePath": "94/{94D6B9D9-727C-112B-41DE-4449D7821C61}.wem"
+      "CachePath": "7B/{7BE6AF9A-A22B-6899-4A77-10DC73D900C2}.wem"
      },
      {
       "Id": "278959451",
@@ -177,11 +177,11 @@
       "CachePath": "D1/{D1E2BBDA-49A1-148B-3C31-4F2493416941}.wem"
      },
      {
-      "Id": "431872544",
+      "Id": "431872545",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "freetousesounds - Screaming Sounds Balloon Explosions For Impulse Response - 08 Balloon, Boom, Explosion, Popping, Convolution Reverb, Room 05, 19232, 05.wav",
+      "ShortName": "Baloon Boom 2.wav",
       "CachePath": "BB/{BB68C2E6-EDE5-C5EE-3AC5-83CE99C5CC41}.wem"
      },
      {
@@ -214,7 +214,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Birds,Crickets,Costa Rica,Calm 2.wav",
-      "CachePath": "F2/{F2C00AE4-01F8-F158-B41C-D08915AF2F9D}.wem"
+      "CachePath": "51/{51E73E4E-BC54-A039-0394-6172DC8D2A20}.wem"
      },
      {
       "Id": "565024038",
@@ -321,11 +321,11 @@
       "CachePath": "50/{50F09033-E499-6D04-0077-BFDDC9B3F4EA}.wem"
      },
      {
-      "Id": "866085168",
+      "Id": "866085169",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "freetousesounds - Screaming Sounds Balloon Explosions For Impulse Response - 07 Balloon, Boom, Explosion, Popping, Convolution Reverb, Room 04, 19232, 04.wav",
+      "ShortName": "Balloon Boom.wav",
       "CachePath": "B6/{B6E1A40E-B12C-F05E-8592-7CAEF82A82AD}.wem"
      },
      {
@@ -388,9 +388,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_ambienceEvent",
       "GUID": "{96B21F27-7A8F-4615-BD49-585A1C7C41F0}",
       "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "141.68533",
-      "DurationMax": "141.68533",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "260054872"
@@ -436,7 +434,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_grenadeExplosionEvent",
       "GUID": "{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "4.6236978",
       "DurationMax": "5.4857397",
@@ -453,9 +451,47 @@
       ]
      },
      {
+      "Id": "3947573021",
+      "Name": "Play_musicEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Play_musicEvent",
+      "GUID": "{F25E9AEA-3BE6-4043-AD3E-73D07375B7D0}",
+      "Color": "10",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2607556080",
+         "GUID": "{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}",
+         "Color": "10"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1073190656"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3863236874",
+         "GUID": "{9974A54D-58BD-42C6-8A69-C9029217513F}",
+         "Color": "10"
+        },
+        "MediaRefs": [
+         {
+          "Id": "657568556"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "3365563017",
       "Name": "Play_musicEventGameplay",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventGameplay",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Play_musicEventGameplay",
       "GUID": "{6B21E19B-E0A6-4D11-BD0F-018B4092A363}",
       "Color": "10",
       "DurationType": "Infinite",
@@ -468,12 +504,10 @@
      {
       "Id": "2653429192",
       "Name": "Play_musicEventMenu",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_musicEventMenu",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Play_musicEventMenu",
       "GUID": "{AF86D4A3-4220-46B9-9C15-BDC4C1E80539}",
       "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "1073190656"
@@ -486,7 +520,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_paintballImpactEvent",
       "GUID": "{246D17CE-BE01-4903-8248-184053A540FB}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.3335625",
       "DurationMax": "1.0708958",
@@ -528,7 +562,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_sniperHitEvent",
       "GUID": "{2349D394-1D25-4BA9-B6DA-B4F991DACA33}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.0212698",
       "DurationMax": "1.0212698",
@@ -553,7 +587,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventCrocodile",
       "GUID": "{5FE562A7-F344-47A9-867C-D3D63E75ED13}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.435669",
       "DurationMax": "1.7503175",
@@ -575,7 +609,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventHowlerMonkey",
       "GUID": "{86344ED6-34E3-4CDB-A63B-5EEE175D9635}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.44627082",
       "DurationMax": "0.6396667",
@@ -600,7 +634,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventJaguar",
       "GUID": "{1C13FD30-E629-4377-93B1-AD67C0FD7CF8}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.48301587",
       "DurationMax": "1.1193424",
@@ -619,7 +653,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Play_targetSpawnEvent",
       "GUID": "{70FCFB24-A9F3-46C7-A08A-16308092E9C5}",
       "Color": "10",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.22055782",
       "DurationMax": "0.22055782",
@@ -661,7 +695,7 @@
         "Id": "157732001"
        },
        {
-        "Id": "431872544"
+        "Id": "431872545"
        },
        {
         "Id": "767742180"
@@ -673,7 +707,7 @@
         "Id": "815320883"
        },
        {
-        "Id": "866085168"
+        "Id": "866085169"
        },
        {
         "Id": "1071143885"
@@ -745,6 +779,39 @@
         "Id": "565024038"
        }
       ]
+     },
+     {
+      "Id": "2234563059",
+      "Name": "Stop_musicEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Stop_musicEvent",
+      "GUID": "{9D08984D-2122-46B2-B918-CCF1DEEF841E}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2464072899",
+      "Name": "Stop_musicEventGameplay",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Stop_musicEventGameplay",
+      "GUID": "{08615165-20B7-4E77-BA1E-83A38F2B35C7}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2127541354",
+      "Name": "Stop_musicEventMenu",
+      "ObjectPath": "\\Events\\TomasEvents\\Music\\Stop_musicEventMenu",
+      "GUID": "{49F173A1-A47A-47E3-92CB-D637378D68B3}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -754,10 +821,49 @@
       "ObjectPath": "\\Game Parameters\\TomasRTPCs\\rtpcplayerSpeed",
       "GUID": "{0B58815A-E4A5-4165-84E2-93B3CA430A00}",
       "Color": "10"
+     },
+     {
+      "Id": "3898245870",
+      "Name": "rtpcScore",
+      "ObjectPath": "\\Game Parameters\\TomasRTPCs\\rtpcScore",
+      "GUID": "{7B25EABA-6FE2-459F-80FC-09C7E98D295D}",
+      "Color": "10"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\TomasStates\\GameState",
+      "GUID": "{6A19C502-4F5C-4863-89B9-2B7B0D1544DE}",
+      "Color": "10",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\None",
+        "GUID": "{98132959-1661-4C1B-9D2F-46ED6A605659}",
+        "Color": "10"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Menu",
+        "GUID": "{B8ADD37B-2976-411A-9A06-8DC834BE3B8E}",
+        "Color": "10"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\States\\TomasStates\\GameState\\Running",
+        "GUID": "{9974A54D-58BD-42C6-8A69-C9029217513F}",
+        "Color": "10"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{FDF15036-0C10-A7C2-B642-3F864FF4452D}"
+  "FileHash": "{BB50F235-D328-B8FB-46A6-1AC8749DDBAC}"
  }
 }

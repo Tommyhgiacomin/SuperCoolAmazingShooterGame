@@ -33,11 +33,9 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         StartGame();
-        AudioManager.Instance.musicEventMenuStop.Post(gameObject);
         AudioManager.Instance.rtpcPlayerSpeed.SetValue(gameObject, 1f);
         AudioManager.Instance.ambienceEvent.Post(gameObject);
-        AudioManager.Instance.musicEventGameplay.Post(gameObject);
-
+        AudioManager.Instance.musicEvent.Post(gameObject);
     }
 
     void Update()
@@ -84,6 +82,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         AudioManager.Instance.uiClickEvent.Post(gameObject);
+        AudioManager.Instance.GameState(1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

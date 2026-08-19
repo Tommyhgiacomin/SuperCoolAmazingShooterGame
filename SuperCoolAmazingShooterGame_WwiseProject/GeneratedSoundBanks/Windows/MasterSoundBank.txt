@@ -6,20 +6,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	1500279162	Play_sniperHitEvent			\TomasEvents\Play_sniperHitEvent	
 	1673387754	Play_collectiblePickupEventGrenadeLauncher			\TomasEvents\Play_collectiblePickupEventGrenadeLauncher	
 	2095214130	Play_ambienceEvent			\TomasEvents\Play_ambienceEvent	
-	2127541354	Stop_musicEventMenu			\TomasEvents\Stop_musicEventMenu	
+	2234563059	Stop_musicEvent			\TomasEvents\Music\Stop_musicEvent	
 	2392080756	Play_weaponFireEventShotgun			\TomasEvents\Play_weaponFireEventShotgun	
-	2464072899	Stop_musicEventGameplay			\TomasEvents\Stop_musicEventGameplay	
-	2653429192	Play_musicEventMenu			\TomasEvents\Play_musicEventMenu	
 	2727600170	Play_targetSpawnEvent			\TomasEvents\Play_targetSpawnEvent	
 	2884267058	Play_collectiblePickupEventShotgun			\TomasEvents\Play_collectiblePickupEventShotgun	
 	3022987204	Play_weaponFireEventGrenadeLauncher			\TomasEvents\Play_weaponFireEventGrenadeLauncher	
 	3348176073	Play_weaponFireEventPaintball			\TomasEvents\Play_weaponFireEventPaintball	
-	3365563017	Play_musicEventGameplay			\TomasEvents\Play_musicEventGameplay	
 	3395657245	Play_collectiblePickupEventSniper			\TomasEvents\Play_collectiblePickupEventSniper	
 	3532474000	Play_uiClickEvent			\TomasEvents\Play_uiClickEvent	
+	3947573021	Play_musicEvent			\TomasEvents\Music\Play_musicEvent	
 	3975240756	Play_targetHitEventHowlerMonkey			\TomasEvents\Play_targetHitEventHowlerMonkey	
 	4010112737	Play_Sine			\TomasEvents\Play_Sine	
 	4040040456	Play_targetHitEventCrocodile			\TomasEvents\Play_targetHitEventCrocodile	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\TomasStates\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameState			
+	2607556080	Menu	GameState			
+	3863236874	Running	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	259509480	rtpcplayerSpeed			\TomasRTPCs\rtpcplayerSpeed	
@@ -59,7 +65,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	590701373	19 Sword Or Bayonet Juicy Stab 3_ With Short Gush Impact	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\B9\{B959264D-C8CB-E8AE-0A9C-5195444EECFD}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\BulletImpacts\sniperHitEvent\19 Sword Or Bayonet Juicy Stab 3_ With Short Gush Impact		180248
 	593650771	Monkey_Scream_Excited_01 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\92\{92183C7C-D451-8722-EA46-737011F7BF5A}.wem		\Actor-Mixer Hierarchy\TomasSounds\Enemies\targetHitEvent\targetHitEventHowlerMonkey\Monkey_Scream_Excited_01 1		59848
 	604506158	85 - Bullet Body Hits Light Thump 2	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\EE\{EEDB38DC-7DB4-4B57-606A-7182C3CAE33C}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\BulletImpacts\paintballImpactEvent\85 - Bullet Body Hits Light Thump 2		128180
-	657568556	AlSonDelDolor	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\39\{39CA9D8B-8B30-5AE0-DA54-D3366D6484D3}.wem		\Interactive Music Hierarchy\TomasMusic\musicEventGameplay\GP_Music\AlSonDelDolor		54876464
+	657568556	AlSonDelDolor	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\39\{39CA9D8B-8B30-5AE0-DA54-D3366D6484D3}.wem		\Interactive Music Hierarchy\TomasMusic\musicEvent\musicEventGameplay\GP_Music\AlSonDelDolor		54876464
 	675014494	42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\DA\{DA768FCB-8F1D-FC86-B03D-0996B19FFBC8}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventPaintball\42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1		166928
 	720949479	UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\17\{171A6C05-119B-C321-0885-BA3C1AA329B9}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\BulletImpacts\grenadeExplosionEvent\UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1		887844
 	736342338	Shotgun_Fire02	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\CA\{CA6A9E89-318F-05FA-DC72-A599AFCDB1B1}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventShotgun\Shotgun_Fire02		174692
@@ -72,5 +78,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	939230082	UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\7C\{7C82BED8-82DD-6F67-403A-789C1134AA13}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\BulletImpacts\grenadeExplosionEvent\UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2		930476
 	952542579	Monkey_Laugh_Squeal_Happy	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\74\{7421F711-BD28-F586-345E-1622E2C99B17}.wem		\Actor-Mixer Hierarchy\TomasSounds\Enemies\targetHitEvent\targetHitEventHowlerMonkey\Monkey_Laugh_Squeal_Happy		61504
 	1071143885	CTCK IMPACT Chain Snapper	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\F2\{F2840DD9-094B-83A4-8EDC-4D2D7E732ECA}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventGrenadeLauncher\Thunk\CTCK IMPACT Chain Snapper		231676
-	1073190656	Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k)	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\22\{225850EB-AF57-DD06-1276-518E7ABCF49B}.wem		\Interactive Music Hierarchy\TomasMusic\musicEventMenu\MenuMusic\Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k)		57040940
+	1073190656	Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k)	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\22\{225850EB-AF57-DD06-1276-518E7ABCF49B}.wem		\Interactive Music Hierarchy\TomasMusic\musicEvent\musicEventMenu\MenuMusic\Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k)		57040940
 

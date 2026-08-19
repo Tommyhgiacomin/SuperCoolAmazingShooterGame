@@ -27,10 +27,8 @@ public class AudioManager : MonoBehaviour
     public AK.Wwise.Event collectiblePickupEventShotgun;
     
     [Header("Wwise Music Events")]
-    public AK.Wwise.Event musicEventGameplay;
-    public AK.Wwise.Event musicEventGameplayStop;
-    public AK.Wwise.Event musicEventMenu;
-    public AK.Wwise.Event musicEventMenuStop;
+    public AK.Wwise.Event musicEvent;
+    public AK.Wwise.Event musicEventStop;
 
     [Header("Wwise Weapon Events")]
     public AK.Wwise.Event sniperHitEvent;
@@ -48,6 +46,7 @@ public class AudioManager : MonoBehaviour
     public AK.Wwise.Event uiClickEvent;
 
     [Header("Wwise States")]
+    public AK.Wwise.State stateGameplay;
     public AK.Wwise.State stateMenu;
 
     [Header("Wwise RTPCs")]
@@ -57,6 +56,19 @@ public class AudioManager : MonoBehaviour
     public void PlayAmbience(GameObject gameObject)
     {
         ambienceEvent?.Post(gameObject);
+    }
+
+    public void GameState(int state)
+    {
+        if (state == 1)
+        {
+            stateGameplay.SetValue(gameObject);
+        }
+
+        if(state == 0)
+        {
+            stateMenu.SetValue(gameObject);
+        }
     }
 
     //AudioManager.Instance.switchname.SetValue(gameObject);

@@ -6,10 +6,6 @@
 				<SoundcasterSession Name="SoundCaster" ID="{BCAF6250-B856-4BB6-B1C1-A3EB6F59FAA0}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_musicEventGameplay" ID="{6B21E19B-E0A6-4D11-BD0F-018B4092A363}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_ambienceEvent" ID="{96B21F27-7A8F-4615-BD49-585A1C7C41F0}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
 							<Position X="1" Y="0"/>
 						</Module>

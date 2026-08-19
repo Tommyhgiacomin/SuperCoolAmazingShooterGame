@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
-  m_Name: 08615165-20B7-4E77-BA1E-83A38F2B35C7
+  m_Name: 5B9ACA96-C635-4667-8B56-9BF1B93ACF2A
   m_EditorClassIdentifier: 
-  objectName: Stop_musicEventGameplay
-  id: 2464072899
-  guid: 08615165-20B7-4E77-BA1E-83A38F2B35C7
+  objectName: Stop_musicEvent
+  id: 2234563059
+  guid: 5B9ACA96-C635-4667-8B56-9BF1B93ACF2A
   IsInUserDefinedSoundBank: 1

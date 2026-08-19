@@ -485,6 +485,63 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &486069084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486069085}
+  - component: {fileID: 486069086}
+  m_Layer: 0
+  m_Name: AkBankLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486069085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486069084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5500002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &486069086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486069084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73bdc3a49e3ac1d41b71cd3bf60138d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d5e06abae5d678343918244679514fa0, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &552800582
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,22 +685,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  musicEventGameplay:
+  musicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2db28dd47e539a14090c591855b8e18d, type: 2}
-  musicEventGameplayStop:
+    WwiseObjectReference: {fileID: 11400000, guid: 43e5eee178be151479a4658561231a2c, type: 2}
+  musicEventStop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7bc7db6f1f8a55f40833b8c98a0c0eb0, type: 2}
-  musicEventMenu:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 13d9e6963ce130146bf78f82f27a9a76, type: 2}
-  musicEventMenuStop:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4ede1a8c1f5c6e140acf7eea6dbafa25, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: b9ec6e7243bcec2458dd99cf3e77ce0f, type: 2}
   sniperHitEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -688,12 +737,18 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f52eb3b2fa0bbd14ab804ed83cbe3f3f, type: 2}
+  stateGameplay:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fd0d59f123a8aaf4f90400a1bfb7c7aa, type: 2}
   stateMenu:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2c44bb9b482870f4ba68e682fbf6ce57, type: 2}
   rtpcPlayerSpeed:
     idInternal: 0
     valueGuidInternal: 
@@ -1436,3 +1491,4 @@ SceneRoots:
   - {fileID: 552800585}
   - {fileID: 808762365}
   - {fileID: 714847334}
+  - {fileID: 486069085}

@@ -61,5 +61,7 @@ public class GameUI : MonoBehaviour
         endScreenPanel.SetActive(true);
         finalScoreText.text = "Final Score\n" + GameManager.Instance.Score;
         if (crosshair != null) crosshair.SetActive(false);
+
+        AudioManager.Instance.GameState(0);
     }
 }

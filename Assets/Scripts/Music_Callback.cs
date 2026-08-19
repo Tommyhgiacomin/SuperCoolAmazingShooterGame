@@ -43,7 +43,7 @@ public class Music_Callback : MonoBehaviour
                 case "Change_Color_Green":
                     colorTarget = Color.green;
                     break;
-                default:
+                case "Change_Color_White":
                     colorTarget = Color.white;
                     break;
             }
