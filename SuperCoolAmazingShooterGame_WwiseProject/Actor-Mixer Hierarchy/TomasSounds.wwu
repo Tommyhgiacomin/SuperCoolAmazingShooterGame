@@ -1003,6 +1003,90 @@
 												</Sound>
 											</ChildrenList>
 										</BlendContainer>
+										<RandomSequenceContainer Name="grenadeExplosionEvent" ID="{B6DCF1F7-C924-4AFC-8B0A-5C80EC8E7B16}" ShortID="836383456">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="AttenuationCurve" ID="{7226E040-37EB-4ACF-8ACC-1342E357BEC3}" WorkUnitID="{7B89369A-8AC4-44FC-8657-BA200958BBC6}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{BC44C00E-4538-4F2C-8347-52AD247BE605}" ShortID="428875498">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{4018C035-AEEE-4FBB-B1E7-B8A36E3D71F7}">
+															<Language>SFX</Language>
+															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="140371667"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{4018C035-AEEE-4FBB-B1E7-B8A36E3D71F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{54809DAB-7DFA-4068-B522-56A6EABAAD9B}" ShortID="1024509125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{D01A3486-3F84-4B5F-87B8-BFB61207A553}">
+															<Language>SFX</Language>
+															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="720949479"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{D01A3486-3F84-4B5F-87B8-BFB61207A553}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{545A6A65-3028-40B8-8EBD-AC9911E660B0}" ShortID="586806370">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{B1CCBA53-78D4-4D31-8858-16B2B09619E2}">
+															<Language>SFX</Language>
+															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="939230082"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{B1CCBA53-78D4-4D31-8858-16B2B09619E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<ActorMixer Name="BulletImpacts" ID="{CA04997B-7E13-43A6-9E58-02164FA056A8}" ShortID="990099336">
@@ -1242,90 +1326,6 @@
 												</Sound>
 											</ChildrenList>
 										</BlendContainer>
-										<RandomSequenceContainer Name="grenadeExplosionEvent" ID="{B6DCF1F7-C924-4AFC-8B0A-5C80EC8E7B16}" ShortID="836383456">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="AttenuationCurve" ID="{7226E040-37EB-4ACF-8ACC-1342E357BEC3}" WorkUnitID="{7B89369A-8AC4-44FC-8657-BA200958BBC6}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{BC44C00E-4538-4F2C-8347-52AD247BE605}" ShortID="428875498">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{4018C035-AEEE-4FBB-B1E7-B8A36E3D71F7}">
-															<Language>SFX</Language>
-															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="140371667"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20" ID="{4018C035-AEEE-4FBB-B1E7-B8A36E3D71F7}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{54809DAB-7DFA-4068-B522-56A6EABAAD9B}" ShortID="1024509125">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{D01A3486-3F84-4B5F-87B8-BFB61207A553}">
-															<Language>SFX</Language>
-															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="720949479"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1" ID="{D01A3486-3F84-4B5F-87B8-BFB61207A553}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{545A6A65-3028-40B8-8EBD-AC9911E660B0}" ShortID="586806370">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{B1CCBA53-78D4-4D31-8858-16B2B09619E2}">
-															<Language>SFX</Language>
-															<AudioFile>UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="939230082"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2" ID="{B1CCBA53-78D4-4D31-8858-16B2B09619E2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>

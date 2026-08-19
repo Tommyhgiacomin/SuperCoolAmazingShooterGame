@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E4422597-133E-8CF8-EAC3-8A016564AFDB}",
+    "Hash": "{0BFE275F-F0F3-C6C8-D76B-E1BB482D0892}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -123,7 +123,23 @@
       "Name": "GunShots",
       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\GunShots",
       "GUID": "{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}",
-      "Color": "2"
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Reverb",
+        "GUID": "{4D7BBD1D-4826-4AEB-B7FF-66AA8A1E8643}",
+        "Color": "9"
+       },
+       {
+        "Id": "4056223263",
+        "Name": "Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+        "Color": "9"
+       }
+      ]
      },
      {
       "Id": "3803692087",
@@ -213,6 +229,6 @@
     ]
    }
   ],
-  "FileHash": "{979D7DCD-44F4-1141-A004-2D718548CFE3}"
+  "FileHash": "{DC5C1660-075E-A9E2-1CFF-79D1DA899D56}"
  }
 }

@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{E2B58077-DFD9-8626-BC81-86B1622AC64A}",
+    "Hash": "{1AC7C680-7345-39B4-65D9-87E8E7F65B4E}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -593,7 +593,6 @@
       "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_grenadeExplosionEvent",
       "GUID": "{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}",
       "Color": "10",
-      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "4.6236978",
       "DurationMax": "5.4857397",
@@ -1022,6 +1021,6 @@
     ]
    }
   ],
-  "FileHash": "{72B95E3E-93E9-92F8-321D-D82D2B04AD18}"
+  "FileHash": "{88D256DB-38F7-1EE9-A696-515726948C71}"
  }
 }
