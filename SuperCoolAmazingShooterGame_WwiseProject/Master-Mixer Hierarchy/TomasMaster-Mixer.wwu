@@ -82,6 +82,76 @@
 												</Reference>
 											</ReferenceList>
 										</Bus>
+										<AuxBus Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="9"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{AFF99A96-3486-4A8A-8584-B6F6D8AC6978}" ShortID="1030502842">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}">
+																			<Effect Name="Boomerang (Custom)" ID="{CABB02C5-B6D7-4829-B26D-8DF54B76130C}" ShortID="958340363" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+																				<PropertyList>
+																					<Property Name="ModFrequency" Type="Real32" Value="3"/>
+																					<Property Name="ModPWM" Type="Real32" Value="0"/>
+																					<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
+																					<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
+																					<Property Name="ModWaveform" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<ObjectLists>
+																					<ObjectList Name="RTPC">
+																						<Reference>
+																							<Local>
+																								<RTPC Name="" ID="{58A588C5-A14C-474B-8747-6AF37D921601}" ShortID="607265102">
+																									<PropertyList>
+																										<Property Name="PropertyName" Type="string" Value="OutputGain"/>
+																									</PropertyList>
+																									<ReferenceList>
+																										<Reference Name="ControlInput">
+																											<ObjectRef Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}" WorkUnitID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}"/>
+																										</Reference>
+																										<Reference Name="Curve">
+																											<Custom>
+																												<Curve Name="" ID="{3814512D-ACE6-4A32-BC78-F49D5C9CD711}">
+																													<PropertyList>
+																														<Property Name="Flags" Type="int32" Value="3"/>
+																													</PropertyList>
+																													<PointList>
+																														<Point>
+																															<XPos>0</XPos>
+																															<YPos>-24</YPos>
+																															<Flags>5</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>1000</XPos>
+																															<YPos>0</YPos>
+																															<Flags>37</Flags>
+																														</Point>
+																													</PointList>
+																												</Curve>
+																											</Custom>
+																										</Reference>
+																									</ReferenceList>
+																								</RTPC>
+																							</Local>
+																						</Reference>
+																					</ObjectList>
+																				</ObjectLists>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
@@ -330,85 +400,10 @@
 										</ObjectList>
 									</ObjectLists>
 								</AuxBus>
-								<AuxBus Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="9"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{AFF99A96-3486-4A8A-8584-B6F6D8AC6978}" ShortID="1030502842">
-														<ReferenceList>
-															<Reference Name="Effect">
-																<Custom CreatedFrom="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}">
-																	<Effect Name="Boomerang (Custom)" ID="{CABB02C5-B6D7-4829-B26D-8DF54B76130C}" ShortID="958340363" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-																		<PropertyList>
-																			<Property Name="ModFrequency" Type="Real32" Value="3"/>
-																			<Property Name="ModPWM" Type="Real32" Value="0"/>
-																			<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
-																			<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
-																			<Property Name="ModWaveform" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<ObjectLists>
-																			<ObjectList Name="RTPC">
-																				<Reference>
-																					<Local>
-																						<RTPC Name="" ID="{58A588C5-A14C-474B-8747-6AF37D921601}" ShortID="607265102">
-																							<PropertyList>
-																								<Property Name="PropertyName" Type="string" Value="OutputGain"/>
-																							</PropertyList>
-																							<ReferenceList>
-																								<Reference Name="ControlInput">
-																									<ObjectRef Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}" WorkUnitID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}"/>
-																								</Reference>
-																								<Reference Name="Curve">
-																									<Custom>
-																										<Curve Name="" ID="{3814512D-ACE6-4A32-BC78-F49D5C9CD711}">
-																											<PropertyList>
-																												<Property Name="Flags" Type="int32" Value="3"/>
-																											</PropertyList>
-																											<PointList>
-																												<Point>
-																													<XPos>0</XPos>
-																													<YPos>-24</YPos>
-																													<Flags>5</Flags>
-																												</Point>
-																												<Point>
-																													<XPos>1000</XPos>
-																													<YPos>0</YPos>
-																													<Flags>37</Flags>
-																												</Point>
-																											</PointList>
-																										</Curve>
-																									</Custom>
-																								</Reference>
-																							</ReferenceList>
-																						</RTPC>
-																					</Local>
-																				</Reference>
-																			</ObjectList>
-																		</ObjectLists>
-																	</Effect>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}">
 							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-16</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Color" Type="int16" Value="25"/>
 								<Property Name="HdrEnable" Type="bool">
 									<ValueList>
@@ -416,6 +411,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<StateInfo>
 								<StateGroupList>

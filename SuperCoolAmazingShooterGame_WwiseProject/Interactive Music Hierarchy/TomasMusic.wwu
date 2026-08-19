@@ -74,7 +74,13 @@
 						<MusicPlaylistContainer Name="musicEventGameplay" ID="{7F1E7447-B813-4EBE-98A1-8D22A2BB1174}" ShortID="105395488">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="140.2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -417,6 +423,10 @@
 							</ObjectLists>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="musicEventMenu" ID="{05EBAD41-557B-417C-911B-D3757FAAAF99}" ShortID="1010951587">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="127"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>

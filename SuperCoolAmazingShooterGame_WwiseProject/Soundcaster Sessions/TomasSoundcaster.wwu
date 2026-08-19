@@ -29,7 +29,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}"/>
-							<Value>1000</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{B635FC8A-D65B-F14C-2D68-49D8D07F2D23}",
+    "Hash": "{EAE331BC-7A45-C256-39C7-B8AD1DA9F19C}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -849,7 +849,7 @@
        {
         "Id": "4056223263",
         "Name": "Tremolo",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\Tremolo",
         "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
         "Color": "9"
        }
@@ -879,7 +879,7 @@
        {
         "Id": "4056223263",
         "Name": "Tremolo",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\Tremolo",
         "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
         "Color": "9"
        }
@@ -909,7 +909,7 @@
        {
         "Id": "4056223263",
         "Name": "Tremolo",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\Tremolo",
         "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
         "Color": "9"
        }
@@ -942,7 +942,7 @@
        {
         "Id": "4056223263",
         "Name": "Tremolo",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\Tremolo",
         "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
         "Color": "9"
        }
@@ -1021,6 +1021,6 @@
     ]
    }
   ],
-  "FileHash": "{25F41A7B-9869-87EC-EA72-28DB10324C4B}"
+  "FileHash": "{1F9D2CDD-A37B-4719-AFE6-38794FBC12C0}"
  }
 }

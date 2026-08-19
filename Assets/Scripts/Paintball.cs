@@ -35,9 +35,11 @@ public class Paintball : MonoBehaviour
             }
             target.DestroyTarget();
 
+            AudioManager.Instance.paintballImpactEvent.Post(gameObject);
+
+
         }
 
-        AudioManager.Instance.paintballImpactEvent.Post(gameObject);
 
 
         Destroy(gameObject);

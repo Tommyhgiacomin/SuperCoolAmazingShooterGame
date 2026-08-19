@@ -23,7 +23,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\TomasMaster-Mixer\Master Audio Bus\SFX\Reverb	
-	4056223263	Tremolo			\TomasMaster-Mixer\Master Audio Bus\SFX\Tremolo	
+	4056223263	Tremolo			\TomasMaster-Mixer\Master Audio Bus\SFX\WPN\Tremolo	
 
 Effect plug-ins	ID	Name	Type				Notes
 	358760826	Room_Small (Custom)	Wwise RoomVerb			
