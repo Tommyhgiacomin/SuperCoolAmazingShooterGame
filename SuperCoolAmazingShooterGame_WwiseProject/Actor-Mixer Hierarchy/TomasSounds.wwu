@@ -460,12 +460,19 @@
 								<Folder Name="weaponFireEvent" ID="{152B787F-8696-4B64-A414-C9D03C9578DB}" ShortID="157288991">
 									<ChildrenList>
 										<BlendContainer Name="weaponFireEventPaintball" ID="{5D0E6299-0E43-474B-8AB7-65ED47B28D72}" ShortID="190615525">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+													<ObjectRef Name="GunShots" ID="{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -538,12 +545,19 @@
 											</ChildrenList>
 										</BlendContainer>
 										<BlendContainer Name="weaponFireEventSniper" ID="{2C2A7D40-7BAC-4E27-B7FF-CF5D15502C90}" ShortID="563396931">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+													<ObjectRef Name="GunShots" ID="{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -650,12 +664,19 @@
 											</ChildrenList>
 										</BlendContainer>
 										<BlendContainer Name="weaponFireEventGrenadeLauncher" ID="{D0FBF249-AA87-4EC0-8C3C-F8C65DA919FF}" ShortID="1070994859">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+													<ObjectRef Name="GunShots" ID="{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -894,12 +915,19 @@
 											</ChildrenList>
 										</BlendContainer>
 										<BlendContainer Name="weaponFireEventShotgun" ID="{4260D57B-E35D-4ED2-B610-01DE352D313B}" ShortID="570829178">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+													<ObjectRef Name="GunShots" ID="{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Tremolo" ID="{413A1CCD-9FC6-466E-ACC5-AA60BC057565}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1403,12 +1431,12 @@
 																			</Point>
 																			<Point>
 																				<XPos>1</XPos>
-																				<YPos>0</YPos>
+																				<YPos>4.751</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>2</XPos>
-																				<YPos>5</YPos>
+																				<YPos>9.751</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

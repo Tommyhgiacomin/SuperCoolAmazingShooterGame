@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{31A2F3B9-7DED-DAEF-85A1-5B4B20373A30}",
+    "Hash": "{E2B58077-DFD9-8626-BC81-86B1622AC64A}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -845,6 +845,15 @@
        {
         "Id": "1071143885"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4056223263",
+        "Name": "Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+        "Color": "9"
+       }
       ]
      },
      {
@@ -866,6 +875,15 @@
        {
         "Id": "675014494"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4056223263",
+        "Name": "Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+        "Color": "9"
+       }
       ]
      },
      {
@@ -886,6 +904,15 @@
        },
        {
         "Id": "736342338"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4056223263",
+        "Name": "Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+        "Color": "9"
        }
       ]
      },
@@ -910,6 +937,15 @@
        },
        {
         "Id": "565024038"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "4056223263",
+        "Name": "Tremolo",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+        "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+        "Color": "9"
        }
       ]
      },
@@ -986,6 +1022,6 @@
     ]
    }
   ],
-  "FileHash": "{49996228-F080-B1A2-0048-AA8AE9D68D9D}"
+  "FileHash": "{72B95E3E-93E9-92F8-321D-D82D2B04AD18}"
  }
 }

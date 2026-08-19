@@ -17,11 +17,15 @@
 							<ObjectRef Name="Play_musicEvent" ID="{F25E9AEA-3BE6-4043-AD3E-73D07375B7D0}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_grenadeExplosionEvent" ID="{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="rtpcplayerSpeed" ID="{0B58815A-E4A5-4165-84E2-93B3CA430A00}"/>
-							<Value>2</Value>
+							<Value>0.995708154506438</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="rtpcScore" ID="{7B25EABA-6FE2-459F-80FC-09C7E98D295D}"/>

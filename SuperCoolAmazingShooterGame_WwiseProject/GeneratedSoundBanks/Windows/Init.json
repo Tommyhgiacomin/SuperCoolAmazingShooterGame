@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{0B258C94-EBB0-D3CF-B47E-F035AA55AFB5}",
+    "Hash": "{E4422597-133E-8CF8-EAC3-8A016564AFDB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "358760826",
+       "Name": "Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Reverb\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "GUID": "{079F5178-A5BA-4C58-8EE2-08A76F9E0F12}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "958340363",
+       "Name": "Boomerang (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo\\[Effect Slot [0]: (Tremolo)]\\Boomerang (Custom)",
+       "GUID": "{CABB02C5-B6D7-4829-B26D-8DF54B76130C}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -54,7 +72,16 @@
       "Name": "WPN",
       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN",
       "GUID": "{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}",
-      "Color": "2"
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Reverb",
+        "GUID": "{4D7BBD1D-4826-4AEB-B7FF-66AA8A1E8643}",
+        "Color": "9"
+       }
+      ]
      },
      {
       "Id": "1064786042",
@@ -92,11 +119,48 @@
       "Color": "25"
      },
      {
+      "Id": "3043617976",
+      "Name": "GunShots",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\WPN\\GunShots",
+      "GUID": "{885DB8E9-98E1-4623-A3CE-C0F523BD2EED}",
+      "Color": "2"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Reverb",
+      "GUID": "{4D7BBD1D-4826-4AEB-B7FF-66AA8A1E8643}",
+      "Color": "9",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "358760826"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4056223263",
+      "Name": "Tremolo",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\Tremolo",
+      "GUID": "{413A1CCD-9FC6-466E-ACC5-AA60BC057565}",
+      "Color": "9",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "958340363"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -149,6 +213,6 @@
     ]
    }
   ],
-  "FileHash": "{74B3AA26-D24C-B59E-5F25-DD14F83D8CF6}"
+  "FileHash": "{979D7DCD-44F4-1141-A004-2D718548CFE3}"
  }
 }

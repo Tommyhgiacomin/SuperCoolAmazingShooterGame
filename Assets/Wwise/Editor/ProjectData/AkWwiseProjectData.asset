@@ -899,7 +899,7 @@ MonoBehaviour:
     ParentPath: States\TomasStates
     guid: a91e0b6ee3cb514eb59e4513e9dc50b0
     GuidInternal: 
-    m_lastTime: -8584144951347566657
+    m_lastTime: -8584144944242079294
     List:
     - name: GameState
       guid: 02c5196a5c4f634889b92b7b0d1544de
@@ -964,72 +964,6 @@ MonoBehaviour:
         - ElementName: Running
           ObjectType: 8
           guid: 4da57499bd58c6428a69c9029217513f
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: TimeOfDay
-      guid: 382a4b47e7a18448836ac08481ea4477
-      id: 3729505769
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: TomasStates
-        ObjectType: 12
-        guid: a91e0b6ee3cb514eb59e4513e9dc50b0
-      - ElementName: TimeOfDay
-        ObjectType: 9
-        guid: 382a4b47e7a18448836ac08481ea4477
-      Path: States\TomasStates\TimeOfDay
-      values:
-      - name: Day
-        guid: 289aa3e99f506044a5c07018419fb9ea
-        id: 311764537
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: TomasStates
-          ObjectType: 12
-          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
-        - ElementName: TimeOfDay
-          ObjectType: 9
-          guid: 382a4b47e7a18448836ac08481ea4477
-        - ElementName: Day
-          ObjectType: 8
-          guid: 289aa3e99f506044a5c07018419fb9ea
-      - name: Night
-        guid: b8ddea29a8fef4458c0ca5dbf4cc8bb9
-        id: 1011622525
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: TomasStates
-          ObjectType: 12
-          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
-        - ElementName: TimeOfDay
-          ObjectType: 9
-          guid: 382a4b47e7a18448836ac08481ea4477
-        - ElementName: Night
-          ObjectType: 8
-          guid: b8ddea29a8fef4458c0ca5dbf4cc8bb9
-      - name: None
-        guid: 655e1b9c389bd94590c9bc2dae56cd81
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: TomasStates
-          ObjectType: 12
-          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
-        - ElementName: TimeOfDay
-          ObjectType: 9
-          guid: 382a4b47e7a18448836ac08481ea4477
-        - ElementName: None
-          ObjectType: 8
-          guid: 655e1b9c389bd94590c9bc2dae56cd81
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []

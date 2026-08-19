@@ -68,6 +68,7 @@ namespace AK
     {
         static const AkUniqueID AMB = 1117531639U;
         static const AkUniqueID FLY = 1133470540U;
+        static const AkUniqueID GUNSHOTS = 3043617976U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MX = 1685527054U;
         static const AkUniqueID NPC = 662417162U;
@@ -76,6 +77,12 @@ namespace AK
         static const AkUniqueID UI = 1551306167U;
         static const AkUniqueID WPN = 828766390U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID TREMOLO = 4056223263U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
