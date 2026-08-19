@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
     guid: 8125ec222c320b45945c4280d23f13cc
     GuidInternal: 
-    m_lastTime: -8584144951347526457
+    m_lastTime: -8584144921958203998
     List:
     - name: AMB
       guid: 297bd98eb0ac6b45a29aa854ee0a4b79
@@ -93,6 +93,29 @@ MonoBehaviour:
         ObjectType: 2
         guid: e55b822fbac400489e6aa72c22284f2a
       Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\FLY
+    - name: GunShots
+      guid: e9b85d88e1982346a3cec0f523bd2eed
+      id: 3043617976
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: WPN
+        ObjectType: 2
+        guid: ccdfbe16b1ce524c94d5a20f10a84c89
+      - ElementName: GunShots
+        ObjectType: 2
+        guid: e9b85d88e1982346a3cec0f523bd2eed
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\WPN\GunShots
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -177,10 +200,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
       - ElementName: Reverb
         ObjectType: 1
         guid: 1dbd7b4d2648eb4ab7ff66aa8a1e8643
-      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\Reverb
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\Reverb
     - name: SFX
       guid: fc10cfcb55eb9a48b1d71ae917778259
       id: 393239870
@@ -211,10 +237,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
       - ElementName: Tremolo
         ObjectType: 1
         guid: cd1c3a41c69f6e46acc5aa60bc057565
-      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\Tremolo
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\Tremolo
     - name: UI
       guid: 98cd692737220c47a69f9c5fd8bc93e1
       id: 1551306167
@@ -321,7 +350,7 @@ MonoBehaviour:
     ParentPath: Events\TomasEvents
     guid: ef520a2d1c56b440b625be6d9ebf5659
     GuidInternal: 
-    m_lastTime: -8584144964112210825
+    m_lastTime: -8584144921448699769
     List:
     - name: Collectible
       guid: 326a73236c467940aedc2be8c16c6dca
@@ -488,7 +517,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0492ba1c94529a47ae708aa7f94ec0a5
       Path: Events\TomasEvents\Weapons\Play_grenadeExplosionEvent
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: 5.4857397
       minDuration: 4.6236978
     - name: Play_musicEvent
@@ -899,7 +928,7 @@ MonoBehaviour:
     ParentPath: States\TomasStates
     guid: a91e0b6ee3cb514eb59e4513e9dc50b0
     GuidInternal: 
-    m_lastTime: -8584144944242079294
+    m_lastTime: -8584144930289530130
     List:
     - name: GameState
       guid: 02c5196a5c4f634889b92b7b0d1544de

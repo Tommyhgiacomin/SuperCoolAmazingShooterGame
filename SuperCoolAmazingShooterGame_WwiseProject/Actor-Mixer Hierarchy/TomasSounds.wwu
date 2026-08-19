@@ -58,11 +58,12 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+									<ObjectRef Name="WPN" ID="{EA9AE6A5-95B1-4617-8702-B83B67430F8B}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
@@ -1340,6 +1341,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
@@ -1349,7 +1351,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+									<ObjectRef Name="FLY" ID="{2B275D26-80CF-47D4-AFB5-C9EBE8E72023}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FLY" ID="{2F825BE5-C4BA-4800-9E6A-A72C22284F2A}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
@@ -1505,7 +1507,7 @@
 							<ObjectRef Name="AttenuationCurve" ID="{7226E040-37EB-4ACF-8ACC-1342E357BEC3}" WorkUnitID="{7B89369A-8AC4-44FC-8657-BA200958BBC6}"/>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+							<ObjectRef Name="ENMY" ID="{45108E26-10E6-46B2-A778-F2A029BF79DF}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="NPC" ID="{B7ED6972-639A-4CD7-B39B-3073F25DA731}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
@@ -1937,7 +1939,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+							<ObjectRef Name="UI" ID="{CB07E545-A482-450D-8277-91D566CF8EEB}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="UI" ID="{2769CD98-2237-470C-A69F-9C5FD8BC93E1}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
@@ -2040,7 +2042,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+							<ObjectRef Name="AMB" ID="{7E219CB3-2395-4DBC-B579-A5C6C9662014}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="AMB" ID="{8ED97B29-ACB0-456B-A29A-A854EE0A4B79}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>

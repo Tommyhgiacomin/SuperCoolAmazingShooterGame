@@ -24,7 +24,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+							<ObjectRef Name="MX" ID="{06B69BC8-338C-4137-AE56-DB5EEEDE356A}" WorkUnitID="{B3D8EA7B-353F-4EAF-AA3A-7DE54BEF4A98}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>

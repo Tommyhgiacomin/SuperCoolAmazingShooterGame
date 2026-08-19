@@ -6,6 +6,9 @@ State	ID	Name	State Group			Notes
 	2607556080	Menu	GameState			
 	3863236874	Running	GameState			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3898245870	rtpcScore			\TomasRTPCs\rtpcScore	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\TomasMaster-Mixer\Master Audio Bus\SFX	
 	662417162	NPC			\TomasMaster-Mixer\Master Audio Bus\SFX\NPC	
@@ -15,7 +18,16 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1133470540	FLY			\TomasMaster-Mixer\Master Audio Bus\SFX\FLY	
 	1551306167	UI			\TomasMaster-Mixer\Master Audio Bus\SFX\UI	
 	1685527054	MX			\TomasMaster-Mixer\Master Audio Bus\MX	
+	3043617976	GunShots			\TomasMaster-Mixer\Master Audio Bus\SFX\WPN\GunShots	
 	3803692087	Master Audio Bus			\TomasMaster-Mixer\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\TomasMaster-Mixer\Master Audio Bus\SFX\Reverb	
+	4056223263	Tremolo			\TomasMaster-Mixer\Master Audio Bus\SFX\Tremolo	
+
+Effect plug-ins	ID	Name	Type				Notes
+	358760826	Room_Small (Custom)	Wwise RoomVerb			
+	958340363	Boomerang (Custom)	Wwise Tremolo			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

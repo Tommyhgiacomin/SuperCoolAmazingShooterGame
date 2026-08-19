@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{1AC7C680-7345-39B4-65D9-87E8E7F65B4E}",
+    "Hash": "{C870DAFD-2700-E467-8C62-17E1CCE2A0E7}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -22,7 +22,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls 2.wav",
-      "CachePath": "8C/{8C55D5D2-E4E0-A0BD-D3A1-B37167E0F19D}.wem"
+      "CachePath": "41/{419A9CAA-44E8-A851-17A3-DCD8D153E0E1}.wem"
      },
      {
       "Id": "23789828",
@@ -30,7 +30,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload04.wav",
-      "CachePath": "FC/{FCD4FF56-F29B-229B-B486-FDD82B44015C}.wem"
+      "CachePath": "43/{43D76CD4-D6AB-52BA-8A92-A56B8A0BB232}.wem"
      },
      {
       "Id": "92861696",
@@ -38,7 +38,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy02.wav",
-      "CachePath": "B4/{B4CE25FB-0F27-F485-A700-76FAEBCF7804}.wem"
+      "CachePath": "01/{018CDE23-8471-5CD1-0645-B8E8EF18ECEB}.wem"
      },
      {
       "Id": "114438353",
@@ -46,7 +46,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy03.wav",
-      "CachePath": "12/{1262F2BC-0DEA-8C6B-1A4A-E9068F59A444}.wem"
+      "CachePath": "33/{33FCBE00-12A2-D6E7-6115-1F6D051A4B0A}.wem"
      },
      {
       "Id": "128343529",
@@ -54,7 +54,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav",
-      "CachePath": "E6/{E6D8C990-CA9A-DAA3-8482-DB8618A8E7DA}.wem"
+      "CachePath": "9D/{9D24B0B2-C03B-86A4-B89D-A86C85A65816}.wem"
      },
      {
       "Id": "140371667",
@@ -62,7 +62,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20.wav",
-      "CachePath": "B5/{B5DF4F97-4658-FBA5-94BF-279F2C9A92E5}.wem"
+      "CachePath": "2A/{2A4D6793-007C-DB62-6CC0-C6A54CDCA0A7}.wem"
      },
      {
       "Id": "157732001",
@@ -70,7 +70,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "HRCK Impact - Rock Thunk 3.wav",
-      "CachePath": "9A/{9A882B27-EE68-3526-3790-E73772D9BEAC}.wem"
+      "CachePath": "1B/{1B10275B-51CE-04CB-84C6-097023188F3D}.wem"
      },
      {
       "Id": "164352216",
@@ -78,7 +78,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "97 - Bubble Gum Pops 5x.wav",
-      "CachePath": "E4/{E466182B-8E21-F4C5-55F5-A45E8D5C8D0A}.wem"
+      "CachePath": "08/{0884F539-F584-F8E9-1C0E-EE985A76DFC0}.wem"
      },
      {
       "Id": "232401488",
@@ -86,7 +86,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Monkey_Scream_Excited_01.wav",
-      "CachePath": "57/{57DD7ADD-5901-8A32-3D5E-D53C6F65491A}.wem"
+      "CachePath": "1A/{1A10F637-0616-F945-6D70-12E2365D95D4}.wem"
      },
      {
       "Id": "243813065",
@@ -94,7 +94,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Monkey_Laugh_Squeal_Happy 1.wav",
-      "CachePath": "EA/{EA674E31-40E4-35E6-251B-E3BBCBD87621}.wem"
+      "CachePath": "DC/{DC7598B3-DF67-4667-F5A3-837F3602B299}.wem"
      },
      {
       "Id": "244051763",
@@ -102,7 +102,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 3.wav",
-      "CachePath": "C5/{C56B84DF-D217-BECE-BF2C-07C1DCE861B7}.wem"
+      "CachePath": "E5/{E59CAAFF-4AF4-89E3-4DE8-204B420A9B47}.wem"
      },
      {
       "Id": "244523927",
@@ -110,7 +110,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload03.wav",
-      "CachePath": "87/{874D7396-3DB2-74D8-D63D-79AE433B26B3}.wem"
+      "CachePath": "3C/{3C4F3932-C91F-54DF-1C20-439C10388736}.wem"
      },
      {
       "Id": "246587412",
@@ -118,7 +118,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload05.wav",
-      "CachePath": "11/{11397166-37F0-8B51-0D86-3CBB4AD205BE}.wem"
+      "CachePath": "9A/{9A1D169C-6934-4E87-32A4-F7B17125A8A0}.wem"
      },
      {
       "Id": "259598103",
@@ -126,7 +126,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-003.wav",
-      "CachePath": "47/{4732119D-8ECE-56E3-D5D8-556FD27D83B7}.wem"
+      "CachePath": "16/{16E185B8-C413-F05A-A10F-ABE891BA470A}.wem"
      },
      {
       "Id": "260054872",
@@ -134,7 +134,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wind, General, Wind Gusts, Light Whistles, Floor Valley 01 SND81344.wav",
-      "CachePath": "7B/{7BE6AF9A-A22B-6899-4A77-10DC73D900C2}.wem"
+      "CachePath": "B8/{B8BF5345-4A40-A2A5-4547-DBFE4CBD839E}.wem"
      },
      {
       "Id": "278959451",
@@ -142,7 +142,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls.wav",
-      "CachePath": "5B/{5B8A0EFB-4426-B649-94EB-8414B75C154D}.wem"
+      "CachePath": "62/{62A2FC20-A32C-9C71-F2AA-00F4BCCD6A16}.wem"
      },
      {
       "Id": "301232622",
@@ -150,7 +150,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail.wav",
-      "CachePath": "A0/{A0480F37-FE0D-A150-7CBC-2CC414BDA183}.wem"
+      "CachePath": "79/{79EBED5F-2877-BCD3-FA92-2A54117FD28D}.wem"
      },
      {
       "Id": "313360991",
@@ -158,7 +158,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls 1.wav",
-      "CachePath": "A5/{A5FC3EB7-D261-4134-781C-55B46A606911}.wem"
+      "CachePath": "04/{0443A628-BF4B-8620-7EC3-8EBE8C9A7DD9}.wem"
      },
      {
       "Id": "361206871",
@@ -166,7 +166,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "20 Sword Or Bayonet Juicy Stab 4_ With Short Gush Impact.wav",
-      "CachePath": "F6/{F603C34B-02C0-FC9E-32B8-53D1AB0F6B29}.wem"
+      "CachePath": "F4/{F41CDE40-92D9-76E4-62FC-691A3EEF91AB}.wem"
      },
      {
       "Id": "382970631",
@@ -174,7 +174,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Shotgun_Fire_04.wav",
-      "CachePath": "87/{875438B3-A71E-12C4-58B4-FD8BDFCF83B6}.wem"
+      "CachePath": "03/{03E0E5C8-C0AA-EBB8-8C17-EA7A4938E8F7}.wem"
      },
      {
       "Id": "385128980",
@@ -182,7 +182,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "User Interface, Click, UI Buttons, Bubbly, Option SND115491.wav",
-      "CachePath": "D9/{D9EAC692-07EF-D1FE-FCE2-ACD43769652B}.wem"
+      "CachePath": "CD/{CDF70CC3-5C6D-6B9E-04B0-45F99CA2E573}.wem"
      },
      {
       "Id": "387174201",
@@ -190,7 +190,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy01.wav",
-      "CachePath": "87/{873EDB65-DD4C-3917-0368-0A5425754895}.wem"
+      "CachePath": "14/{14AB91CD-25B1-47DB-F1C8-CCACDB95BDE9}.wem"
      },
      {
       "Id": "415893018",
@@ -198,7 +198,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "User Interface, Click, UI Buttons, Dull, Menu SND115485.wav",
-      "CachePath": "32/{32DE8565-9686-1B52-AB9A-C36068C0CD7D}.wem"
+      "CachePath": "32/{32B251B9-E8FB-5CE7-DFB1-FDFF009CB721}.wem"
      },
      {
       "Id": "422748391",
@@ -206,7 +206,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 2.wav",
-      "CachePath": "01/{01F97B9B-AEAE-DB35-A184-43C5625364F1}.wem"
+      "CachePath": "FD/{FDFC0BD0-5F27-82E6-A480-027EED96B7CD}.wem"
      },
      {
       "Id": "425924776",
@@ -214,7 +214,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-004.wav",
-      "CachePath": "EE/{EE1670E8-179E-D944-1612-7D395ACFB6A8}.wem"
+      "CachePath": "10/{1080982B-C6F3-0BA5-C8EF-3974DC6CAAE8}.wem"
      },
      {
       "Id": "426351017",
@@ -222,7 +222,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "85 - Bullet Body Hits Light Thump 1.wav",
-      "CachePath": "D1/{D1E2BBDA-49A1-148B-3C31-4F2493416941}.wem"
+      "CachePath": "A4/{A4944C3F-F285-E773-082F-5578CD61E641}.wem"
      },
      {
       "Id": "431872545",
@@ -230,7 +230,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Baloon Boom 2.wav",
-      "CachePath": "BB/{BB68C2E6-EDE5-C5EE-3AC5-83CE99C5CC41}.wem"
+      "CachePath": "B9/{B9C9FB08-B688-D6E5-E78F-375796FC3C6B}.wem"
      },
      {
       "Id": "436866977",
@@ -238,7 +238,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "85 - Bullet Body Hits Light Thump 3.wav",
-      "CachePath": "D9/{D9C78702-B05C-BCEC-6D34-1AA3C02F047A}.wem"
+      "CachePath": "31/{310AE8AF-72BB-5252-5433-441B1EE382AD}.wem"
      },
      {
       "Id": "441792550",
@@ -246,7 +246,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Shotgun_Fire03.wav",
-      "CachePath": "C7/{C75AED9A-6EC0-7B67-FE12-A2EFBEE7D093}.wem"
+      "CachePath": "17/{17D8BAAC-757F-CC2C-51D1-A8E20321C19C}.wem"
      },
      {
       "Id": "442948291",
@@ -254,7 +254,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav",
-      "CachePath": "1D/{1D7EC99F-59F8-F829-BC1B-31BCBC208B20}.wem"
+      "CachePath": "68/{683F2967-238D-BAEB-B090-B4B930D05D3B}.wem"
      },
      {
       "Id": "466293968",
@@ -262,7 +262,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 4.wav",
-      "CachePath": "30/{3021A9CB-EEE2-8D8A-948A-33F08680E553}.wem"
+      "CachePath": "2A/{2A0ECEC6-7D45-2B42-8370-90D56F7E2B2A}.wem"
      },
      {
       "Id": "485040076",
@@ -270,7 +270,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-002.wav",
-      "CachePath": "D3/{D3CEBF3C-7E01-B16D-C054-3387A0D3417D}.wem"
+      "CachePath": "AA/{AA0F5F3C-BE71-0244-9D33-FFBA6BF42418}.wem"
      },
      {
       "Id": "506368015",
@@ -278,7 +278,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Birds,Crickets,Costa Rica,Calm 2.wav",
-      "CachePath": "51/{51E73E4E-BC54-A039-0394-6172DC8D2A20}.wem"
+      "CachePath": "B0/{B088A521-605B-8383-7356-FF30DE1B95CC}.wem"
      },
      {
       "Id": "557051230",
@@ -286,7 +286,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 7.wav",
-      "CachePath": "6F/{6F04E463-BE1D-1159-BB3B-CF8AD0E0799C}.wem"
+      "CachePath": "11/{11CC74A3-A886-72A3-A167-6949AB98478D}.wem"
      },
      {
       "Id": "565024038",
@@ -294,7 +294,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon,Gun,Sniper,Fire,Shoot,Shot,Plasma,Energy04.wav",
-      "CachePath": "10/{10FEDED8-7E2E-3737-D1EC-277EE49FC312}.wem"
+      "CachePath": "84/{843AF414-7347-861F-0023-EED6807AE819}.wem"
      },
      {
       "Id": "590580905",
@@ -302,7 +302,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "18 - Animal, Jaguar Growling, Cat 1.wav",
-      "CachePath": "BB/{BB1D527C-5C45-F7C4-B4E7-A69E94BD6297}.wem"
+      "CachePath": "C4/{C44E184B-4C3D-0FBA-EB1C-7CB69E930C3C}.wem"
      },
      {
       "Id": "590701373",
@@ -310,7 +310,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "19 Sword Or Bayonet Juicy Stab 3_ With Short Gush Impact.wav",
-      "CachePath": "B9/{B959264D-C8CB-E8AE-0A9C-5195444EECFD}.wem"
+      "CachePath": "26/{26E769D2-95EE-B9DD-D976-C138DD929E3C}.wem"
      },
      {
       "Id": "593650771",
@@ -318,7 +318,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Monkey_Scream_Excited_01 1.wav",
-      "CachePath": "92/{92183C7C-D451-8722-EA46-737011F7BF5A}.wem"
+      "CachePath": "8E/{8ED87870-E783-26C5-739A-A8685EBD0513}.wem"
      },
      {
       "Id": "604506158",
@@ -326,7 +326,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "85 - Bullet Body Hits Light Thump 2.wav",
-      "CachePath": "EE/{EEDB38DC-7DB4-4B57-606A-7182C3CAE33C}.wem"
+      "CachePath": "74/{7407373B-5D6A-0ACF-427B-9703721F1DEB}.wem"
      },
      {
       "Id": "657568556",
@@ -334,7 +334,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Al Son Del Dolor[rebalanced].wav",
-      "CachePath": "39/{39CA9D8B-8B30-5AE0-DA54-D3366D6484D3}.wem"
+      "CachePath": "F2/{F29D19F3-EEF5-1E9F-85F3-1B6580299C5E}.wem"
      },
      {
       "Id": "675014494",
@@ -342,7 +342,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1.wav",
-      "CachePath": "DA/{DA768FCB-8F1D-FC86-B03D-0996B19FFBC8}.wem"
+      "CachePath": "F7/{F7353DFC-4848-4856-DB9C-BA976C92B3C8}.wem"
      },
      {
       "Id": "720949479",
@@ -350,7 +350,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1.wav",
-      "CachePath": "17/{171A6C05-119B-C321-0885-BA3C1AA329B9}.wem"
+      "CachePath": "74/{748038CF-EE1B-5497-6658-DB7F5E99A2C1}.wem"
      },
      {
       "Id": "736342338",
@@ -358,7 +358,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Shotgun_Fire02.wav",
-      "CachePath": "CA/{CA6A9E89-318F-05FA-DC72-A599AFCDB1B1}.wem"
+      "CachePath": "AA/{AAB3BEDA-F6E6-96DA-966B-C3CD89F4DE7C}.wem"
      },
      {
       "Id": "750153147",
@@ -366,7 +366,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Walk_Run_Wet_Mud_Dirt.wav",
-      "CachePath": "32/{32E0270B-FB70-DD9C-B6F7-43EE630ECFDA}.wem"
+      "CachePath": "23/{23D0EBB3-BB24-37A4-EB10-55F72EE61197}.wem"
      },
      {
       "Id": "767742180",
@@ -374,7 +374,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "CTCK IMPACT Chain Snapper 1.wav",
-      "CachePath": "A6/{A6AFAD25-237F-0E88-7A96-7899A1512B19}.wem"
+      "CachePath": "70/{706EAA84-7A31-3558-6D02-50A8751BF076}.wem"
      },
      {
       "Id": "773004012",
@@ -382,7 +382,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "HRCK Impact - Rock Thunk 1.wav",
-      "CachePath": "00/{00ABE0E4-2E7E-8B4C-F56F-550FB6F93C73}.wem"
+      "CachePath": "E7/{E74014E0-E0B7-7129-5D35-46F28953BDA9}.wem"
      },
      {
       "Id": "815320883",
@@ -390,7 +390,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "HRCK Impact - Rock Thunk 2.wav",
-      "CachePath": "5E/{5EAB2570-4347-E9D6-EF6E-C623E63A2838}.wem"
+      "CachePath": "C7/{C7E38DAD-0162-D032-FBB2-77106D80CBF3}.wem"
      },
      {
       "Id": "846574635",
@@ -398,7 +398,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "18 - Animal, Jaguar Growling, Cat.wav",
-      "CachePath": "50/{50F09033-E499-6D04-0077-BFDDC9B3F4EA}.wem"
+      "CachePath": "E1/{E1CCDC73-62EE-BA96-6534-3CBE1D20FE16}.wem"
      },
      {
       "Id": "866085169",
@@ -406,7 +406,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Balloon Boom.wav",
-      "CachePath": "B6/{B6E1A40E-B12C-F05E-8592-7CAEF82A82AD}.wem"
+      "CachePath": "13/{1361DE9F-92D9-DBD3-35D9-53B3B571DDD6}.wem"
      },
      {
       "Id": "887397865",
@@ -414,7 +414,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 5.wav",
-      "CachePath": "AD/{AD0381C3-4C36-DE39-7AE2-74AB2BCA932D}.wem"
+      "CachePath": "6A/{6AD72CA8-19FA-9B76-B6AB-0B944A607879}.wem"
      },
      {
       "Id": "897604288",
@@ -422,7 +422,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 6.wav",
-      "CachePath": "FC/{FC1FFC13-EDD1-1F3A-9B33-B37BC22616A7}.wem"
+      "CachePath": "D9/{D9CE159C-D55A-C911-8F9A-14A2EBEEB849}.wem"
      },
      {
       "Id": "938724743",
@@ -430,7 +430,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "85 - Bullet Body Hits Light Thump.wav",
-      "CachePath": "D2/{D264ECD9-4B44-A0E8-1FC0-00AE8CF0B099}.wem"
+      "CachePath": "1E/{1EE7C3F8-7C51-E286-8E4F-14CCCA49110C}.wem"
      },
      {
       "Id": "939230082",
@@ -438,7 +438,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 2.wav",
-      "CachePath": "7C/{7C82BED8-82DD-6F67-403A-789C1134AA13}.wem"
+      "CachePath": "1D/{1D6BF262-4EB6-A196-07D3-210BD48DEC46}.wem"
      },
      {
       "Id": "952542579",
@@ -446,7 +446,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Monkey_Laugh_Squeal_Happy.wav",
-      "CachePath": "74/{7421F711-BD28-F586-345E-1622E2C99B17}.wem"
+      "CachePath": "AD/{ADFCC9C2-BAD9-196B-3EDD-18DA81C7AD88}.wem"
      },
      {
       "Id": "976398053",
@@ -454,7 +454,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 2.wav",
-      "CachePath": "F3/{F3D831D7-96A1-6C5A-E396-EEC9D1812846}.wem"
+      "CachePath": "29/{29E0ADAC-9B34-7F82-0274-2A075C4F07D1}.wem"
      },
      {
       "Id": "1071143885",
@@ -462,7 +462,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "CTCK IMPACT Chain Snapper.wav",
-      "CachePath": "F2/{F2840DD9-094B-83A4-8EDC-4D2D7E732ECA}.wem"
+      "CachePath": "5C/{5CDDF14D-448E-8554-9BFD-3B0E073C990D}.wem"
      },
      {
       "Id": "1073190656",
@@ -470,7 +470,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Linda Costa Rica Suiza Centroamericana - Heredia por Media Calle (192k).wav",
-      "CachePath": "22/{225850EB-AF57-DD06-1276-518E7ABCF49B}.wem"
+      "CachePath": "2A/{2A299340-825C-EA9B-CB68-8A40FD7509D6}.wem"
      }
     ],
     "Plugins": {
@@ -1021,6 +1021,6 @@
     ]
    }
   ],
-  "FileHash": "{88D256DB-38F7-1EE9-A696-515726948C71}"
+  "FileHash": "{F1641F5C-2CF3-4A07-D49E-6050F38401B4}"
  }
 }

@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
 
     void EndGame()
     {
-
+        AudioManager.Instance.footstepsPlayerStop.Post(gameObject);
         IsGameActive = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
