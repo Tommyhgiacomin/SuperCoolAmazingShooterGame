@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     }
     public void TakeDamage(int amount)
     {
+
     }
 
     private void Die()

@@ -40,15 +40,15 @@
 											<PropertyList>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 											</PropertyList>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{279D736B-E58D-434B-96EA-D8B50338BEFB}">
 														<PropertyList>
 															<Property Name="FadeCurve" Type="int16" Value="5"/>
-															<Property Name="FadeOffset" Type="Real64" Value="1"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="3"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -57,8 +57,8 @@
 													<MusicFade Name="Destination Fade-in" ID="{3D89F276-BC2E-40D0-9FB7-B584CEACB768}">
 														<PropertyList>
 															<Property Name="FadeCurve" Type="int16" Value="5"/>
-															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="-3"/>
+															<Property Name="FadeTime" Type="Real64" Value="3"/>
 														</PropertyList>
 													</MusicFade>
 												</DestinationFadeIn>
@@ -173,7 +173,7 @@
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="3514.77781654714"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="106177.931411089"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="146.704498410997"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="591.111843986958"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="449.248744529206"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-3514.77781654714"/>
 																					</PropertyList>
@@ -261,7 +261,7 @@
 													<MusicCue Name="Exit Cue" ID="{B7FB93EF-5085-4385-807D-0EB16AE3D116}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="282299.638850119"/>
+															<Property Name="TimeMs" Type="Real64" Value="102663.153594542"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>

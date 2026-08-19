@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class Music_Callback : MonoBehaviour
 {
@@ -12,6 +15,9 @@ public class Music_Callback : MonoBehaviour
 
     private float beatLightTarget = 0f;
     private Color colorTarget = Color.white;
+
+    public Material skyBoxDay;
+    public Material skyBoxNight;
 
     private void Start()
     {
@@ -39,12 +45,16 @@ public class Music_Callback : MonoBehaviour
             {
                 case "Change_Color_Red":
                     colorTarget = Color.red;
+                    RenderSettings.skybox = skyBoxNight;
+                    DynamicGI.UpdateEnvironment();
                     break;
                 case "Change_Color_Green":
                     colorTarget = Color.green;
                     break;
                 case "Change_Color_White":
                     colorTarget = Color.white;
+                    RenderSettings.skybox = skyBoxDay;
+                    DynamicGI.UpdateEnvironment();
                     break;
             }
         }

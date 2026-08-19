@@ -1077,6 +1077,8 @@ MonoBehaviour:
   beatLight: {fileID: 497866153}
   pulseIntensity: 2
   fadeSpeed: 8
+  skyBoxDay: {fileID: 2100000, guid: c56e28e54cac24b04ae3dd957d214534, type: 2}
+  skyBoxNight: {fileID: 2100000, guid: 9af23ba5fa5364ff598888460e0e2759, type: 2}
 --- !u!1 &522817370
 GameObject:
   m_ObjectHideFlags: 0

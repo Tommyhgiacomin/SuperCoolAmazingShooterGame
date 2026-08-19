@@ -69,7 +69,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Folder Name="collectiblePickupEvent" ID="{EEAE1EB8-EA8F-4E94-AEA9-AB081DA05D02}" ShortID="444575857">
+								<Folder Name="collectiblePickupEvents" ID="{EEAE1EB8-EA8F-4E94-AEA9-AB081DA05D02}" ShortID="444575857">
 									<ChildrenList>
 										<RandomSequenceContainer Name="collectiblePickupEventSniper" ID="{9D6B5DF6-4241-4293-A52E-1BE081937718}" ShortID="927143490">
 											<ReferenceList>
@@ -1312,6 +1312,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -1323,7 +1324,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+									<ObjectRef Name="FLY" ID="{2F825BE5-C4BA-4800-9E6A-A72C22284F2A}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
     guid: 8125ec222c320b45945c4280d23f13cc
     GuidInternal: 
-    m_lastTime: -8584144992900567196
+    m_lastTime: -8584144951347526457
     List:
     - name: AMB
       guid: 297bd98eb0ac6b45a29aa854ee0a4b79
@@ -164,6 +164,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: b628b93aad3816489bb14488d22c882a
       Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\PLY
+    - name: Reverb
+      guid: 1dbd7b4d2648eb4ab7ff66aa8a1e8643
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: 1dbd7b4d2648eb4ab7ff66aa8a1e8643
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\Reverb
     - name: SFX
       guid: fc10cfcb55eb9a48b1d71ae917778259
       id: 393239870
@@ -181,6 +198,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: fc10cfcb55eb9a48b1d71ae917778259
       Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX
+    - name: Tremolo
+      guid: cd1c3a41c69f6e46acc5aa60bc057565
+      id: 4056223263
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Tremolo
+        ObjectType: 1
+        guid: cd1c3a41c69f6e46acc5aa60bc057565
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\Tremolo
     - name: UI
       guid: 98cd692737220c47a69f9c5fd8bc93e1
       id: 1551306167
@@ -865,7 +899,7 @@ MonoBehaviour:
     ParentPath: States\TomasStates
     guid: a91e0b6ee3cb514eb59e4513e9dc50b0
     GuidInternal: 
-    m_lastTime: -8584145281904427828
+    m_lastTime: -8584144951347566657
     List:
     - name: GameState
       guid: 02c5196a5c4f634889b92b7b0d1544de
@@ -930,6 +964,72 @@ MonoBehaviour:
         - ElementName: Running
           ObjectType: 8
           guid: 4da57499bd58c6428a69c9029217513f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: TimeOfDay
+      guid: 382a4b47e7a18448836ac08481ea4477
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasStates
+        ObjectType: 12
+        guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+      - ElementName: TimeOfDay
+        ObjectType: 9
+        guid: 382a4b47e7a18448836ac08481ea4477
+      Path: States\TomasStates\TimeOfDay
+      values:
+      - name: Day
+        guid: 289aa3e99f506044a5c07018419fb9ea
+        id: 311764537
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: TomasStates
+          ObjectType: 12
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 382a4b47e7a18448836ac08481ea4477
+        - ElementName: Day
+          ObjectType: 8
+          guid: 289aa3e99f506044a5c07018419fb9ea
+      - name: Night
+        guid: b8ddea29a8fef4458c0ca5dbf4cc8bb9
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: TomasStates
+          ObjectType: 12
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 382a4b47e7a18448836ac08481ea4477
+        - ElementName: Night
+          ObjectType: 8
+          guid: b8ddea29a8fef4458c0ca5dbf4cc8bb9
+      - name: None
+        guid: 655e1b9c389bd94590c9bc2dae56cd81
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: TomasStates
+          ObjectType: 12
+          guid: a91e0b6ee3cb514eb59e4513e9dc50b0
+        - ElementName: TimeOfDay
+          ObjectType: 9
+          guid: 382a4b47e7a18448836ac08481ea4477
+        - ElementName: None
+          ObjectType: 8
+          guid: 655e1b9c389bd94590c9bc2dae56cd81
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
