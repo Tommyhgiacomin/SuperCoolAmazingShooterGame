@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{EAE331BC-7A45-C256-39C7-B8AD1DA9F19C}",
+    "Hash": "{97EC0E30-1478-15DC-88CA-7BFA30AD9FDC}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -482,6 +482,14 @@
        "GUID": "{AC493452-36F7-4256-8898-43A1583B3AA6}",
        "LibName": "Wwise Sine",
        "LibId": "6553602"
+      },
+      {
+       "Id": "155878636",
+       "Name": "Gentle_Program_Compressor_Minus_14dB_RMS (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\TomasMusic\\musicEvent\\musicEventGameplay\\[Effect Slot [0]: (Compressor)]\\Gentle_Program_Compressor_Minus_14dB_RMS (Custom)",
+       "GUID": "{8AF2C3B2-6918-4312-A919-32A56418A717}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
       }
      ]
     },
@@ -642,7 +650,14 @@
          {
           "Id": "657568556"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "155878636"
+          }
+         ]
+        }
        }
       ]
      },
@@ -652,7 +667,6 @@
       "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_paintballImpactEvent",
       "GUID": "{246D17CE-BE01-4903-8248-184053A540FB}",
       "Color": "10",
-      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.3335625",
       "DurationMax": "1.0708958",
@@ -694,7 +708,6 @@
       "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_sniperHitEvent",
       "GUID": "{2349D394-1D25-4BA9-B6DA-B4F991DACA33}",
       "Color": "10",
-      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.0212698",
       "DurationMax": "1.0212698",
@@ -719,7 +732,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventCrocodile",
       "GUID": "{5FE562A7-F344-47A9-867C-D3D63E75ED13}",
       "Color": "10",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.435669",
       "DurationMax": "1.7503175",
@@ -741,7 +754,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventHowlerMonkey",
       "GUID": "{86344ED6-34E3-4CDB-A63B-5EEE175D9635}",
       "Color": "10",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.44627082",
       "DurationMax": "0.6396667",
@@ -766,7 +779,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventJaguar",
       "GUID": "{1C13FD30-E629-4377-93B1-AD67C0FD7CF8}",
       "Color": "10",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.48301587",
       "DurationMax": "1.1193424",
@@ -785,7 +798,7 @@
       "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetSpawnEvent",
       "GUID": "{70FCFB24-A9F3-46C7-A08A-16308092E9C5}",
       "Color": "10",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.22055782",
       "DurationMax": "0.22055782",
@@ -1021,6 +1034,6 @@
     ]
    }
   ],
-  "FileHash": "{1F9D2CDD-A37B-4719-AFE6-38794FBC12C0}"
+  "FileHash": "{C0576D33-9C38-99FB-4E24-F9BA5BDD61EF}"
  }
 }

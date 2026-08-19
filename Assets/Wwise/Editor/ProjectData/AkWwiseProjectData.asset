@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
     guid: 8125ec222c320b45945c4280d23f13cc
     GuidInternal: 
-    m_lastTime: -8584144904510069267
+    m_lastTime: -8584144542765114934
     List:
     - name: AMB
       guid: 297bd98eb0ac6b45a29aa854ee0a4b79
@@ -240,10 +240,13 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: WPN
+        ObjectType: 2
+        guid: ccdfbe16b1ce524c94d5a20f10a84c89
       - ElementName: Tremolo
         ObjectType: 1
         guid: cd1c3a41c69f6e46acc5aa60bc057565
-      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\Tremolo
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\WPN\Tremolo
     - name: UI
       guid: 98cd692737220c47a69f9c5fd8bc93e1
       id: 1551306167
@@ -557,7 +560,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ce176d2401be03498248184053a540fb
       Path: Events\TomasEvents\Weapons\Play_paintballImpactEvent
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: 1.0708958
       minDuration: 0.3335625
     - name: Play_Sine
@@ -594,7 +597,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 94d34923251da94bb6dab4f991daca33
       Path: Events\TomasEvents\Weapons\Play_sniperHitEvent
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: 1.0212698
       minDuration: 1.0212698
     - name: Play_targetHitEventCrocodile
@@ -614,7 +617,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a762e55f44f3a947867cd3d63e75ed13
       Path: Events\TomasEvents\Targets\Play_targetHitEventCrocodile
-      maxAttenuation: 30
+      maxAttenuation: 40
       maxDuration: 1.7503175
       minDuration: 1.435669
     - name: Play_targetHitEventHowlerMonkey
@@ -634,7 +637,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d64e3486e334db4ca63b5eee175d9635
       Path: Events\TomasEvents\Targets\Play_targetHitEventHowlerMonkey
-      maxAttenuation: 30
+      maxAttenuation: 40
       maxDuration: 0.6396667
       minDuration: 0.44627082
     - name: Play_targetHitEventJaguar
@@ -654,7 +657,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 30fd131c29e6774393b1ad67c0fd7cf8
       Path: Events\TomasEvents\Targets\Play_targetHitEventJaguar
-      maxAttenuation: 30
+      maxAttenuation: 40
       maxDuration: 1.1193424
       minDuration: 0.48301587
     - name: Play_targetSpawnEvent
@@ -674,7 +677,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 24fbfc70f3a9c746a08a16308092e9c5
       Path: Events\TomasEvents\Targets\Play_targetSpawnEvent
-      maxAttenuation: 30
+      maxAttenuation: 40
       maxDuration: 0.22055782
       minDuration: 0.22055782
     - name: Play_uiClickEvent

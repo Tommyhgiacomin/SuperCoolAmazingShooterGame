@@ -75,10 +75,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="140.2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -383,6 +384,26 @@
 								</MusicSegment>
 							</ChildrenList>
 							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{EB549DE3-CFB2-41F5-AAA9-3451EC4F77D0}" ShortID="627958520">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom CreatedFrom="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}">
+															<Effect Name="Gentle_Program_Compressor_Minus_14dB_RMS (Custom)" ID="{8AF2C3B2-6918-4312-A919-32A56418A717}" ShortID="155878636" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																<PropertyList>
+																	<Property Name="Ratio" Type="Real32" Value="3"/>
+																	<Property Name="Threshold" Type="Real32" Value="-14"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>

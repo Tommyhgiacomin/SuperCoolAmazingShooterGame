@@ -27,6 +27,7 @@ public class MainMenu : MonoBehaviour
     {
 
         AudioManager.Instance.musicEvent.Post(gameObject);
+        AudioManager.Instance.footstepsPlayerStop.Post(gameObject);
 
 
         Cursor.lockState = CursorLockMode.None;

@@ -33,6 +33,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	259509480	rtpcplayerSpeed			\TomasRTPCs\rtpcplayerSpeed	
 	3898245870	rtpcScore			\TomasRTPCs\rtpcScore	
 
+Effect plug-ins	ID	Name	Type				Notes
+	155878636	Gentle_Program_Compressor_Minus_14dB_RMS (Custom)	Wwise Compressor			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	102546109	Sine	Wwise Sine		\Actor-Mixer Hierarchy\TomasSounds\Sine\Sine\Sine	
 
