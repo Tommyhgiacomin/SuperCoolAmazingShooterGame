@@ -1793,6 +1793,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: da5a0074e76366943a0f92002a99fd2f, type: 2}
+  footstepsPlayer:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cdc06d950c1ce3b4a8424741ccdd7bbb, type: 2}
+  footstepsPlayerStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0fc0234e34c3c794ab235344ab2c16bf, type: 2}
   uiClickEvent:
     idInternal: 0
     valueGuidInternal: 

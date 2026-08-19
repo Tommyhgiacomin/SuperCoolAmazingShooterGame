@@ -42,6 +42,10 @@ public class AudioManager : MonoBehaviour
     public AK.Wwise.Event weaponFirePickupEventShotgun;
     public AK.Wwise.Event weaponFirePickupEventPaintball;
 
+    [Header("Wwise Player Events")]
+    public AK.Wwise.Event footstepsPlayer;
+    public AK.Wwise.Event footstepsPlayerStop;
+
     [Header("Wwise UI Events")]
     public AK.Wwise.Event uiClickEvent;
 

@@ -12,6 +12,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	828766390	WPN			\TomasMaster-Mixer\Master Audio Bus\SFX\WPN	
 	1064786042	PLY			\TomasMaster-Mixer\Master Audio Bus\SFX\PLY	
 	1117531639	AMB			\TomasMaster-Mixer\Master Audio Bus\SFX\AMB	
+	1133470540	FLY			\TomasMaster-Mixer\Master Audio Bus\SFX\FLY	
 	1551306167	UI			\TomasMaster-Mixer\Master Audio Bus\SFX\UI	
 	1685527054	MX			\TomasMaster-Mixer\Master Audio Bus\MX	
 	3803692087	Master Audio Bus			\TomasMaster-Mixer\Master Audio Bus	

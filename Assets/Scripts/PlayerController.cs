@@ -59,6 +59,16 @@ public class PlayerController : MonoBehaviour, IDamageable
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
+        if (x == 1 || z == 1)
+        {
+            AudioManager.Instance.footstepsPlayer.Post(gameObject);
+        }
+        else
+        {
+            AudioManager.Instance.footstepsPlayerStop.Post(gameObject);
+            AudioManager.Instance.rtpcPlayerSpeed.SetGlobalValue(0);
+        }
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             _isRunning = true;
@@ -81,6 +91,7 @@ public class PlayerController : MonoBehaviour, IDamageable
         move.y = yVelocity;
 
         controller.Move(move * speed * Time.deltaTime);
+
     }
     public void TakeDamage(int amount)
     {

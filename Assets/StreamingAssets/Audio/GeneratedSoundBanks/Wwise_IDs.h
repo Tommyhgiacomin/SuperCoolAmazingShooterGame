@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTGRENADELAUNCHER = 1673387754U;
         static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSHOTGUN = 2884267058U;
         static const AkUniqueID PLAY_COLLECTIBLEPICKUPEVENTSNIPER = 3395657245U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GRENADEEXPLOSIONEVENT = 602429883U;
         static const AkUniqueID PLAY_MUSICEVENT = 3947573021U;
         static const AkUniqueID PLAY_PAINTBALLIMPACTEVENT = 518560921U;
@@ -31,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_WEAPONFIREEVENTPAINTBALL = 3348176073U;
         static const AkUniqueID PLAY_WEAPONFIREEVENTSHOTGUN = 2392080756U;
         static const AkUniqueID PLAY_WEAPONFIREEVENTSNIPER = 98322895U;
+        static const AkUniqueID STOP_FOOTSTEPS = 2963349357U;
         static const AkUniqueID STOP_MUSICEVENT = 2234563059U;
     } // namespace EVENTS
 
@@ -65,6 +67,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID FLY = 1133470540U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MX = 1685527054U;
         static const AkUniqueID NPC = 662417162U;

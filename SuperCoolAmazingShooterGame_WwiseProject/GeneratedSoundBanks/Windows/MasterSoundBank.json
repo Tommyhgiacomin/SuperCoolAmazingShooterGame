@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{3EC86362-E05C-2E46-F95B-0144A6ABE2EE}",
+    "Hash": "{0816DE8E-AB40-F4D9-0896-EAAB65D9A237}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -289,6 +289,14 @@
       "CachePath": "CA/{CA6A9E89-318F-05FA-DC72-A599AFCDB1B1}.wem"
      },
      {
+      "Id": "750153147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Walk_Run_Wet_Mud_Dirt.wav",
+      "CachePath": "32/{32E0270B-FB70-DD9C-B6F7-43EE630ECFDA}.wem"
+     },
+     {
       "Id": "767742180",
       "Language": "SFX",
       "Streaming": "false",
@@ -401,7 +409,7 @@
      {
       "Id": "1673387754",
       "Name": "Play_collectiblePickupEventGrenadeLauncher",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventGrenadeLauncher",
+      "ObjectPath": "\\Events\\TomasEvents\\Collectible\\Play_collectiblePickupEventGrenadeLauncher",
       "GUID": "{D2C1FA59-8BD9-4DB8-8DDD-DC7E5F307A0B}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -411,7 +419,7 @@
      {
       "Id": "2884267058",
       "Name": "Play_collectiblePickupEventShotgun",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventShotgun",
+      "ObjectPath": "\\Events\\TomasEvents\\Collectible\\Play_collectiblePickupEventShotgun",
       "GUID": "{95B455A2-74ED-45B3-8355-0DBCC18D153C}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -421,7 +429,7 @@
      {
       "Id": "3395657245",
       "Name": "Play_collectiblePickupEventSniper",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_collectiblePickupEventSniper",
+      "ObjectPath": "\\Events\\TomasEvents\\Collectible\\Play_collectiblePickupEventSniper",
       "GUID": "{0C96AD85-EF32-440A-852D-C88EB6F7DC08}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -429,9 +437,22 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\TomasEvents\\FLY\\Play_Footsteps",
+      "GUID": "{10E0266B-1A36-44A6-8F4C-62DEC932338D}",
+      "Color": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "750153147"
+       }
+      ]
+     },
+     {
       "Id": "602429883",
       "Name": "Play_grenadeExplosionEvent",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_grenadeExplosionEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_grenadeExplosionEvent",
       "GUID": "{1CBA9204-5294-479A-AE70-8AA7F94EC0A5}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -491,7 +512,7 @@
      {
       "Id": "518560921",
       "Name": "Play_paintballImpactEvent",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_paintballImpactEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_paintballImpactEvent",
       "GUID": "{246D17CE-BE01-4903-8248-184053A540FB}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -533,7 +554,7 @@
      {
       "Id": "1500279162",
       "Name": "Play_sniperHitEvent",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_sniperHitEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_sniperHitEvent",
       "GUID": "{2349D394-1D25-4BA9-B6DA-B4F991DACA33}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -558,7 +579,7 @@
      {
       "Id": "4040040456",
       "Name": "Play_targetHitEventCrocodile",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventCrocodile",
+      "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventCrocodile",
       "GUID": "{5FE562A7-F344-47A9-867C-D3D63E75ED13}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -580,7 +601,7 @@
      {
       "Id": "3975240756",
       "Name": "Play_targetHitEventHowlerMonkey",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventHowlerMonkey",
+      "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventHowlerMonkey",
       "GUID": "{86344ED6-34E3-4CDB-A63B-5EEE175D9635}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -605,7 +626,7 @@
      {
       "Id": "261501986",
       "Name": "Play_targetHitEventJaguar",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_targetHitEventJaguar",
+      "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetHitEventJaguar",
       "GUID": "{1C13FD30-E629-4377-93B1-AD67C0FD7CF8}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -624,7 +645,7 @@
      {
       "Id": "2727600170",
       "Name": "Play_targetSpawnEvent",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_targetSpawnEvent",
+      "ObjectPath": "\\Events\\TomasEvents\\Targets\\Play_targetSpawnEvent",
       "GUID": "{70FCFB24-A9F3-46C7-A08A-16308092E9C5}",
       "Color": "10",
       "MaxAttenuation": "30",
@@ -658,7 +679,7 @@
      {
       "Id": "3022987204",
       "Name": "Play_weaponFireEventGrenadeLauncher",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventGrenadeLauncher",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_weaponFireEventGrenadeLauncher",
       "GUID": "{D1A32D43-3B4A-41F0-A2A5-66B288A6BE13}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -691,7 +712,7 @@
      {
       "Id": "3348176073",
       "Name": "Play_weaponFireEventPaintball",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventPaintball",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_weaponFireEventPaintball",
       "GUID": "{C2FBA089-8652-42A2-AF22-E7F7454AD183}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -712,7 +733,7 @@
      {
       "Id": "2392080756",
       "Name": "Play_weaponFireEventShotgun",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventShotgun",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_weaponFireEventShotgun",
       "GUID": "{737C9385-2C98-4638-A209-D6D2C5497D37}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -733,7 +754,7 @@
      {
       "Id": "98322895",
       "Name": "Play_weaponFireEventSniper",
-      "ObjectPath": "\\Events\\TomasEvents\\Play_weaponFireEventSniper",
+      "ObjectPath": "\\Events\\TomasEvents\\Weapons\\Play_weaponFireEventSniper",
       "GUID": "{71609D47-81DE-431C-AE7C-57032F291B30}",
       "Color": "10",
       "DurationType": "OneShot",
@@ -753,6 +774,17 @@
         "Id": "565024038"
        }
       ]
+     },
+     {
+      "Id": "2963349357",
+      "Name": "Stop_Footsteps",
+      "ObjectPath": "\\Events\\TomasEvents\\FLY\\Stop_Footsteps",
+      "GUID": "{7902CF1C-665C-49EA-BC9F-59E6FD852331}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2234563059",
@@ -816,6 +848,6 @@
     ]
    }
   ],
-  "FileHash": "{48F67706-A529-3FF7-C445-6FB5C4B55404}"
+  "FileHash": "{8582779C-AFEA-35E4-2DC4-2DEA0AE24FEF}"
  }
 }

@@ -30,11 +30,6 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="4"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<StateInfo>
 										<StateGroupList>
@@ -102,6 +97,8 @@
 								</Bus>
 								<Bus Name="NPC" ID="{B7ED6972-639A-4CD7-B39B-3073F25DA731}">
 									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
 									</PropertyList>
 									<StateInfo>
@@ -148,6 +145,11 @@
 										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<DuckingList>
 										<DuckItem>
@@ -199,13 +201,14 @@
 										</DuckItem>
 									</DuckingList>
 								</Bus>
+								<Bus Name="FLY" ID="{2F825BE5-C4BA-4800-9E6A-A72C22284F2A}"/>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="25"/>

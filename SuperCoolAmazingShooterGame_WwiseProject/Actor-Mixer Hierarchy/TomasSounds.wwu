@@ -956,6 +956,167 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="Walk" ID="{CD7E5362-F6B7-4AFA-87BB-799DE02B6726}" ShortID="278154288">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Footsteps" ID="{D54E156A-B257-408E-9AEF-F3566AD14F1C}" ShortID="213619282">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Walk_Run_Wet_Mud_Dirt" ID="{A40BA27E-B26F-4477-81D5-11EB32994749}" ShortID="554229096">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>1000</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Walk_Run_Wet_Mud_Dirt" ID="{88575528-A942-4365-9CA9-75BBF85165B5}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="2651.889"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.287040866363276"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.77008534257353"/>
+														<Property Name="LoopEnd" Type="Real64" Value="19.4810132813415"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="22.0543072471376"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Walk_Run_Wet_Mud_Dirt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="750153147"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Walk_Run_Wet_Mud_Dirt" ID="{88575528-A942-4365-9CA9-75BBF85165B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{973B09D8-87F0-4CC4-B843-D1A95E383A77}" ShortID="753380450">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="rtpcplayerSpeed" ID="{0B58815A-E4A5-4165-84E2-93B3CA430A00}" WorkUnitID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{515EAD2D-CAD1-4406-B3AC-06C739114C14}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>5</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{252EA870-0CAA-4BF4-8064-4F6D24B4838B}" ShortID="237624796">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="rtpcplayerSpeed" ID="{0B58815A-E4A5-4165-84E2-93B3CA430A00}" WorkUnitID="{AA71DA04-3B37-4C51-ADB1-3FF753826241}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{C07B770C-AE1E-437E-B09E-ECCB24A20FBD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-4800</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>1000</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Enemies" ID="{F6E459A1-1182-4323-9DE4-24D6AF406342}" ShortID="118015424">
@@ -1512,6 +1673,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="ambienceEvent" ID="{25FBB437-2EF7-4297-8044-3C8DC2C9C80F}" ShortID="603110937">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
@@ -1524,6 +1692,11 @@
 								<Sound Name="Wind, General, Wind Gusts, Light Whistles, Floor Valley 01 SND81344" ID="{8A539082-582D-4C1D-B806-AD02AB5D1B36}" ShortID="396510544">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1553,7 +1726,7 @@
 										<ObjectList Name="RTPC">
 											<Reference>
 												<Local>
-													<RTPC Name="" ID="{83221430-8BD3-4287-8B66-E0FA76D06FBB}" ShortID="886687036">
+													<RTPC Name="" ID="{71F441A1-C661-49F2-9464-8A54B30D9BF0}" ShortID="1035448194">
 														<PropertyList>
 															<Property Name="PropertyName" Type="string" Value="Volume"/>
 														</PropertyList>
@@ -1563,19 +1736,24 @@
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
-																	<Curve Name="" ID="{EFA9C75D-4D79-407F-8B49-40730F05E98C}">
+																	<Curve Name="" ID="{DE3E8D71-2A8C-4BA7-8FC0-DDCB54AB25AC}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1</XPos>
-																				<YPos>-10</YPos>
+																				<XPos>0</XPos>
+																				<YPos>-20</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-10</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
 																				<XPos>2</XPos>
-																				<YPos>6.26122</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

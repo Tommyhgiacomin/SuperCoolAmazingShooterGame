@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\TomasMaster-Mixer
     guid: 8125ec222c320b45945c4280d23f13cc
     GuidInternal: 
-    m_lastTime: -8584145008504535199
+    m_lastTime: -8584144992900567196
     List:
     - name: AMB
       guid: 297bd98eb0ac6b45a29aa854ee0a4b79
@@ -73,6 +73,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: 297bd98eb0ac6b45a29aa854ee0a4b79
       Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\AMB
+    - name: FLY
+      guid: e55b822fbac400489e6aa72c22284f2a
+      id: 1133470540
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasMaster-Mixer
+        ObjectType: 12
+        guid: 8125ec222c320b45945c4280d23f13cc
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: fc10cfcb55eb9a48b1d71ae917778259
+      - ElementName: FLY
+        ObjectType: 2
+        guid: e55b822fbac400489e6aa72c22284f2a
+      Path: Master-Mixer Hierarchy\TomasMaster-Mixer\Master Audio Bus\SFX\FLY
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -254,7 +274,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d523f354ab71743b57eeb577f58c660
     GuidInternal: 
-    m_lastTime: -8584145241208014413
+    m_lastTime: -8584144988444827937
     List: []
   - PhysicalPath: Events\TomasEvents.wwu
     PathAndIcons:
@@ -267,8 +287,42 @@ MonoBehaviour:
     ParentPath: Events\TomasEvents
     guid: ef520a2d1c56b440b625be6d9ebf5659
     GuidInternal: 
-    m_lastTime: -8584145241207963647
+    m_lastTime: -8584144987858429049
     List:
+    - name: Collectible
+      guid: 326a73236c467940aedc2be8c16c6dca
+      id: 3356756485
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Collectible
+        ObjectType: 4
+        guid: 326a73236c467940aedc2be8c16c6dca
+      Path: Events\TomasEvents\Collectible
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FLY
+      guid: 761b32f24192e9429bdc7831bb4e318a
+      id: 1133470540
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: FLY
+        ObjectType: 4
+        guid: 761b32f24192e9429bdc7831bb4e318a
+      Path: Events\TomasEvents\FLY
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Music
       guid: 03797cca41665746b7e5ace62fe0e128
       id: 3991942870
@@ -313,10 +367,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Collectible
+        ObjectType: 4
+        guid: 326a73236c467940aedc2be8c16c6dca
       - ElementName: Play_collectiblePickupEventGrenadeLauncher
         ObjectType: 3
         guid: 59fac1d2d98bb84d8ddddc7e5f307a0b
-      Path: Events\TomasEvents\Play_collectiblePickupEventGrenadeLauncher
+      Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventGrenadeLauncher
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -330,10 +387,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Collectible
+        ObjectType: 4
+        guid: 326a73236c467940aedc2be8c16c6dca
       - ElementName: Play_collectiblePickupEventShotgun
         ObjectType: 3
         guid: a255b495ed74b34583550dbcc18d153c
-      Path: Events\TomasEvents\Play_collectiblePickupEventShotgun
+      Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventShotgun
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -347,10 +407,33 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Collectible
+        ObjectType: 4
+        guid: 326a73236c467940aedc2be8c16c6dca
       - ElementName: Play_collectiblePickupEventSniper
         ObjectType: 3
         guid: 85ad960c32ef0a44852dc88eb6f7dc08
-      Path: Events\TomasEvents\Play_collectiblePickupEventSniper
+      Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventSniper
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Footsteps
+      guid: 6b26e010361aa6448f4c62dec932338d
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: FLY
+        ObjectType: 4
+        guid: 761b32f24192e9429bdc7831bb4e318a
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 6b26e010361aa6448f4c62dec932338d
+      Path: Events\TomasEvents\FLY\Play_Footsteps
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -364,10 +447,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_grenadeExplosionEvent
         ObjectType: 3
         guid: 0492ba1c94529a47ae708aa7f94ec0a5
-      Path: Events\TomasEvents\Play_grenadeExplosionEvent
+      Path: Events\TomasEvents\Weapons\Play_grenadeExplosionEvent
       maxAttenuation: 30
       maxDuration: 5.4857397
       minDuration: 4.6236978
@@ -401,10 +487,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_paintballImpactEvent
         ObjectType: 3
         guid: ce176d2401be03498248184053a540fb
-      Path: Events\TomasEvents\Play_paintballImpactEvent
+      Path: Events\TomasEvents\Weapons\Play_paintballImpactEvent
       maxAttenuation: 30
       maxDuration: 1.0708958
       minDuration: 0.3335625
@@ -435,10 +524,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_sniperHitEvent
         ObjectType: 3
         guid: 94d34923251da94bb6dab4f991daca33
-      Path: Events\TomasEvents\Play_sniperHitEvent
+      Path: Events\TomasEvents\Weapons\Play_sniperHitEvent
       maxAttenuation: 30
       maxDuration: 1.0212698
       minDuration: 1.0212698
@@ -452,10 +544,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Targets
+        ObjectType: 4
+        guid: c0b5afe51ae0b743b296187096896ed7
       - ElementName: Play_targetHitEventCrocodile
         ObjectType: 3
         guid: a762e55f44f3a947867cd3d63e75ed13
-      Path: Events\TomasEvents\Play_targetHitEventCrocodile
+      Path: Events\TomasEvents\Targets\Play_targetHitEventCrocodile
       maxAttenuation: 30
       maxDuration: 1.7503175
       minDuration: 1.435669
@@ -469,10 +564,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Targets
+        ObjectType: 4
+        guid: c0b5afe51ae0b743b296187096896ed7
       - ElementName: Play_targetHitEventHowlerMonkey
         ObjectType: 3
         guid: d64e3486e334db4ca63b5eee175d9635
-      Path: Events\TomasEvents\Play_targetHitEventHowlerMonkey
+      Path: Events\TomasEvents\Targets\Play_targetHitEventHowlerMonkey
       maxAttenuation: 30
       maxDuration: 0.6396667
       minDuration: 0.44627082
@@ -486,10 +584,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Targets
+        ObjectType: 4
+        guid: c0b5afe51ae0b743b296187096896ed7
       - ElementName: Play_targetHitEventJaguar
         ObjectType: 3
         guid: 30fd131c29e6774393b1ad67c0fd7cf8
-      Path: Events\TomasEvents\Play_targetHitEventJaguar
+      Path: Events\TomasEvents\Targets\Play_targetHitEventJaguar
       maxAttenuation: 30
       maxDuration: 1.1193424
       minDuration: 0.48301587
@@ -503,10 +604,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Targets
+        ObjectType: 4
+        guid: c0b5afe51ae0b743b296187096896ed7
       - ElementName: Play_targetSpawnEvent
         ObjectType: 3
         guid: 24fbfc70f3a9c746a08a16308092e9c5
-      Path: Events\TomasEvents\Play_targetSpawnEvent
+      Path: Events\TomasEvents\Targets\Play_targetSpawnEvent
       maxAttenuation: 30
       maxDuration: 0.22055782
       minDuration: 0.22055782
@@ -537,10 +641,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_weaponFireEventGrenadeLauncher
         ObjectType: 3
         guid: 432da3d14a3bf041a2a566b288a6be13
-      Path: Events\TomasEvents\Play_weaponFireEventGrenadeLauncher
+      Path: Events\TomasEvents\Weapons\Play_weaponFireEventGrenadeLauncher
       maxAttenuation: 0
       maxDuration: 2.1905208
       minDuration: 1.8460938
@@ -554,10 +661,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_weaponFireEventPaintball
         ObjectType: 3
         guid: 89a0fbc25286a242af22e7f7454ad183
-      Path: Events\TomasEvents\Play_weaponFireEventPaintball
+      Path: Events\TomasEvents\Weapons\Play_weaponFireEventPaintball
       maxAttenuation: 0
       maxDuration: 1.5540589
       minDuration: 1.5540589
@@ -571,10 +681,13 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_weaponFireEventShotgun
         ObjectType: 3
         guid: 85937c73982c3846a209d6d2c5497d37
-      Path: Events\TomasEvents\Play_weaponFireEventShotgun
+      Path: Events\TomasEvents\Weapons\Play_weaponFireEventShotgun
       maxAttenuation: 0
       maxDuration: 3.1152916
       minDuration: 3.1152916
@@ -588,13 +701,36 @@ MonoBehaviour:
       - ElementName: TomasEvents
         ObjectType: 12
         guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
       - ElementName: Play_weaponFireEventSniper
         ObjectType: 3
         guid: 479d6071de811c43ae7c57032f291b30
-      Path: Events\TomasEvents\Play_weaponFireEventSniper
+      Path: Events\TomasEvents\Weapons\Play_weaponFireEventSniper
       maxAttenuation: 0
       maxDuration: 2.011604
       minDuration: 1.9177291
+    - name: Stop_Footsteps
+      guid: 1ccf02795c66ea49bc9f59e6fd852331
+      id: 2963349357
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: FLY
+        ObjectType: 4
+        guid: 761b32f24192e9429bdc7831bb4e318a
+      - ElementName: Stop_Footsteps
+        ObjectType: 3
+        guid: 1ccf02795c66ea49bc9f59e6fd852331
+      Path: Events\TomasEvents\FLY\Stop_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_musicEvent
       guid: 96ca9a5b35c667468b569bf1b93acf2a
       id: 2234563059
@@ -615,6 +751,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Targets
+      guid: c0b5afe51ae0b743b296187096896ed7
+      id: 3814383601
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Targets
+        ObjectType: 4
+        guid: c0b5afe51ae0b743b296187096896ed7
+      Path: Events\TomasEvents\Targets
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Weapons
+      guid: a83f7b57a68c094bb4ebd44bceec7f4e
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TomasEvents
+        ObjectType: 12
+        guid: ef520a2d1c56b440b625be6d9ebf5659
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: a83f7b57a68c094bb4ebd44bceec7f4e
+      Path: Events\TomasEvents\Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -640,7 +810,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\TomasRTPCs
     guid: 04da71aa373b514cadb13ff753826241
     GuidInternal: 
-    m_lastTime: -8584145281943756990
+    m_lastTime: -8584144985754825718
     List:
     - name: rtpcplayerSpeed
       guid: 5a81580ba5e4654184e293b3ca430a00
@@ -792,7 +962,7 @@ MonoBehaviour:
     m_lastTime: -8584147553204118284
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000c0000000e0000000f0000001400000016000000170000001c0000001e0000001f00000020000000210000002600000028000000c5000000c6000000
+  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000a0000000c0000000e0000000f0000001400000016000000170000001c0000001e0000001f00000020000000210000002600000028000000c5000000c6000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

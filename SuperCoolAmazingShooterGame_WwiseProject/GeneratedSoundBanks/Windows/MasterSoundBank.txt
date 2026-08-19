@@ -1,23 +1,25 @@
 Event	ID	Name			Wwise Object Path	Notes
-	98322895	Play_weaponFireEventSniper			\TomasEvents\Play_weaponFireEventSniper	
-	261501986	Play_targetHitEventJaguar			\TomasEvents\Play_targetHitEventJaguar	
-	518560921	Play_paintballImpactEvent			\TomasEvents\Play_paintballImpactEvent	
-	602429883	Play_grenadeExplosionEvent			\TomasEvents\Play_grenadeExplosionEvent	
-	1500279162	Play_sniperHitEvent			\TomasEvents\Play_sniperHitEvent	
-	1673387754	Play_collectiblePickupEventGrenadeLauncher			\TomasEvents\Play_collectiblePickupEventGrenadeLauncher	
+	98322895	Play_weaponFireEventSniper			\TomasEvents\Weapons\Play_weaponFireEventSniper	
+	261501986	Play_targetHitEventJaguar			\TomasEvents\Targets\Play_targetHitEventJaguar	
+	518560921	Play_paintballImpactEvent			\TomasEvents\Weapons\Play_paintballImpactEvent	
+	602429883	Play_grenadeExplosionEvent			\TomasEvents\Weapons\Play_grenadeExplosionEvent	
+	1500279162	Play_sniperHitEvent			\TomasEvents\Weapons\Play_sniperHitEvent	
+	1673387754	Play_collectiblePickupEventGrenadeLauncher			\TomasEvents\Collectible\Play_collectiblePickupEventGrenadeLauncher	
 	2095214130	Play_ambienceEvent			\TomasEvents\Play_ambienceEvent	
 	2234563059	Stop_musicEvent			\TomasEvents\Music\Stop_musicEvent	
-	2392080756	Play_weaponFireEventShotgun			\TomasEvents\Play_weaponFireEventShotgun	
-	2727600170	Play_targetSpawnEvent			\TomasEvents\Play_targetSpawnEvent	
-	2884267058	Play_collectiblePickupEventShotgun			\TomasEvents\Play_collectiblePickupEventShotgun	
-	3022987204	Play_weaponFireEventGrenadeLauncher			\TomasEvents\Play_weaponFireEventGrenadeLauncher	
-	3348176073	Play_weaponFireEventPaintball			\TomasEvents\Play_weaponFireEventPaintball	
-	3395657245	Play_collectiblePickupEventSniper			\TomasEvents\Play_collectiblePickupEventSniper	
+	2392080756	Play_weaponFireEventShotgun			\TomasEvents\Weapons\Play_weaponFireEventShotgun	
+	2727600170	Play_targetSpawnEvent			\TomasEvents\Targets\Play_targetSpawnEvent	
+	2884267058	Play_collectiblePickupEventShotgun			\TomasEvents\Collectible\Play_collectiblePickupEventShotgun	
+	2963349357	Stop_Footsteps			\TomasEvents\FLY\Stop_Footsteps	
+	3022987204	Play_weaponFireEventGrenadeLauncher			\TomasEvents\Weapons\Play_weaponFireEventGrenadeLauncher	
+	3348176073	Play_weaponFireEventPaintball			\TomasEvents\Weapons\Play_weaponFireEventPaintball	
+	3395657245	Play_collectiblePickupEventSniper			\TomasEvents\Collectible\Play_collectiblePickupEventSniper	
 	3532474000	Play_uiClickEvent			\TomasEvents\Play_uiClickEvent	
+	3854155799	Play_Footsteps			\TomasEvents\FLY\Play_Footsteps	
 	3947573021	Play_musicEvent			\TomasEvents\Music\Play_musicEvent	
-	3975240756	Play_targetHitEventHowlerMonkey			\TomasEvents\Play_targetHitEventHowlerMonkey	
+	3975240756	Play_targetHitEventHowlerMonkey			\TomasEvents\Targets\Play_targetHitEventHowlerMonkey	
 	4010112737	Play_Sine			\TomasEvents\Play_Sine	
-	4040040456	Play_targetHitEventCrocodile			\TomasEvents\Play_targetHitEventCrocodile	
+	4040040456	Play_targetHitEventCrocodile			\TomasEvents\Targets\Play_targetHitEventCrocodile	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\TomasStates\GameState	
@@ -69,6 +71,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	675014494	42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\DA\{DA768FCB-8F1D-FC86-B03D-0996B19FFBC8}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventPaintball\42 - 9mm Machine Gun 1 Shot Pointed dull poof with short early reflection tail 1		166928
 	720949479	UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\17\{171A6C05-119B-C321-0885-BA3C1AA329B9}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\BulletImpacts\grenadeExplosionEvent\UEDS EXPLOSION NEUTRAL FAST CRISP Small 20 1		887844
 	736342338	Shotgun_Fire02	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\CA\{CA6A9E89-318F-05FA-DC72-A599AFCDB1B1}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventShotgun\Shotgun_Fire02		174692
+	750153147	Walk_Run_Wet_Mud_Dirt	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\32\{32E0270B-FB70-DD9C-B6F7-43EE630ECFDA}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Walk\Footsteps\Walk_Run_Wet_Mud_Dirt		2117358
 	767742180	CTCK IMPACT Chain Snapper 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\A6\{A6AFAD25-237F-0E88-7A96-7899A1512B19}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventGrenadeLauncher\Thunk\CTCK IMPACT Chain Snapper 1		222320
 	773004012	HRCK Impact - Rock Thunk 1	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\00\{00ABE0E4-2E7E-8B4C-F56F-550FB6F93C73}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventGrenadeLauncher\ThumpLow\HRCK Impact - Rock Thunk 1		359836
 	815320883	HRCK Impact - Rock Thunk 2	C:\Users\sd115tomas\SuperCoolAmazingShooterGame\SuperCoolAmazingShooterGame_WwiseProject\.cache\5E\{5EAB2570-4347-E9D6-EF6E-C623E63A2838}.wem		\Actor-Mixer Hierarchy\TomasSounds\Player\Weapons\weaponFireEvent\weaponFireEventGrenadeLauncher\ThumpLow\HRCK Impact - Rock Thunk 2		420676
