@@ -13,6 +13,10 @@
 							<ObjectRef Name="Play_ambienceEvent" ID="{96B21F27-7A8F-4615-BD49-585A1C7C41F0}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
 							<Position X="0" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_musicEvent" ID="{F25E9AEA-3BE6-4043-AD3E-73D07375B7D0}" WorkUnitID="{2D0A52EF-561C-40B4-B625-BE6D9EBF5659}"/>
+							<Position X="1" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

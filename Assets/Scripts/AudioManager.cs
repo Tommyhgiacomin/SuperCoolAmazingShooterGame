@@ -76,5 +76,7 @@ public class AudioManager : MonoBehaviour
     }
 
     //AudioManager.Instance.switchname.SetValue(gameObject);
+    //AudioManager.Instance.eventName.Post(gameObject);
+
 
 }

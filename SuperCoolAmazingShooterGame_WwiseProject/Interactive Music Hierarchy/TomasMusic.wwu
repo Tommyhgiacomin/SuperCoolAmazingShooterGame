@@ -27,7 +27,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+							<ObjectRef Name="MX" ID="{99A3FFB8-5E20-42CC-87A3-B915C34EC808}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>

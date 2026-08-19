@@ -287,7 +287,7 @@ MonoBehaviour:
     ParentPath: Events\TomasEvents
     guid: ef520a2d1c56b440b625be6d9ebf5659
     GuidInternal: 
-    m_lastTime: -8584144987858429049
+    m_lastTime: -8584144964112210825
     List:
     - name: Collectible
       guid: 326a73236c467940aedc2be8c16c6dca
@@ -375,8 +375,8 @@ MonoBehaviour:
         guid: 59fac1d2d98bb84d8ddddc7e5f307a0b
       Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventGrenadeLauncher
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.80659866
+      minDuration: 0.5482313
     - name: Play_collectiblePickupEventShotgun
       guid: a255b495ed74b34583550dbcc18d153c
       id: 2884267058
@@ -395,8 +395,8 @@ MonoBehaviour:
         guid: a255b495ed74b34583550dbcc18d153c
       Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventShotgun
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.5182313
+      minDuration: 0.447551
     - name: Play_collectiblePickupEventSniper
       guid: 85ad960c32ef0a44852dc88eb6f7dc08
       id: 3395657245
@@ -415,8 +415,8 @@ MonoBehaviour:
         guid: 85ad960c32ef0a44852dc88eb6f7dc08
       Path: Events\TomasEvents\Collectible\Play_collectiblePickupEventSniper
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.2277917
+      minDuration: 0.9368125
     - name: Play_Footsteps
       guid: 6b26e010361aa6448f4c62dec932338d
       id: 3854155799
@@ -810,7 +810,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\TomasRTPCs
     guid: 04da71aa373b514cadb13ff753826241
     GuidInternal: 
-    m_lastTime: -8584144985754825718
+    m_lastTime: -8584144970883591982
     List:
     - name: rtpcplayerSpeed
       guid: 5a81580ba5e4654184e293b3ca430a00

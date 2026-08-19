@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{0816DE8E-AB40-F4D9-0896-EAAB65D9A237}",
+    "Hash": "{31A2F3B9-7DED-DAEF-85A1-5B4B20373A30}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -23,6 +23,14 @@
       "Location": "Memory",
       "ShortName": "1-84 Reptile,Lizard 7 Snorty Growls 2.wav",
       "CachePath": "8C/{8C55D5D2-E4E0-A0BD-D3A1-B37167E0F19D}.wem"
+     },
+     {
+      "Id": "23789828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload04.wav",
+      "CachePath": "FC/{FCD4FF56-F29B-229B-B486-FDD82B44015C}.wem"
      },
      {
       "Id": "92861696",
@@ -87,6 +95,38 @@
       "Location": "Memory",
       "ShortName": "Monkey_Laugh_Squeal_Happy 1.wav",
       "CachePath": "EA/{EA674E31-40E4-35E6-251B-E3BBCBD87621}.wem"
+     },
+     {
+      "Id": "244051763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 3.wav",
+      "CachePath": "C5/{C56B84DF-D217-BECE-BF2C-07C1DCE861B7}.wem"
+     },
+     {
+      "Id": "244523927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload03.wav",
+      "CachePath": "87/{874D7396-3DB2-74D8-D63D-79AE433B26B3}.wem"
+     },
+     {
+      "Id": "246587412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon,Gun,Sniper,Action,Maragzine,Reload05.wav",
+      "CachePath": "11/{11397166-37F0-8B51-0D86-3CBB4AD205BE}.wem"
+     },
+     {
+      "Id": "259598103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-003.wav",
+      "CachePath": "47/{4732119D-8ECE-56E3-D5D8-556FD27D83B7}.wem"
      },
      {
       "Id": "260054872",
@@ -169,6 +209,14 @@
       "CachePath": "01/{01F97B9B-AEAE-DB35-A184-43C5625364F1}.wem"
      },
      {
+      "Id": "425924776",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-004.wav",
+      "CachePath": "EE/{EE1670E8-179E-D944-1612-7D395ACFB6A8}.wem"
+     },
+     {
       "Id": "426351017",
       "Language": "SFX",
       "Streaming": "false",
@@ -209,12 +257,36 @@
       "CachePath": "1D/{1D7EC99F-59F8-F829-BC1B-31BCBC208B20}.wem"
      },
      {
+      "Id": "466293968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 4.wav",
+      "CachePath": "30/{3021A9CB-EEE2-8D8A-948A-33F08680E553}.wem"
+     },
+     {
+      "Id": "485040076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanism -  Processed Mechanical Lock In Place Rocket Load-002.wav",
+      "CachePath": "D3/{D3CEBF3C-7E01-B16D-C054-3387A0D3417D}.wem"
+     },
+     {
       "Id": "506368015",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Birds,Crickets,Costa Rica,Calm 2.wav",
       "CachePath": "51/{51E73E4E-BC54-A039-0394-6172DC8D2A20}.wem"
+     },
+     {
+      "Id": "557051230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 7.wav",
+      "CachePath": "6F/{6F04E463-BE1D-1159-BB3B-CF8AD0E0799C}.wem"
      },
      {
       "Id": "565024038",
@@ -337,6 +409,22 @@
       "CachePath": "B6/{B6E1A40E-B12C-F05E-8592-7CAEF82A82AD}.wem"
      },
      {
+      "Id": "887397865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 5.wav",
+      "CachePath": "AD/{AD0381C3-4C36-DE39-7AE2-74AB2BCA932D}.wem"
+     },
+     {
+      "Id": "897604288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 6.wav",
+      "CachePath": "FC/{FC1FFC13-EDD1-1F3A-9B33-B37BC22616A7}.wem"
+     },
+     {
       "Id": "938724743",
       "Language": "SFX",
       "Streaming": "false",
@@ -359,6 +447,14 @@
       "Location": "Memory",
       "ShortName": "Monkey_Laugh_Squeal_Happy.wav",
       "CachePath": "74/{7421F711-BD28-F586-345E-1622E2C99B17}.wem"
+     },
+     {
+      "Id": "976398053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 2.wav",
+      "CachePath": "F3/{F3D831D7-96A1-6C5A-E396-EEC9D1812846}.wem"
      },
      {
       "Id": "1071143885",
@@ -413,8 +509,19 @@
       "GUID": "{D2C1FA59-8BD9-4DB8-8DDD-DC7E5F307A0B}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.5482313",
+      "DurationMax": "0.80659866",
+      "MediaRefs": [
+       {
+        "Id": "259598103"
+       },
+       {
+        "Id": "425924776"
+       },
+       {
+        "Id": "485040076"
+       }
+      ]
      },
      {
       "Id": "2884267058",
@@ -423,8 +530,28 @@
       "GUID": "{95B455A2-74ED-45B3-8355-0DBCC18D153C}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.447551",
+      "DurationMax": "0.5182313",
+      "MediaRefs": [
+       {
+        "Id": "244051763"
+       },
+       {
+        "Id": "466293968"
+       },
+       {
+        "Id": "557051230"
+       },
+       {
+        "Id": "887397865"
+       },
+       {
+        "Id": "897604288"
+       },
+       {
+        "Id": "976398053"
+       }
+      ]
      },
      {
       "Id": "3395657245",
@@ -433,8 +560,19 @@
       "GUID": "{0C96AD85-EF32-440A-852D-C88EB6F7DC08}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.9368125",
+      "DurationMax": "1.2277917",
+      "MediaRefs": [
+       {
+        "Id": "23789828"
+       },
+       {
+        "Id": "244523927"
+       },
+       {
+        "Id": "246587412"
+       }
+      ]
      },
      {
       "Id": "3854155799",
@@ -848,6 +986,6 @@
     ]
    }
   ],
-  "FileHash": "{8582779C-AFEA-35E4-2DC4-2DEA0AE24FEF}"
+  "FileHash": "{49996228-F080-B1A2-0048-AA8AE9D68D9D}"
  }
 }

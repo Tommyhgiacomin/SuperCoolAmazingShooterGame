@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F96039F2-651B-9F49-398C-140568D59D8F}",
+    "Hash": "{306224CD-0274-508B-E470-F96A854334FF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -47,7 +47,7 @@
       "Name": "NPC",
       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\NPC",
       "GUID": "{B7ED6972-639A-4CD7-B39B-3073F25DA731}",
-      "Color": "14"
+      "Color": "19"
      },
      {
       "Id": "828766390",
@@ -69,6 +69,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\AMB",
       "GUID": "{8ED97B29-ACB0-456B-A29A-A854EE0A4B79}",
       "Color": "4"
+     },
+     {
+      "Id": "1133470540",
+      "Name": "FLY",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\TomasMaster-Mixer\\Master Audio Bus\\SFX\\FLY",
+      "GUID": "{2F825BE5-C4BA-4800-9E6A-A72C22284F2A}",
+      "Color": "14"
      },
      {
       "Id": "1551306167",
@@ -142,6 +149,6 @@
     ]
    }
   ],
-  "FileHash": "{403476FE-AD1D-D7E9-C3E5-CE51A560A553}"
+  "FileHash": "{8F0B80AB-6ED9-D366-6F8C-909C73B4F200}"
  }
 }

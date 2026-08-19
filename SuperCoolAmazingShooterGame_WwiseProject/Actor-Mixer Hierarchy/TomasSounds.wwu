@@ -80,6 +80,89 @@
 													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Weapon,Gun,Sniper,Action,Maragzine,Reload04" ID="{0BDC310A-64E5-41A0-BFC2-9FAB27A15720}" ShortID="822823857">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload04" ID="{2E98320D-D978-42BE-93BA-AF324950161A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.024647593173409"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.76869680859889"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Weapon,Gun,Sniper,Action,Maragzine,Reload04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="23789828"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload04" ID="{2E98320D-D978-42BE-93BA-AF324950161A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Weapon,Gun,Sniper,Action,Maragzine,Reload03" ID="{EB14A9FE-CC05-47E8-890A-ED44F4A572BD}" ShortID="562242993">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload03" ID="{8E49C8FD-12C9-4934-B9B8-532AE2342C3F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0184001475978612"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.374693914720083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Weapon,Gun,Sniper,Action,Maragzine,Reload03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="244523927"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload03" ID="{8E49C8FD-12C9-4934-B9B8-532AE2342C3F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Weapon,Gun,Sniper,Action,Maragzine,Reload05" ID="{C98D4217-E7E4-437C-84EA-FDD4B926C521}" ShortID="172300218">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload05" ID="{4959D181-8354-4B2B-AFD9-E291CA63B5CF}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0268025380389242"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.328012013143025"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Weapon,Gun,Sniper,Action,Maragzine,Reload05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="246587412"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Weapon,Gun,Sniper,Action,Maragzine,Reload05" ID="{4959D181-8354-4B2B-AFD9-E291CA63B5CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="collectiblePickupEventGrenadeLauncher" ID="{667568B3-3B0B-456E-A38F-56F67EDF5EE9}" ShortID="289967173">
 											<PropertyList>
@@ -94,20 +177,283 @@
 													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-003" ID="{3681220A-08AF-4E34-BE22-F7B62A958464}" ShortID="1715025">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-003" ID="{4C988451-FF4D-4B6A-8097-72725DA0317A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00746909133095183"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.153116372284512"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Mechanism -  Processed Mechanical Lock In Place Rocket Load-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="259598103"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-003" ID="{4C988451-FF4D-4B6A-8097-72725DA0317A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-004" ID="{2E979293-8400-4882-B1DE-5998F610DD10}" ShortID="793173780">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-004" ID="{FD236BBC-B9ED-42B4-BF7A-47636FDC0412}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0129353646848767"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.185406893816566"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Mechanism -  Processed Mechanical Lock In Place Rocket Load-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="425924776"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-004" ID="{FD236BBC-B9ED-42B4-BF7A-47636FDC0412}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-002" ID="{24D607DD-D919-454F-A3F0-A50923CAABF5}" ShortID="207349892">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-002" ID="{708A9469-D9F6-48A0-840E-1C8AE2027A78}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0142858073886799"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.33187029472164"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Mechanism -  Processed Mechanical Lock In Place Rocket Load-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="485040076"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Mechanism -  Processed Mechanical Lock In Place Rocket Load-002" ID="{708A9469-D9F6-48A0-840E-1C8AE2027A78}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="collectiblePickupEventShotgun" ID="{D56663B5-8AE8-49B4-94A6-D0016B8E1EE9}" ShortID="1065090526">
+										<RandomSequenceContainer Name="collectiblePickupEventShotgun" ID="{9F560B38-728B-46E6-BCC2-7469E06E3FE5}" ShortID="344539788">
 											<PropertyList>
-												<Property Name="Color" Type="int16" Value="2"/>
-												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="WPN" ID="{16BEDFCC-CEB1-4C52-94D5-A20F10A84C89}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Sound1" ID="{6BEA0165-9B5E-4228-A3C1-1948288562E9}" ShortID="361765005">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Reload 1" ID="{558DF0CB-0175-4B6A-8D1C-13F5D4B7C673}" ShortID="551794874">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 2" ID="{EAE27F96-2A48-4B79-927C-A677CB5A5483}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="976398053"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 2" ID="{EAE27F96-2A48-4B79-927C-A677CB5A5483}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Reload 2" ID="{444B0BDF-D754-4578-BC80-8A55447D7C07}" ShortID="711478192">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 4" ID="{D4F3137A-F48E-484E-B829-A01E021647C2}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="466293968"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 4" ID="{D4F3137A-F48E-484E-B829-A01E021647C2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Reload 3" ID="{064C9E6F-A533-41C0-9B87-5CF8D35254DD}" ShortID="375150190">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 6" ID="{7E83C36E-8EEC-47FA-BA3C-AD00A96BE7D2}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 6.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="897604288"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 6" ID="{7E83C36E-8EEC-47FA-BA3C-AD00A96BE7D2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Sound2" ID="{6D3B9FB0-9B83-4DFF-8A7F-5E7F8FE6EE99}" ShortID="752285178">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Reload 4" ID="{7F52AC36-89F2-48CC-AE33-DC7217348084}" ShortID="130720608">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 3" ID="{6FEA129A-FD12-414C-B20D-78EF03689B60}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="244051763"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 3" ID="{6FEA129A-FD12-414C-B20D-78EF03689B60}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Reload 5" ID="{80640D38-E49A-4B1C-A960-04FF27C80A3E}" ShortID="588939328">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 5" ID="{716982AB-2CDE-4539-8871-B4043FF9C1C4}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 5.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="887397865"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 5" ID="{716982AB-2CDE-4539-8871-B4043FF9C1C4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Reload 6" ID="{211A7348-4D7C-42D0-8C80-3DF5AF8F4D08}" ShortID="247009552">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1399417-73B8-4B42-9027-FBD3B239FC8C}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 7" ID="{539A6D33-7C28-4B4C-885B-1993F3BB0797}">
+																	<Language>SFX</Language>
+																	<AudioFile>32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 7.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="557051230"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="32 - Gun, Shotgun, Foley Remington 870- Cock Chamber, Slow 7" ID="{539A6D33-7C28-4B4C-885B-1993F3BB0797}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Playlist">
+													<Reference>
+														<ObjectRef Name="Sound1" ID="{6BEA0165-9B5E-4228-A3C1-1948288562E9}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+													</Reference>
+													<Reference>
+														<ObjectRef Name="Sound2" ID="{6D3B9FB0-9B83-4DFF-8A7F-5E7F8FE6EE99}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>

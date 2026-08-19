@@ -165,5 +165,18 @@ public class WeaponSystem : MonoBehaviour
     {
         currentBulletType = type;
         perkTimer = duration;
+        if (type == BulletType.Shotgun)
+        {
+            AudioManager.Instance.collectiblePickupEventShotgun.Post(gameObject);
+        }
+        if (type == BulletType.Sniper)
+        {
+            AudioManager.Instance.collectiblePickupEventSniper.Post(gameObject);
+        }
+        if (type == BulletType.GrenadeLauncher)
+        {
+            AudioManager.Instance.collectiblePickupEventGrenadeLauncher.Post(gameObject);
+        }
+
     }
 }

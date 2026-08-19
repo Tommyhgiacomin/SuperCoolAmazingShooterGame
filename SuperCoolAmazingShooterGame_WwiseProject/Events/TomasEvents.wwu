@@ -98,7 +98,7 @@
 								<Action Name="" ID="{FD483EB6-7D99-4CF3-A96C-B42C6813C000}" ShortID="182988921">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="collectiblePickupEventShotgun" ID="{D56663B5-8AE8-49B4-94A6-D0016B8E1EE9}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
+											<ObjectRef Name="collectiblePickupEventShotgun" ID="{9F560B38-728B-46E6-BCC2-7469E06E3FE5}" WorkUnitID="{3536DD32-2875-4FE8-820C-7DDF6AB3D4EC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
