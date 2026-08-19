@@ -136,6 +136,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="AlSonDelDolor" ID="{0E3D6F58-5A9A-44EA-A8F2-8CEE68F2F3DD}" ShortID="835465770">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{22EC2581-322C-450B-945C-4280D23F13CC}"/>

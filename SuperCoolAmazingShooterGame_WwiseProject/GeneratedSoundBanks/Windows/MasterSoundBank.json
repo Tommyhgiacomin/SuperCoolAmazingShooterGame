@@ -11,7 +11,7 @@
     "GUID": "{9E2153CA-BF80-457F-AFBE-F86157D451E0}",
     "Color": "10",
     "Language": "SFX",
-    "Hash": "{C870DAFD-2700-E467-8C62-17E1CCE2A0E7}",
+    "Hash": "{B635FC8A-D65B-F14C-2D68-49D8D07F2D23}",
     "ObjectPath": "\\SoundBanks\\TomasSoundBanks\\MasterSoundBank",
     "ShortName": "MasterSoundBank",
     "Path": "MasterSoundBank.bnk",
@@ -1021,6 +1021,6 @@
     ]
    }
   ],
-  "FileHash": "{F1641F5C-2CF3-4A07-D49E-6050F38401B4}"
+  "FileHash": "{25F41A7B-9869-87EC-EA72-28DB10324C4B}"
  }
 }
